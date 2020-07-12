@@ -1,0 +1,326 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   Modified By Aditya Shakya.
+;
+;==========================================================
+
+[color]
+background = #282828
+foreground = #ebdbb2
+foreground-light = #BBA590
+red = #cc241d
+green = #43B581
+blue = #3A71C1
+cyan = #00bcd4
+yellow = #d79921
+white = #FFFFFF
+black = #000000
+trans = #00000000
+
+;==========================================================
+
+[bar/main]
+#monitor = eDP1
+width = 100%
+height = 30
+;offset-x = 1%
+;offset-y = 1%
+;radius = 4.0
+bottom = false
+fixed-center = false
+line-size = 2
+
+background = ${color.background}
+foreground = ${color.foreground}
+
+border-size = 0
+;border-color = ${color.adapta}
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 2
+
+;==========================================================
+font-0 = SF\ Pro\ Text:style=Regular:size=10;3
+font-1 = FontAwesome:style=regular:size=10;3
+
+;font-0 = "Iosevka::style=Regular:size=10;3
+;font-1 = "Furacode Nerd Font:pixelsize=18;4"
+;font-0 = "Iosevka:pixelsize=10;4"
+;font-1 = "IcoMoon\-Free:pixelsize=12;4"
+;font-2 = "Material Icons:size=12;4"
+;font-3 = "Font Awesome 5 Brands:pixelsize=12;4"
+;font-4 = "Ubuntu Nerd Font:size=12;4"
+
+;==========================================================
+
+;override-redirect = true
+
+;cursor-click = pointer
+;cursor-scroll = ns-resize
+
+tray-position = right
+tray-padding = 0
+tray-maxsize = 16
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+;== Module Location ========================================================
+
+modules-left = i3 mpd
+modules-center = polywins
+modules-right = updates_i updates battery backlight volume date
+
+;== Modules ========================================================
+
+[module/title]
+type = internal/xwindow
+
+format = <label>
+format-foreground = ${color.foreground}
+
+label = %title%
+label-maxlen = 40
+
+;========================================================
+
+[module/polywins]
+type = custom/script
+exec = ~/.config/polybar/scripts/polywins.sh 2>/dev/null
+format = <label>
+label = %output%
+label-padding = 1
+interval = .5
+
+[module/polybar-windows]
+type = custom/script
+exec = ~/.config/polybar/scripts/polybar-windows.sh 2>/dev/null
+format = <label>
+label = %output%
+label-padding = 1
+interval = 0.1
+
+;========================================================
+
+[module/i3]
+type = internal/i3
+
+;pin-workspaces = true
+;strip-wsnumbers = true
+;index-sort = true
+;fuzzy-match = true
+
+enable-click = true
+enable-scroll = true
+
+wrapping-scroll = false
+reverse-scroll = false
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-default = 
+
+format = <label-state> <label-mode>
+label-focused = %icon%
+label-focused-foreground = ${color.yellow}
+
+label-focused-underline = ${color.yellow}
+label-focused-padding = 2
+
+label-unfocused = %icon%
+label-unfocused-foreground = ${color.foreground}
+label-unfocused-padding = 2
+
+label-mode = %mode%
+label-mode-padding = 2
+label-mode-foreground = ${color.yellow}
+label-mode-underline = ${color.yellow}
+
+label-urgent = %icon%
+label-urgent-foreground = ${color.red}
+label-urgent-padding = 2
+
+;========================================================
+
+[module/workspaces]
+type = internal/xworkspaces
+pin-workspaces = false
+enable-click = true
+enable-scroll = true
+format-padding = 0
+icon-0 = WEB;
+icon-1 = TTY;
+icon-2 = LAB;
+icon-3 = MED;
+icon-4 = SYS;
+icon-default = 
+format = <label-state>
+label-active = %icon% %name%
+label-occupied = %icon% %name%
+label-urgent = %icon% %name%
+label-empty = %icon%
+label-occupied-padding = 2
+label-empty-padding = 2
+label-urgent-padding = 2
+label-active-padding = 2
+label-active-foreground = ${color.yellow}
+label-active-underline = ${color.yellow}
+label-occupied-underline = ${color.blue}
+label-urgent-foreground = ${color.red}
+label-urgent-underline = ${color.red}
+label-empty-foreground = ${color.foreground}
+
+;==========================================================
+
+[module/mpd]
+type = internal/mpd
+format-online = <toggle> <label-song>
+format-online-padding = 0
+format-playing-foreground = ${color.yellow}
+format-paused-foreground = ${color.foreground}
+
+label-offline = "MPD is offline" 
+
+label-song = "%artist% - %title%" 
+
+icon-next =   
+;icon-prev =   
+icon-play =   
+icon-pause =   
+;icon-stop =   
+
+label-song-maxlen = 25
+label-song-ellipsis = true
+
+;==========================================================
+
+[module/backlight]
+type = internal/xbacklight
+
+card = intel_backlight
+
+format = <ramp> <label>
+format-background = ${color.background}
+format-foreground = ${color.foreground}
+format-padding = 0
+
+ramp-0 = "%{A1:~/.config/rofi/scripts/backlight.sh:}%{A}"
+
+label = "%{A1:~/.config/rofi/scripts/backlight.sh:}%percentage%%%{A}"
+
+;==========================================================
+
+[module/updates]
+type = custom/script
+
+exec = ~/.config/polybar/scripts/updates.sh
+
+tail = true
+interval = 5
+
+format-background = ${color.background}
+format-foreground = ${color.foreground}
+format-padding = 1
+
+click-left = ~/.config/polybar/scripts/lupdates &
+
+;==========================================================
+
+[module/updates_i]
+type = custom/text
+
+content = 
+content-background = ${color.background}
+content-foreground = ${color.foreground}
+content-padding = 1
+
+click-left = ~/.config/polybar/scripts/lupdates &
+
+;==========================================================
+
+[module/battery]
+type = internal/battery
+full-at = 98
+time-format = %H:%M
+battery = BAT0
+adapter = AC
+format-charging = <animation-charging> <label-charging>
+;label-charging = %percentage%% (%time%)
+label-charging = %percentage%%
+format-discharging = <ramp-capacity> <label-discharging>
+;label-discharging = %percentage%% (%time%)
+label-discharging = %percentage%%
+format-full = <label-full>
+format-full-prefix = " "
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-0-foreground = ${color.red}
+ramp-capacity-1-foreground = ${color.red}
+ramp-capacity-foreground   = ${color.foreground}
+bar-capacity-width = 10
+animation-charging-0 = " "
+animation-charging-1 = " "
+animation-charging-2 = " "
+animation-charging-3 = " "
+animation-charging-4 = " "
+animation-charging-framerate = 750
+
+;==========================================================
+
+[module/volume]
+type = internal/alsa
+speaker-mixer = Speaker
+headphone-mixer = Headphone
+headphone-id = 16
+;mapped = true
+format-volume =<ramp-volume> <label-volume>
+label-volume = %percentage%%
+format-muted-prefix = " "
+label-muted = MUTE
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+ramp-headphone-0 = 
+ramp-headphone-1 = 
+ramp-headphone-2 = 
+ramp-headphone-3 = 
+
+;==========================================================
+
+[module/network]
+type = custom/script
+exec = ~/.config/polybar/scripts/check-network
+click-left = ~/.config/rofi/scripts/network.sh &
+click-right = ~/.config/rofi/scripts/network.sh &
+label-padding = 1
+tail = true
+
+;==========================================================
+
+[module/date]
+type = internal/date
+interval = 30
+label =  %time%
+time =  %H:%M %p
+time-alt =  %Y-%m-%d
+
+;== EOF ========================================================

@@ -1,0 +1,385 @@
+sw_volume: 100
+audio_device_state:1:Pulse Audio
+audio_device_state:1:FIFO Visualizer
+state: pause
+current: 32
+time: 2.133000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:AC_DC/Bon Scott Hits/10 Dirty Deeds Done Dirt Cheap.mp3
+1:AC_DC/Gold Album 1974-2000/01 Back in Black.mp3
+2:AC_DC/Gold Album 1974-2000/10 You Shook Me All Night Long.mp3
+3:AC_DC/Gold Album 1974-2000/13 Highway to Hell.mp3
+4:AC_DC/Let's Get It Up/03 T.N.T. (live).mp3
+5:Adele/[non-album tracks]/01 Hello.mp3
+6:Adele/Skyfall/01 Skyfall.mp3
+7:Aerosmith/Classics Live! Complete/04 Dream On.mp3
+8:AJR/The Click/03 AJR - Weak.mp3
+9:Aloe Blacc/Good Things/01 I Need a Dollar.mp3
+10:Arctic Monkeys/Teddy Picker/01 Teddy Picker.mp3
+11:Audioslave/Audioslave/02 Show Me How to Live.mp3
+12:Audioslave/Audioslave/05 Like a Stone.mp3
+13:Ben E. King/Best of Ben E King/01 Stand by Me.mp3
+14:Black Sabbath/The Black Sabbath Story/05 Iron Man.mp3
+15:Bob Dylan/Like a Rolling Stone.mp3
+16:Boston/Corporate America/11 Peace of Mind.mp3
+17:Boston/Corporate America/12 More Than a Feelin'.mp3
+18:Boston/More Than a Feeling/02 Foreplay _ Long Time.mp3
+19:Bruce Springsteen gelesen von Thees Uhlmann/Born to Run_ Die Autobiografie/3-28 0328 Bruce Springsteen Born to Run.mp3
+20:Cage the Elephant/Tell Me I'm Pretty/05 Cold Cold Cold.mp3
+21:Cazzette & AronChupa/She Wants Me Dead/01 Wants Me Dead.mp3
+22:Cheap Trick/I Want You to Want Me.mp3
+23:Creedence Clearwater Revival/The Ultimate Collection/1-01 Have You Ever Seen the Rain_.mp3
+24:Creedence Clearwater Revival/The Ultimate Collection/1-02 Bad Moon Rising.mp3
+25:Creedence Clearwater Revival/The Ultimate Collection/1-05 Down on the Corner.mp3
+26:Dan Croll/Sweet Disarray/01 From Nowhere.mp3
+27:DAOKO/THANK YOU BLUE/01 DAOKO×米津玄師 - 打上花火.mp3
+28:Deep Purple/Machine Head/2-05 Smoke on the Water.mp3
+29:Diesel Park West/God Only Knows/02 Turn, Turn, Turn..mp3
+30:Dire Straits/Alchemy Live/06 Sultans of Swing.mp3
+31:Don Henley/Boys of Summer.mp3
+32:Eagles/Eagles Live/2-08 Life in the Fast Lane.mp3
+33:Eagles/Hotel California/2-06 Witchy Woman (live at the Los Angeles Forum, 10_20-22_76).mp3
+34:Fleetwood Mac/The Very Best of Fleetwood Mac/1-04 Go Your Own Way.mp3
+35:Fleetwood Mac/The Very Best of Fleetwood Mac/1-14 Landslide.mp3
+36:Fleetwood Mac/The Very Best of Fleetwood Mac/2-01 The Chain.mp3
+37:Fleetwood Mac/The Very Best of Fleetwood Mac/2-13 Everywhere.mp3
+38:Foster the People/Torches/2-04 Pumped Up Kicks.mp3
+39:Galileo Galilei/Aoi Shiori/01 Aoi Shiori.mp3
+40:Gorillaz/Gorillaz/1-05 Clint Eastwood.mp3
+41:Gorillaz/Gorillaz/1-11 19-2000.mp3
+42:Grateful Dead/Complete Studio Albums Collection/5-08 Casey Jones.mp3
+43:Green Day/The Green Day Collection/130 Boulevard of Broken Dreams (live).mp3
+44:Guns N' Roses/Appetite for Destruction/5-01 Welcome to the Jungle.mp3
+45:Guns N' Roses/Appetite for Destruction/5-36 Sweet Child o' Mine.mp3
+46:Heart/The Essential Heart/1-01 Crazy on You.mp3
+47:Heart/The Essential Heart/1-04 Barracuda.mp3
+48:Hozier/Take Me to Church/01 Take Me to Church.mp3
+49:Infected Mushroom/The Doors Remixed/2-06 Riders on the Storm (Fredwreck feat. Snoop Dogg remix).mp3
+50:Izal/La increíble historia del hombre que podía volar pero no sabía cómo.mp3
+51:Izal/Autoterapia/05 Pausa.mp3
+52:Janis Joplin/The Best Of/01 Piece of My Heart.mp3
+53:Janis Joplin/The Best Of/02 Cry Baby.mp3
+54:Jimi Hendrix/10 Tracks Performed Live at the Royal Albert Hall/09 Hey Joe.mp3
+55:Jimi Hendrix/Experience Hendrix_ The Best of Jimi Hendrix/01 The Jimi Hendrix Experience - Purple Haze.mp3
+56:Jimi Hendrix/Experience Hendrix_ The Best of Jimi Hendrix/05 The Jimi Hendrix Experience - All Along the Watchtower.mp3
+57:Joan Jett and the Blackhearts/Greatest Hits/2-10 I Hate Myself for Loving You.mp3
+58:Johnny Cash/American IV_ The Man Comes Around/2-01 Hurt.mp3
+59:Led Zeppelin/Definitive Collection/2-07 Ramble On.mp3
+60:Led Zeppelin/The Complete Studio Recordings/1-01 Good Times Bad Times.mp3
+61:Led Zeppelin/The Complete Studio Recordings/3-01 Immigrant Song.mp3
+62:Led Zeppelin/The Complete Studio Recordings/4-01 Black Dog.mp3
+63:Led Zeppelin/The Complete Studio Recordings/5-06 D'yer Mak'er.mp3
+64:Led Zeppelin/The Complete Studio Recordings/7-06 Kashmir.mp3
+65:Lukas Graham/Lukas Graham/01 7 Years.mp3
+66:Lynyrd Skynyrd/Chatanooga ChooChoo/11 Sweet Home Alabama.mp3
+67:Metallica/17 Years in the Life of Metallica/2-05 Nothing Else Matters.mp3
+68:Mungo Jerry/In the Summertime/01 In the Summertime.mp3
+69:Of Monsters and Men/My Head Is an Animal/01 Dirty Paws.mp3
+70:Of Monsters and Men/My Head Is an Animal/09 Your Bones.mp3
+71:Ozzy Osbourne/Blizzard of Ozz/02 Crazy Train.mp3
+72:Pink Floyd/Echoes_ The Best of Pink Floyd/1-10 Money.mp3
+73:Pink Floyd/Echoes_ The Best of Pink Floyd/2-04 Comfortably Numb.mp3
+74:Pink Floyd/The Wall Singles Collection/1-01 Another Brick in the Wall, Part 2.mp3
+75:Queen/Greatest Hits I & II/2-02 Queen & David Bowie - Under Pressure.mp3
+76:Queen/We Will Rock You_ Banda sonora del espectáculo/1-22 Queen - We Will Rock You.mp3
+77:RADWIMPS/Your Name (Original Motion Picture Soundtrack)/08 Zenzenzense (Movie Version).mp3
+78:RADWIMPS/Your Name (Original Motion Picture Soundtrack)/24 Sparkle (Movie Version).mp3
+79:Rush/ICON 2/1-08 Limelight.mp3
+80:Sayuri/[non-album tracks]/14 birthday song.mp3
+81:Supertramp/The Best of Supertramp/13 Give a Little Bit.mp3
+82:Talking Heads/Once in a Lifetime (Same as It Never Was) Liquid People Remix/03 Once in a Lifetime (Same as It Never Was) (original Talking Heads album version).mp3
+83:The Beatles/1/04 I Want to Hold Your Hand.mp3
+84:The Beatles/1/25 Come Together.mp3
+85:The Beatles/Love/20 Revolution (Love version).mp3
+86:The Doors/Celebration/02 Touch Me (Smothers Brothers Show).mp3
+87:The Doors/Perception/2-17 Light My Fire.mp3
+88:The Doors/The Best of The Doors/1-07 Love Her Madly.mp3
+89:The Doors/The Doors Box Set/2-01 Roadhouse Blues.mp3
+90:The Killers/Day & Age/13 Human.mp3
+91:The Killers/Sam's Town/16 When You Were Young (no jump).mp3
+92:The Killers/Wonderful Wonderful/05 Run for Cover.mp3
+93:THE ORAL CIGARETTES/Kyouran Hey Kids!!/01 Frenzy Hey Kids!!.mp3
+94:The Rolling Stones/Wild Horses.mp3
+95:The Rolling Stones/Greatest Hits, Part 2/1-02 Beast of Burden.mp3
+96:The Rolling Stones/Paint It Black/01 Paint It Black.mp3
+97:The Rolling Stones/The Rolling Stones_ Original Master Recordings/10-04 (I Can't Get No) Satisfaction.mp3
+98:The Rolling Stones/The Rolling Stones_ Original Master Recordings/11-08 Brown Sugar.mp3
+99:The Strokes/Room on Fire/02 Reptilia.mp3
+100:The Who/Then and Now (1964-2007)/02 My Generation.mp3
+101:The Who/Then and Now (1964-2007)/12 Behind Blue Eyes.mp3
+102:The Who/Tommy/13 Pinball Wizard.mp3
+103:The Who/Who's Better, Who's Best/10 Won't Get Fooled Again (edit).mp3
+104:Tom Petty and the Heartbreakers/Playback Retail Sampler/10 Free Fallin'.mp3
+105:twenty one pilots/[non-album tracks]/03 Can't Help Falling in Love.mp3
+106:twenty one pilots/Trench/04 My Blood.mp3
+107:twenty one pilots/Twenty One Pilots/14 Isle of Flightless Birds.mp3
+108:Various Artists/100 Hits Paint It Black/51 Cream - Sunshine of Your Love.mp3
+109:Various Artists/100 Hits The House of the Rising Sun/07 Bob Dylan - Knockin' on Heaven's Door.mp3
+110:Various Artists/Back to the US of A/3-07 Kansas - Dust in the Wind.mp3
+111:Various Artists/Bacobens Rock Top 500 (CD8)/23 Tom Petty and the Heartbreakers - American Girl.mp3
+112:Various Artists/Bacobens Rock Top 500 (CD8)/32 Rush - Tom Sawyer.mp3
+113:Various Artists/Best of British/01 The Who - Baba O'Riley.mp3
+114:Various Artists/Billboard #1s_ The '80s/1-01 Queen - Another One Bites the Dust.mp3
+115:Various Artists/Billboard Hottest Hits, Volume 9_ Greatest Top 10 Hits 1980-1990/16 Journey - Don't Stop Believing.mp3
+116:Various Artists/Capital Gold_ Platinum Legends/2-12 Steve Miller Band - The Joker.mp3
+117:Various Artists/Classic Cuts Presents_ 70's Night_ The Definitive DJ Collection_ A to B/2-12 David Bowie - The Jean Genie.mp3
+118:Various Artists/Classic Cuts Presents_ 70's Night_ The Definitive DJ Collection_ A to B/2-13 David Bowie - Rebel Rebel.mp3
+119:Various Artists/De Afrekening 65/2-09 Post Malone - Better Now.mp3
+120:Various Artists/Detroit Rock City_ Music From the Motion Picture/03 Van Halen - Runnin' With the Devil.mp3
+121:Various Artists/Empire Made/01 The Kinks - You Really Got Me.mp3
+122:Various Artists/Empire Made/13 The Yardbirds - Heart Full Of Soul.mp3
+123:Various Artists/Fetenhits_ The Real Classics/1-05 U2 - Sunday Bloody Sunday.mp3
+124:Various Artists/Great Emotions Special Edition/18 Don McLean - American Pie.mp3
+125:Various Artists/Hits der 68er Generation/1-05 America - A Horse With No Name.mp3
+126:Various Artists/Legends_ Ultimate Rock Collection_ Good Golly/02 Cream - White Room.mp3
+127:Various Artists/Logan Lucky (Original Motion Picture Soundtrack)/15 Creedence Clearwater Revival - Fortunate Son.mp3
+128:Various Artists/Lovers Rock/2-02 The Police - Every Breath You Take.mp3
+129:Various Artists/Mastermix Professional Engineered for DJs I_ 60s 70s 80s 90s/01 The Beatles - I Saw Her Standing There.mp3
+130:Various Artists/Naughty but Nice/2-09 Stealers Wheel - Stuck in the Middle With You.mp3
+131:Various Artists/Naughty but Nice/2-20 The Moody Blues - Nights in White Satin.mp3
+132:Various Artists/Nonplusultra-Rock/1-06 Kansas - Carry On Wayward Son.mp3
+133:Various Artists/Now That's What I Call Old Skool/3-19 Run-D.M.C. Feat. Aerosmith - Walk This Way.mp3
+134:Various Artists/Pop Classics, Volume 1/06 Lou Reed - Walk on the Wild Side.mp3
+135:Various Artists/Pop Classics, Volume 1/09 Derek and the Dominos - Layla.mp3
+136:Various Artists/Pop Classics, Volume 1/14 Queen - Bohemian Rhapsody.mp3
+137:Various Artists/Rock Classics/02 Golden Earring - Radar Love.mp3
+138:Various Artists/Rock of Ages_ Gibson Guitar Greats/07 Guns N' Roses - Paradise City.mp3
+139:Various Artists/Rocks Off/16 Radiohead - Creep.mp3
+140:Various Artists/School of Rock_ Music From and Inspired by the Motion Picture/10 Stevie Nicks - Edge of Seventeen.mp3
+141:Various Artists/Southern Rock/03 The Marshall Tucker Band - Can't You See.mp3
+142:Various Artists/Sylvesterparty 2015/10 Van Halen - Jump.mp3
+143:Various Artists/Sylvesterparty 2015/11 Bon Jovi - Livin' on a Prayer.mp3
+144:Various Artists/Tangled Journey/02 Buffalo Springfield - For What It's Worth.mp3
+145:Various Artists/The All Time Greatest Rock Songs of the 60s, 70s, 80s & 90s/1-11 The Kinks - All Day and All of the Night.mp3
+146:Various Artists/The All Time Greatest Rock Songs of the 60s, 70s, 80s & 90s/1-15 Fleetwood Mac - Don't Stop.mp3
+147:Various Artists/The All Time Greatest Rock Songs of the 60s, 70s, 80s & 90s/2-02 The Doors - Break on Through.mp3
+148:Various Artists/The All Time Greatest Rock Songs of the 60s, 70s, 80s & 90s/2-16 The Clash - London Calling.mp3
+149:Various Artists/The Boys Are Back in Town 2012/1-07 The Police - Roxanne.mp3
+150:Various Artists/The Golden Collection/19-06 Tom Petty and the Heartbreakers - Learning to Fly.mp3
+151:Various Artists/The Greatest Hits 1_ 1991_ 2/12 The Clash - Should I Stay or Should I Go.mp3
+152:Various Artists/The Metal Box/1-01 Black Sabbath - Paranoid.mp3
+153:Various Artists/The Metal Box/1-06 Motörhead - Ace of Spades.mp3
+154:Various Artists/The Metal Box/1-16 Blue Öyster Cult - (Don't Fear) The Reaper.mp3
+155:Various Artists/The Metal Box/2-11 Lynyrd Skynyrd - Freebird.mp3
+156:Various Artists/The Only Classic Rock Album You'll Ever Need/3-02 Mountain - Mississippi Queen.mp3
+157:Various Artists/The Only Classic Rock Album You'll Ever Need/3-05 The Allman Brothers Band - Ramblin' Man.mp3
+158:Various Artists/The Original Rock Album_ 19 Rockin' Great Guitar Hits/08 Billy Idol - White Wedding.mp3
+159:Various Artists/The Solid Silver 60s_ Greatest Hits/2-10 The Animals - The House of the Rising Sun.mp3
+160:Various Artists/The Tip Sheet #193/01 Nerf Herder - Van Halen.mp3
+161:Various Artists/The World's Absolute Best Ever Beer Songs/1-10 ZZ Top - La Grange.mp3
+162:Various Artists/The World's Absolute Best Ever Beer Songs/1-12 The Knack - My Sharona.mp3
+163:Various Artists/This Is... 1983/01 David Bowie - Let's Dance (single version).mp3
+164:Various Artists/Ultimate Seventies_ 1972/08 The Hollies - Long Cool Woman (in a Black Dress).mp3
+165:Various Artists/While My Guitar Gently Weeps III/1-17 Joe Walsh - Life's Been Good.mp3
+166:Various Artists/Woodstock Generation/2-01 Van Morrison - Brown Eyed Girl.mp3
+167:Various Artists/Woodstock Generation/5-06 Jefferson Airplane - Somebody to Love.mp3
+168:Various Artists/Yesterdays Gold_ 120 Golden Oldies, Volume 3/2-13 The Beach Boys - Surfin' U.S.A..mp3
+169:WEAVER/くちづけDiamond/01 くちづけDiamond.m4a
+170:フレデリック/TOGENKYO/03 かなしいうれしい.mp3
+171:ヨルシカ/夏草が邪魔をする/03 言って。.mp3
+172:ヨルシカ/負け犬にアンコールはいらない/04 ヒッチコック.mp3
+173:高橋洋子/20th century Boys & Girls II ~20世紀少年少女2~/01 残酷な天使のテーゼ.mp3
+174:Ed Sheeran - I See Fire (Lyrics).mp3
+175:Electric Guest - Troubleman.mp3
+176:flora cash - You're Somebody Else (Lyric Video).mp3
+177:George Ezra - Budapest (Official Music Video).mp3
+178:Green Day - American Idiot [OFFICIAL VIDEO].mp3
+179:Izal - Autoterapia (Lyric Video).mp3
+180:Lost In Hollywood.mp3
+181:LP - Muddy Waters [Live Session].mp3
+182:Metallica-Master Of Puppets (Lyrics).mp3
+183:Mumford & Sons - Broken Crown..mp3
+184:The Heavy - What Makes A Good Man (Official Video).mp3
+185:The Sound of Silence.mp3
+186:Tom Odell - Another Love (Official Video).mp3
+187:Under the Bridge.mp3
+188:Unnatural Selection.mp3
+189:X Ambassadors - HEY CHILD (Official Video).mp3
+190:X Ambassadors - HOLD YOU DOWN (Official Video).mp3
+191:AC_DC/Bon Scott Hits/10 Dirty Deeds Done Dirt Cheap.mp3
+192:AC_DC/Gold Album 1974-2000/01 Back in Black.mp3
+193:AC_DC/Gold Album 1974-2000/10 You Shook Me All Night Long.mp3
+194:AC_DC/Gold Album 1974-2000/13 Highway to Hell.mp3
+195:AC_DC/Let's Get It Up/03 T.N.T. (live).mp3
+196:Adele/[non-album tracks]/01 Hello.mp3
+197:Adele/Skyfall/01 Skyfall.mp3
+198:Aerosmith/Classics Live! Complete/04 Dream On.mp3
+199:AJR/The Click/03 AJR - Weak.mp3
+200:Aloe Blacc/Good Things/01 I Need a Dollar.mp3
+201:Arctic Monkeys/Teddy Picker/01 Teddy Picker.mp3
+202:Audioslave/Audioslave/02 Show Me How to Live.mp3
+203:Audioslave/Audioslave/05 Like a Stone.mp3
+204:Ben E. King/Best of Ben E King/01 Stand by Me.mp3
+205:Black Sabbath/The Black Sabbath Story/05 Iron Man.mp3
+206:Bob Dylan/Like a Rolling Stone.mp3
+207:Boston/Corporate America/11 Peace of Mind.mp3
+208:Boston/Corporate America/12 More Than a Feelin'.mp3
+209:Boston/More Than a Feeling/02 Foreplay _ Long Time.mp3
+210:Bruce Springsteen gelesen von Thees Uhlmann/Born to Run_ Die Autobiografie/3-28 0328 Bruce Springsteen Born to Run.mp3
+211:Cage the Elephant/Tell Me I'm Pretty/05 Cold Cold Cold.mp3
+212:Cazzette & AronChupa/She Wants Me Dead/01 Wants Me Dead.mp3
+213:Cheap Trick/I Want You to Want Me.mp3
+214:Creedence Clearwater Revival/The Ultimate Collection/1-01 Have You Ever Seen the Rain_.mp3
+215:Creedence Clearwater Revival/The Ultimate Collection/1-02 Bad Moon Rising.mp3
+216:Creedence Clearwater Revival/The Ultimate Collection/1-05 Down on the Corner.mp3
+217:Dan Croll/Sweet Disarray/01 From Nowhere.mp3
+218:DAOKO/THANK YOU BLUE/01 DAOKO×米津玄師 - 打上花火.mp3
+219:Deep Purple/Machine Head/2-05 Smoke on the Water.mp3
+220:Diesel Park West/God Only Knows/02 Turn, Turn, Turn..mp3
+221:Dire Straits/Alchemy Live/06 Sultans of Swing.mp3
+222:Don Henley/Boys of Summer.mp3
+223:Eagles/Eagles Live/2-08 Life in the Fast Lane.mp3
+224:Eagles/Hotel California/2-06 Witchy Woman (live at the Los Angeles Forum, 10_20-22_76).mp3
+225:Fleetwood Mac/The Very Best of Fleetwood Mac/1-04 Go Your Own Way.mp3
+226:Fleetwood Mac/The Very Best of Fleetwood Mac/1-14 Landslide.mp3
+227:Fleetwood Mac/The Very Best of Fleetwood Mac/2-01 The Chain.mp3
+228:Fleetwood Mac/The Very Best of Fleetwood Mac/2-13 Everywhere.mp3
+229:Foster the People/Torches/2-04 Pumped Up Kicks.mp3
+230:Galileo Galilei/Aoi Shiori/01 Aoi Shiori.mp3
+231:Gorillaz/Gorillaz/1-05 Clint Eastwood.mp3
+232:Gorillaz/Gorillaz/1-11 19-2000.mp3
+233:Grateful Dead/Complete Studio Albums Collection/5-08 Casey Jones.mp3
+234:Green Day/The Green Day Collection/130 Boulevard of Broken Dreams (live).mp3
+235:Guns N' Roses/Appetite for Destruction/5-01 Welcome to the Jungle.mp3
+236:Guns N' Roses/Appetite for Destruction/5-36 Sweet Child o' Mine.mp3
+237:Heart/The Essential Heart/1-01 Crazy on You.mp3
+238:Heart/The Essential Heart/1-04 Barracuda.mp3
+239:Hozier/Take Me to Church/01 Take Me to Church.mp3
+240:Infected Mushroom/The Doors Remixed/2-06 Riders on the Storm (Fredwreck feat. Snoop Dogg remix).mp3
+241:Izal/La increíble historia del hombre que podía volar pero no sabía cómo.mp3
+242:Izal/Autoterapia/05 Pausa.mp3
+243:Janis Joplin/The Best Of/01 Piece of My Heart.mp3
+244:Janis Joplin/The Best Of/02 Cry Baby.mp3
+245:Jimi Hendrix/10 Tracks Performed Live at the Royal Albert Hall/09 Hey Joe.mp3
+246:Jimi Hendrix/Experience Hendrix_ The Best of Jimi Hendrix/01 The Jimi Hendrix Experience - Purple Haze.mp3
+247:Jimi Hendrix/Experience Hendrix_ The Best of Jimi Hendrix/05 The Jimi Hendrix Experience - All Along the Watchtower.mp3
+248:Joan Jett and the Blackhearts/Greatest Hits/2-10 I Hate Myself for Loving You.mp3
+249:Johnny Cash/American IV_ The Man Comes Around/2-01 Hurt.mp3
+250:Led Zeppelin/Definitive Collection/2-07 Ramble On.mp3
+251:Led Zeppelin/The Complete Studio Recordings/1-01 Good Times Bad Times.mp3
+252:Led Zeppelin/The Complete Studio Recordings/3-01 Immigrant Song.mp3
+253:Led Zeppelin/The Complete Studio Recordings/4-01 Black Dog.mp3
+254:Led Zeppelin/The Complete Studio Recordings/5-06 D'yer Mak'er.mp3
+255:Led Zeppelin/The Complete Studio Recordings/7-06 Kashmir.mp3
+256:Lukas Graham/Lukas Graham/01 7 Years.mp3
+257:Lynyrd Skynyrd/Chatanooga ChooChoo/11 Sweet Home Alabama.mp3
+258:Metallica/17 Years in the Life of Metallica/2-05 Nothing Else Matters.mp3
+259:Mungo Jerry/In the Summertime/01 In the Summertime.mp3
+260:Of Monsters and Men/My Head Is an Animal/01 Dirty Paws.mp3
+261:Of Monsters and Men/My Head Is an Animal/09 Your Bones.mp3
+262:Ozzy Osbourne/Blizzard of Ozz/02 Crazy Train.mp3
+263:Pink Floyd/Echoes_ The Best of Pink Floyd/1-10 Money.mp3
+264:Pink Floyd/Echoes_ The Best of Pink Floyd/2-04 Comfortably Numb.mp3
+265:Pink Floyd/The Wall Singles Collection/1-01 Another Brick in the Wall, Part 2.mp3
+266:Queen/Greatest Hits I & II/2-02 Queen & David Bowie - Under Pressure.mp3
+267:Queen/We Will Rock You_ Banda sonora del espectáculo/1-22 Queen - We Will Rock You.mp3
+268:RADWIMPS/Your Name (Original Motion Picture Soundtrack)/08 Zenzenzense (Movie Version).mp3
+269:RADWIMPS/Your Name (Original Motion Picture Soundtrack)/24 Sparkle (Movie Version).mp3
+270:Rush/ICON 2/1-08 Limelight.mp3
+271:Sayuri/[non-album tracks]/14 birthday song.mp3
+272:Supertramp/The Best of Supertramp/13 Give a Little Bit.mp3
+273:Talking Heads/Once in a Lifetime (Same as It Never Was) Liquid People Remix/03 Once in a Lifetime (Same as It Never Was) (original Talking Heads album version).mp3
+274:The Beatles/1/04 I Want to Hold Your Hand.mp3
+275:The Beatles/1/25 Come Together.mp3
+276:The Beatles/Love/20 Revolution (Love version).mp3
+277:The Doors/Celebration/02 Touch Me (Smothers Brothers Show).mp3
+278:The Doors/Perception/2-17 Light My Fire.mp3
+279:The Doors/The Best of The Doors/1-07 Love Her Madly.mp3
+280:The Doors/The Doors Box Set/2-01 Roadhouse Blues.mp3
+281:The Killers/Day & Age/13 Human.mp3
+282:The Killers/Sam's Town/16 When You Were Young (no jump).mp3
+283:The Killers/Wonderful Wonderful/05 Run for Cover.mp3
+284:THE ORAL CIGARETTES/Kyouran Hey Kids!!/01 Frenzy Hey Kids!!.mp3
+285:The Rolling Stones/Wild Horses.mp3
+286:The Rolling Stones/Greatest Hits, Part 2/1-02 Beast of Burden.mp3
+287:The Rolling Stones/Paint It Black/01 Paint It Black.mp3
+288:The Rolling Stones/The Rolling Stones_ Original Master Recordings/10-04 (I Can't Get No) Satisfaction.mp3
+289:The Rolling Stones/The Rolling Stones_ Original Master Recordings/11-08 Brown Sugar.mp3
+290:The Strokes/Room on Fire/02 Reptilia.mp3
+291:The Who/Then and Now (1964-2007)/02 My Generation.mp3
+292:The Who/Then and Now (1964-2007)/12 Behind Blue Eyes.mp3
+293:The Who/Tommy/13 Pinball Wizard.mp3
+294:The Who/Who's Better, Who's Best/10 Won't Get Fooled Again (edit).mp3
+295:Tom Petty and the Heartbreakers/Playback Retail Sampler/10 Free Fallin'.mp3
+296:twenty one pilots/[non-album tracks]/03 Can't Help Falling in Love.mp3
+297:twenty one pilots/Trench/04 My Blood.mp3
+298:twenty one pilots/Twenty One Pilots/14 Isle of Flightless Birds.mp3
+299:Various Artists/100 Hits Paint It Black/51 Cream - Sunshine of Your Love.mp3
+300:Various Artists/100 Hits The House of the Rising Sun/07 Bob Dylan - Knockin' on Heaven's Door.mp3
+301:Various Artists/Back to the US of A/3-07 Kansas - Dust in the Wind.mp3
+302:Various Artists/Bacobens Rock Top 500 (CD8)/23 Tom Petty and the Heartbreakers - American Girl.mp3
+303:Various Artists/Bacobens Rock Top 500 (CD8)/32 Rush - Tom Sawyer.mp3
+304:Various Artists/Best of British/01 The Who - Baba O'Riley.mp3
+305:Various Artists/Billboard #1s_ The '80s/1-01 Queen - Another One Bites the Dust.mp3
+306:Various Artists/Billboard Hottest Hits, Volume 9_ Greatest Top 10 Hits 1980-1990/16 Journey - Don't Stop Believing.mp3
+307:Various Artists/Capital Gold_ Platinum Legends/2-12 Steve Miller Band - The Joker.mp3
+308:Various Artists/Classic Cuts Presents_ 70's Night_ The Definitive DJ Collection_ A to B/2-12 David Bowie - The Jean Genie.mp3
+309:Various Artists/Classic Cuts Presents_ 70's Night_ The Definitive DJ Collection_ A to B/2-13 David Bowie - Rebel Rebel.mp3
+310:Various Artists/De Afrekening 65/2-09 Post Malone - Better Now.mp3
+311:Various Artists/Detroit Rock City_ Music From the Motion Picture/03 Van Halen - Runnin' With the Devil.mp3
+312:Various Artists/Empire Made/01 The Kinks - You Really Got Me.mp3
+313:Various Artists/Empire Made/13 The Yardbirds - Heart Full Of Soul.mp3
+314:Various Artists/Fetenhits_ The Real Classics/1-05 U2 - Sunday Bloody Sunday.mp3
+315:Various Artists/Great Emotions Special Edition/18 Don McLean - American Pie.mp3
+316:Various Artists/Hits der 68er Generation/1-05 America - A Horse With No Name.mp3
+317:Various Artists/Legends_ Ultimate Rock Collection_ Good Golly/02 Cream - White Room.mp3
+318:Various Artists/Logan Lucky (Original Motion Picture Soundtrack)/15 Creedence Clearwater Revival - Fortunate Son.mp3
+319:Various Artists/Lovers Rock/2-02 The Police - Every Breath You Take.mp3
+320:Various Artists/Mastermix Professional Engineered for DJs I_ 60s 70s 80s 90s/01 The Beatles - I Saw Her Standing There.mp3
+321:Various Artists/Naughty but Nice/2-09 Stealers Wheel - Stuck in the Middle With You.mp3
+322:Various Artists/Naughty but Nice/2-20 The Moody Blues - Nights in White Satin.mp3
+323:Various Artists/Nonplusultra-Rock/1-06 Kansas - Carry On Wayward Son.mp3
+324:Various Artists/Now That's What I Call Old Skool/3-19 Run-D.M.C. Feat. Aerosmith - Walk This Way.mp3
+325:Various Artists/Pop Classics, Volume 1/06 Lou Reed - Walk on the Wild Side.mp3
+326:Various Artists/Pop Classics, Volume 1/09 Derek and the Dominos - Layla.mp3
+327:Various Artists/Pop Classics, Volume 1/14 Queen - Bohemian Rhapsody.mp3
+328:Various Artists/Rock Classics/02 Golden Earring - Radar Love.mp3
+329:Various Artists/Rock of Ages_ Gibson Guitar Greats/07 Guns N' Roses - Paradise City.mp3
+330:Various Artists/Rocks Off/16 Radiohead - Creep.mp3
+331:Various Artists/School of Rock_ Music From and Inspired by the Motion Picture/10 Stevie Nicks - Edge of Seventeen.mp3
+332:Various Artists/Southern Rock/03 The Marshall Tucker Band - Can't You See.mp3
+333:Various Artists/Sylvesterparty 2015/10 Van Halen - Jump.mp3
+334:Various Artists/Sylvesterparty 2015/11 Bon Jovi - Livin' on a Prayer.mp3
+335:Various Artists/Tangled Journey/02 Buffalo Springfield - For What It's Worth.mp3
+336:Various Artists/The All Time Greatest Rock Songs of the 60s, 70s, 80s & 90s/1-11 The Kinks - All Day and All of the Night.mp3
+337:Various Artists/The All Time Greatest Rock Songs of the 60s, 70s, 80s & 90s/1-15 Fleetwood Mac - Don't Stop.mp3
+338:Various Artists/The All Time Greatest Rock Songs of the 60s, 70s, 80s & 90s/2-02 The Doors - Break on Through.mp3
+339:Various Artists/The All Time Greatest Rock Songs of the 60s, 70s, 80s & 90s/2-16 The Clash - London Calling.mp3
+340:Various Artists/The Boys Are Back in Town 2012/1-07 The Police - Roxanne.mp3
+341:Various Artists/The Golden Collection/19-06 Tom Petty and the Heartbreakers - Learning to Fly.mp3
+342:Various Artists/The Greatest Hits 1_ 1991_ 2/12 The Clash - Should I Stay or Should I Go.mp3
+343:Various Artists/The Metal Box/1-01 Black Sabbath - Paranoid.mp3
+344:Various Artists/The Metal Box/1-06 Motörhead - Ace of Spades.mp3
+345:Various Artists/The Metal Box/1-16 Blue Öyster Cult - (Don't Fear) The Reaper.mp3
+346:Various Artists/The Metal Box/2-11 Lynyrd Skynyrd - Freebird.mp3
+347:Various Artists/The Only Classic Rock Album You'll Ever Need/3-02 Mountain - Mississippi Queen.mp3
+348:Various Artists/The Only Classic Rock Album You'll Ever Need/3-05 The Allman Brothers Band - Ramblin' Man.mp3
+349:Various Artists/The Original Rock Album_ 19 Rockin' Great Guitar Hits/08 Billy Idol - White Wedding.mp3
+350:Various Artists/The Solid Silver 60s_ Greatest Hits/2-10 The Animals - The House of the Rising Sun.mp3
+351:Various Artists/The Tip Sheet #193/01 Nerf Herder - Van Halen.mp3
+352:Various Artists/The World's Absolute Best Ever Beer Songs/1-10 ZZ Top - La Grange.mp3
+353:Various Artists/The World's Absolute Best Ever Beer Songs/1-12 The Knack - My Sharona.mp3
+354:Various Artists/This Is... 1983/01 David Bowie - Let's Dance (single version).mp3
+355:Various Artists/Ultimate Seventies_ 1972/08 The Hollies - Long Cool Woman (in a Black Dress).mp3
+356:Various Artists/While My Guitar Gently Weeps III/1-17 Joe Walsh - Life's Been Good.mp3
+357:Various Artists/Woodstock Generation/2-01 Van Morrison - Brown Eyed Girl.mp3
+358:Various Artists/Woodstock Generation/5-06 Jefferson Airplane - Somebody to Love.mp3
+359:Various Artists/Yesterdays Gold_ 120 Golden Oldies, Volume 3/2-13 The Beach Boys - Surfin' U.S.A..mp3
+360:WEAVER/くちづけDiamond/01 くちづけDiamond.m4a
+361:フレデリック/TOGENKYO/03 かなしいうれしい.mp3
+362:ヨルシカ/夏草が邪魔をする/03 言って。.mp3
+363:ヨルシカ/負け犬にアンコールはいらない/04 ヒッチコック.mp3
+364:高橋洋子/20th century Boys & Girls II ~20世紀少年少女2~/01 残酷な天使のテーゼ.mp3
+365:Izal - Autoterapia (Lyric Video).mp3
+366:LP - Muddy Waters [Live Session].mp3
+367:Mumford & Sons - Broken Crown..mp3
+368:Tom Odell - Another Love (Official Video).mp3
+369:X Ambassadors - HEY CHILD (Official Video).mp3
+playlist_end

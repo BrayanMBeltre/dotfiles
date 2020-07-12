@@ -1,0 +1,72 @@
+{
+    "d4729b97-989b-45d3-ace5-5d7a53722790": {
+        "id": "d4729b97-989b-45d3-ace5-5d7a53722790",
+        "name": "Google Search",
+        "keyword": "g",
+        "cmd": "https://google.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/google-search-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1593899487.6105385
+    },
+    "8add63b7-c72e-4f99-b5b9-a78ad5651601": {
+        "id": "8add63b7-c72e-4f99-b5b9-a78ad5651601",
+        "name": "Stack Overflow",
+        "keyword": "so",
+        "cmd": "http://stackoverflow.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/stackoverflow-icon.svg",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1593899487.6105826
+    },
+    "d2303e3f-879f-41ae-9891-8be06fe3bd29": {
+        "id": "d2303e3f-879f-41ae-9891-8be06fe3bd29",
+        "name": "Wikipedia",
+        "keyword": "wiki",
+        "cmd": "https://en.wikipedia.org/wiki/%s",
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1593899487.6106107
+    },
+    "9843271f-cc1c-4067-bb50-50a0417bfcbd": {
+        "id": "9843271f-cc1c-4067-bb50-50a0417bfcbd",
+        "name": "LockScreen",
+        "keyword": "Lock",
+        "cmd": "#!/bin/bash\n\n~/.bin/lockScreen",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1593906511.90706
+    },
+    "6fb727d7-9757-4dcc-b77a-289b21a9ab40": {
+        "id": "6fb727d7-9757-4dcc-b77a-289b21a9ab40",
+        "name": "Download Music",
+        "keyword": "dmusic",
+        "cmd": "#!/bin/bash\n\nnotify-send 'Music Download Started'\nyoutube-dl --config-location ~/.config/youtube-dl/music  $@\nnotify-send 'Music Download Finished'",
+        "icon": "~/Pictures/0.gif",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1593908535.9673512
+    },
+    "2a771537-1970-4f0c-9e59-e0e52380b793": {
+        "id": "2a771537-1970-4f0c-9e59-e0e52380b793",
+        "name": "Download Video",
+        "keyword": "dvideo",
+        "cmd": "#!/bin/bash\n\nnotify-send 'Video Download Started'\nyoutube-dl --config-location ~/.config/youtube-dl/video  $@\nnotify-send 'Video Download Finished'",
+        "icon": "~/Pictures/Annotation 2020-05-28 175756.jpg",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1593913452.522358
+    },
+    "cfcc14e7-153c-437c-8133-bb177246c314": {
+        "id": "cfcc14e7-153c-437c-8133-bb177246c314",
+        "name": "Find",
+        "keyword": "find",
+        "cmd": "#!/bin/zsh\n\nkitty fd $@",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1594020142.986068
+    }
+}

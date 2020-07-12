@@ -1,0 +1,67 @@
+#! /usr/bin/env bash
+
+# if mpd is on -> mediakeys control mpd <> if playerctl is on -> mediakeys control playerctl
+
+#mpd/mpc status -> playing = 1| paused = 0
+#mStatus=$(mpc status | grep -c "playing")
+if [[ $(mpc status | grep -c "playing") == 1 ]]; then
+	mStatus="playing"
+else 
+	mStatus="paused"
+fi
+
+#playerctl status -> Playing - Paused
+pStatus=$(playerctl status)
+
+#get polybar
+# get current focused windows id
+currentWindowsFocus=$(xdotool getmouselocation --shell | grep WINDOW | awk -F "=" '{print $2}')
+# polybar id
+polybarId=$(xdotool search -class Polybar | tail -1)
+
+function status() {
+	if [[ $pStatus == "Playing" ]]; then
+		notify-send "playerctl is $pStatus"
+	elif [[ $mStatus == "paused" ]]; then
+		notify-send "mpc is $mStatus"
+	fi
+}
+
+function next() {
+	if [[ $pStatus == "Playing" ]]; then
+		playerctl next
+	elif [[ $mStatus == "playing" ]]; then
+		mpc next
+		bash -e /home/brayanmb07/.bin/music-cover
+	fi
+}
+
+function prev() {
+	if [[ $pStatus == "Playing" ]]; then
+		playerctl next
+	elif [[ $mStatus == "playing" ]]; then
+		mpc prev
+		bash -e /home/brayanmb07/.bin/music-cover
+	fi
+}
+
+
+function toggle() {
+	if [[ !($currentWindowsFocus == $polybarId )  ]]; then
+		playerctl play-pause
+	else
+		mpc toggle
+	fi
+}
+
+if [[ $1 == "prev" ]]; then
+	prev
+elif [[ $1 == "next" ]]; then
+	next
+elif [[ $1 == "status" ]]; then
+	status
+elif [[ $1 == "toggle" ]]; then
+	toggle
+else
+	notify-send 'Use music next or music prev.'
+fi

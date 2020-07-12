@@ -1,0 +1,28 @@
+swipe:
+  3:
+    right:
+      command: "xdotool key alt+Right"
+    left:
+      command: "xdotool key alt+Left"
+    up:
+      command: "xdotool key ctrl+shift+plus"
+    down:
+      command: "xdotool key ctrl+minus"
+  4:
+    right:
+      command: "i3-msg 'workspace next'"
+    left:
+      command: "i3-msg 'workspace prev'"
+pinch:
+  in:
+    command: "xdotool key ctrl+shift+plus"
+  out:
+    command: "xdotool key ctrl+minus"
+
+threshold:
+  swipe: 0.4
+  pinch: 0.4
+
+interval:
+  swipe: 0.8
+  pinch: 0.1

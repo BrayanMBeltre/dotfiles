@@ -1,0 +1,62 @@
+#!/bin/bash
+
+# The script is looking for a window with a given WM_CLASS property. The window
+# will be attached to the root node (R in the graph below), the root note is
+# what you get from 'xprop -root'. There are two different types of windows with
+# the same WM_CLASS (Q and W) but their tree structures are different. However,
+# the tree structure of the two windows are different as seen in the graph
+# below.
+#
+#     R
+#    / \
+#   A   Y
+#  /\    \
+# B  C    X
+#     \    \
+#      Q    W
+#
+# To run the script 'xprop' and 'xwininfo' must be installed.
+#
+# NOTE: This script will not work if a window is not brought to top when it is
+# created.
+
+class_name=$1
+
+# regex for extracting hex id's
+grep_id='0[xX][a-zA-Z0-9]\{7\}'
+
+##
+# Echos the id of the parent to the window with id win_id
+# $1 = win_id
+function grep_parent_id {
+    local result="`xwininfo -tree -id $1 | grep 'Parent window id:' | grep -o $grep_id`"
+    echo "$result"
+}
+
+# for every change in the root window's _NET_ACTIVE_WINDOW property, which
+# is supposed to hold the currently active window (I believe this depends on the WM)
+# note that the _NET_ACTIVE_WINDOW event will be triggered if a window that is already
+# open is brought to top.
+xprop -spy -root _NET_ACTIVE_WINDOW | grep --line-buffered -o $grep_id |
+while read -r id; do
+    class="`xprop -id $id WM_CLASS | grep $class_name`"
+    if [ -n "$class" ]; then
+        parent_id=$(grep_parent_id $id)
+        grand_parent_id=$(grep_parent_id $parent_id)
+        
+        grand_parent_tree="`xwininfo -id $grand_parent_id -tree`"
+        
+        # If the the grand_parent has two children we have found window Q
+        tree_check="`grep -o '2 children:' <<< $grand_parent_tree`"
+        if [ -z "$tree_check" ]; then
+            echo "Found window (W), it has ID: $id"
+            # here we could do something awesome ;)
+            # if we want to keep track on window W we can spy on it until
+            # it's closed.
+            xprop -spy -id $id > /dev/null 2>&1
+            echo "No more window to listen to"
+        else
+            echo "Do some thing cool with: $id or start some awseome command"
+        fi
+    fi
+done

@@ -1,0 +1,39 @@
+#!/bin/bash
+
+#colors
+tc=#ebdbb2ff
+rc=#665c54ff
+ic=#282828a4
+wc=#665c54ff
+red=#cc241dff
+yellow=#d79921ff
+trans=#00000000
+
+#var
+blur=10
+width=7
+delta=55
+radius=125
+datesize=15
+timesize=30
+
+blank=33000000
+
+i3lock --blur $blur \
+	--verifsize=16 \
+	--veriftext="..." \
+	--radius $radius \
+	--ring-width $width \
+	--indicator --clock \
+	--timesize=$timesize \
+	--datesize=$datesize \
+	--timestr="%I:%M" \
+	--datestr="%B %d, %Y" \
+	--linecolor=$blank \
+	--insidecolor=$ic --ringcolor=$rc \
+	--datecolor=$tc --timecolor=$tc \
+	--separatorcolor=$trans --keyhlcolor=$yellow \
+	--bshlcolor=$red \
+	--verifcolor=$tc --wrongcolor=$tc \
+	--ringvercolor=${rvc:-$rc} --ringwrongcolor=$wc \
+	--insidevercolor=$ic --insidewrongcolor=$ic

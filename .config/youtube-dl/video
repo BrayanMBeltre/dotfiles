@@ -1,0 +1,9 @@
+--ignore-config
+--add-metadata
+--write-annotations
+--format mp4
+--write-sub
+--all-subs
+--no-overwrites
+--console-title
+--output ~/Videos/%(title)s.%(ext)s

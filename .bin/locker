@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# Only exported variables can be used within the timer's command.
+export PRIMARY_DISPLAY="$(xrandr | awk '/ primary/{print $1}')"
+
+# Run xidlehook
+xidlehook \
+  --not-when-fullscreen \
+  --timer 360 \
+  'xrandr --output "$PRIMARY_DISPLAY" --brightness 10' \
+  --timer 20 \
+  'xrandr --output "$PRIMARY_DISPLAY" --brightness 5' \
+  --timer 10 \
+  'xrandr --output "$PRIMARY_DISPLAY" --brightness 1; ~/.bin/lockScreen' \
+  ''
