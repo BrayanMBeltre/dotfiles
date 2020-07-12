@@ -26,6 +26,7 @@
 - **Autolocker**: xidlehook
 - **LockScreen**: i3lock
 - **TouchPad Gestures**: fusuma
+
 - **Torrent**: transmission-gtk
 
 - **Color Scheme**: [gruvbox material](https://github.com/sainnhe/gruvbox-material)
