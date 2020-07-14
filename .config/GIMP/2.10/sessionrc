@@ -11,8 +11,8 @@
     (size 620 200))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 690 42)
-    (size 662 712)
+    (position 0 30)
+    (size 1366 738)
     (open-on-exit)
     (aux-info
         (left-docks-width "44")
@@ -28,7 +28,7 @@
                 (locked)
                 (tab-style automatic)
                 (aux-info
-                    (current-page "ColorselWheel")))
+                    (current-page "GimpColorSelect")))
             (dockable "gimp-histogram-editor"
                 (locked)
                 (tab-style automatic))
@@ -76,18 +76,18 @@
     (position 495 465))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
-    (position 127 56)
-    (size 838 642))
+    (position 124 53)
+    (size 838 694))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 239 62)
-    (size 838 642))
+    (position 232 55)
+    (size 838 694))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
     (position 527 166))
 (session-info "toplevel"
     (factory-entry "gimp-preferences-dialog")
-    (position 259 0)
+    (position 258 0)
     (size 760 705))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
@@ -106,7 +106,7 @@
     (position 843 239))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 847 109))
+    (position 845 107))
 (session-info "toplevel"
     (factory-entry "gimp-offset-tool-dialog")
     (position 467 238))

@@ -1,0 +1,7 @@
+game:
+  exe: /home/brayanmb07/Games/clonehero-win64/Clone Hero.exe
+system: {}
+wine:
+  Desktop: false
+  esync: false
+  vkd3d: false

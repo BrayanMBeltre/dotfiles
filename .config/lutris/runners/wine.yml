@@ -1,0 +1,6 @@
+system:
+  resolution: 'off'
+wine:
+  Desktop: true
+  esync: true
+  vkd3d: true

@@ -1,0 +1,9 @@
+game:
+  exe: /home/brayanmb07/Games/HDD/Minecraft Dungeons/minecraft_server.exe
+system: {}
+wine:
+  Desktop: false
+  dxvk: false
+  esync: false
+  version: lutris-lol-5.0-x86_64
+  vkd3d: false

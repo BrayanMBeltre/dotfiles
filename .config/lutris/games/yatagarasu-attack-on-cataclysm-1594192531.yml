@@ -1,0 +1,7 @@
+game:
+  exe: /home/brayanmb07/Games/Yatagarasu Attack on Cataclysm/game.exe
+system: {}
+wine:
+  dxvk: false
+  esync: false
+  vkd3d: false

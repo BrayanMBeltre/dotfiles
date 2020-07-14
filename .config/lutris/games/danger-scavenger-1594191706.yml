@@ -1,0 +1,8 @@
+game:
+  exe: /home/brayanmb07/Games/HDD/Danger Scavenger/Danger Scavenger.exe
+system: {}
+wine:
+  Desktop: true
+  dxvk: true
+  esync: true
+  vkd3d: true

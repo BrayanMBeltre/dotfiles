@@ -1708,3 +1708,95 @@ Jul 13 00:43 : client: [4] opened from 127.0.0.1:34076
 Jul 13 00:43 : client: [4] closed
 Jul 13 00:43 : client: [5] opened from 127.0.0.1:34080
 Jul 13 00:43 : client: [5] closed
+Jul 13 01:32 : player: played "Eagles/Eagles Live/2-08 Life in the Fast Lane.mp3"
+Jul 13 02:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 13 02:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 13 02:53 : client: [0] opened from 127.0.0.1:46438
+Jul 13 02:53 : client: [1] opened from 127.0.0.1:46444
+Jul 13 02:53 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 13 02:53 : exception: No such playlist
+Jul 13 02:53 : client: [1] closed
+Jul 13 02:53 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 13 03:59 : client: [0] closed
+Jul 13 03:59 : player: played "Eagles/Eagles Live/2-08 Life in the Fast Lane.mp3"
+Jul 13 04:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 13 04:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 13 04:03 : client: [0] opened from 127.0.0.1:32856
+Jul 13 04:03 : client: [1] opened from 127.0.0.1:32864
+Jul 13 04:03 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 13 04:03 : exception: No such playlist
+Jul 13 04:03 : client: [1] closed
+Jul 13 04:03 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 13 04:21 : player: played "Eagles/Eagles Live/2-08 Life in the Fast Lane.mp3"
+Jul 13 11:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 13 11:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 13 11:33 : client: [0] opened from 127.0.0.1:46036
+Jul 13 11:33 : client: [1] opened from 127.0.0.1:46042
+Jul 13 11:33 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 13 11:33 : exception: No such playlist
+Jul 13 11:33 : client: [1] closed
+Jul 13 11:33 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 13 19:32 : client: [2] opened from 127.0.0.1:51674
+Jul 13 19:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 13 19:32 : client: [2] closed
+Jul 13 19:37 : player: played "Eagles/Eagles Live/2-08 Life in the Fast Lane.mp3"
+Jul 13 19:41 : player: played "Eagles/Hotel California/2-06 Witchy Woman (live at the Los Angeles Forum, 10_20-22_76).mp3"
+Jul 13 19:45 : player: played "Fleetwood Mac/The Very Best of Fleetwood Mac/1-04 Go Your Own Way.mp3"
+Jul 13 19:48 : player: played "Fleetwood Mac/The Very Best of Fleetwood Mac/1-14 Landslide.mp3"
+Jul 13 19:53 : player: played "Fleetwood Mac/The Very Best of Fleetwood Mac/2-01 The Chain.mp3"
+Jul 13 19:56 : player: played "Fleetwood Mac/The Very Best of Fleetwood Mac/2-13 Everywhere.mp3"
+Jul 13 20:01 : player: played "Foster the People/Torches/2-04 Pumped Up Kicks.mp3"
+Jul 13 20:03 : client: [3] opened from 127.0.0.1:51678
+Jul 13 20:03 : client: [3] closed
+Jul 13 20:03 : client: [4] opened from 127.0.0.1:51682
+Jul 13 20:03 : client: [4] closed
+Jul 13 20:03 : client: [5] opened from 127.0.0.1:51686
+Jul 13 20:03 : client: [5] closed
+Jul 13 20:03 : client: [6] opened from 127.0.0.1:51690
+Jul 13 20:03 : client: [6] closed
+Jul 13 20:03 : client: [7] opened from 127.0.0.1:51694
+Jul 13 20:03 : client: [7] closed
+Jul 13 20:07 : client: [8] opened from 127.0.0.1:52368
+Jul 13 20:07 : client: [8] closed
+Jul 13 20:32 : player: played "Gorillaz/Gorillaz/1-05 Clint Eastwood.mp3"
+Jul 13 20:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 13 20:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 13 20:34 : client: [0] opened from 127.0.0.1:52480
+Jul 13 20:34 : client: [1] opened from 127.0.0.1:52484
+Jul 13 20:34 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 13 20:34 : exception: No such playlist
+Jul 13 20:34 : client: [1] closed
+Jul 13 20:34 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 13 23:54 : player: played "Gorillaz/Gorillaz/1-05 Clint Eastwood.mp3"
+Jul 13 23:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 13 23:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 13 23:56 : client: [0] opened from 127.0.0.1:43044
+Jul 13 23:56 : client: [1] opened from 127.0.0.1:43048
+Jul 13 23:56 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 13 23:56 : exception: No such playlist
+Jul 13 23:56 : client: [1] closed
+Jul 13 23:56 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 14 00:19 : player: played "Gorillaz/Gorillaz/1-05 Clint Eastwood.mp3"
+Jul 14 00:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 00:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 00:19 : client: [0] opened from 127.0.0.1:49688
+Jul 14 00:19 : client: [1] opened from 127.0.0.1:49692
+Jul 14 00:19 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 14 00:19 : exception: No such playlist
+Jul 14 00:19 : client: [1] closed
+Jul 14 00:19 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 14 00:22 : client: [0] closed
+Jul 14 00:22 : client: [2] opened from 127.0.0.1:49970
+Jul 14 00:22 : client: [2] closed
+Jul 14 00:22 : client: [3] opened from 127.0.0.1:49974
+Jul 14 15:01 : player: played "Gorillaz/Gorillaz/1-05 Clint Eastwood.mp3"
+Jul 14 15:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 15:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 15:02 : client: [0] opened from 127.0.0.1:38158
+Jul 14 15:02 : client: [1] opened from 127.0.0.1:38164
+Jul 14 15:02 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 14 15:02 : exception: No such playlist
+Jul 14 15:02 : client: [1] closed
+Jul 14 15:02 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 14 17:52 : client: [0] closed
+Jul 14 17:52 : client: [2] opened from 127.0.0.1:41866

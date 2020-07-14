@@ -1,0 +1,7 @@
+game:
+  exe: /home/brayanmb07/Downloads/Gunfire.Reborn/Gunfire Reborn/Gunfire Reborn/Gunfire
+    Reborn.exe
+system: {}
+wine:
+  Desktop: false
+  version: lutris-5.7-3-x86_64

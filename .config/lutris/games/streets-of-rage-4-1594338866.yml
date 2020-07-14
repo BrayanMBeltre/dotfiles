@@ -1,0 +1,8 @@
+game:
+  exe: /home/brayanmb07/Games/HDD/Streets of Rage 4/x64/SOR4.exe
+system: {}
+wine:
+  dxvk: false
+  esync: false
+  version: lutris-lol-5.5-2-x86_64
+  vkd3d: false

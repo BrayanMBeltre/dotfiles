@@ -1,0 +1,5 @@
+game:
+  exe: /home/brayanmb07/Games/HDD/Hollow Knight/hollow_knight.exe
+system:
+  aco: true
+wine: {}

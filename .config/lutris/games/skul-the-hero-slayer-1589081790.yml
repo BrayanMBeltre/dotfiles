@@ -1,0 +1,8 @@
+game:
+  exe: /home/brayanmb07/Games/Skul The Hero Slayer v08.05.2020-PiviGames.blog/Skul.exe
+system: {}
+wine:
+  Desktop: true
+  dxvk: true
+  esync: true
+  vkd3d: true

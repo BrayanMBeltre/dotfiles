@@ -86,11 +86,11 @@ alias l.="ls -A | egrep '^\.'"
 #configs
 alias zshconfig="subl ~/.zshrc &"
 alias i3config="subl ~/.i3/config &"
-alias kittyconf="subl ~/.config/kitty/kitty.conf &"
+alias kittyconfg="subl ~/.config/kitty/kitty.conf &"
 alias dunstconfig="subl ~/.config/dunst/dunstrc &"
 alias polybarconfig="subl ~/.config/polybar/config &"
 alias zathuraconfig="subl ~/.config/zathura/zathurarc &"
-alias picomconfig="subl ~/.config/picom.conf"
+alias picomconfig="subl ~/.config/picom/picom.conf"
 alias fusumaconfig="subl ~/.config/fusuma/config.yml"
 
 #grub update
@@ -129,6 +129,7 @@ alias q='exit'
 alias clima='curl wttr.in'
 alias color='colorpicker --short --one-shot | xsel -b'
 #alias mongodb='mongod --port 27017 --dbpath ~/.config/mongodb'
+alias dependencies="expac -l '\n' %E -S '$2' | sort -u"
 
 #For Fun
 alias noti='notify-send -i /usr/share/icons/manjaro-i3.png "Manjaro!!"'

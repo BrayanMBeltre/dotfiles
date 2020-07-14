@@ -1,0 +1,9 @@
+game:
+  exe: /home/brayanmb07/Games/HDD/Granblue Fantasy Versus/GBVS.exe
+system:
+  aco: true
+wine:
+  dxvk: true
+  esync: false
+  version: system
+  vkd3d: true

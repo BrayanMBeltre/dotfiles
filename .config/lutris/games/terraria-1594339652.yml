@@ -1,0 +1,11 @@
+game:
+  exe: /home/brayanmb07/Games/HDD/Terraria_v1.4.0.2/Terraria.exe
+system:
+  aco: false
+  disable_runtime: true
+  prefer_system_libs: false
+wine:
+  dxvk: true
+  esync: true
+  version: lutris-fshack-5.7-x86_64
+  vkd3d: true
