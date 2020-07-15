@@ -2008,3 +2008,121 @@ Jul 15 01:31 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.
 Jul 15 01:31 : exception: No such playlist
 Jul 15 01:31 : client: [1] closed
 Jul 15 01:31 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 04:02 : player: played "Grateful Dead/Complete Studio Albums Collection/5-08 Casey Jones.mp3"
+Jul 15 04:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 04:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 04:04 : client: [0] opened from 127.0.0.1:39088
+Jul 15 04:04 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 04:04 : client: [1] opened from 127.0.0.1:39092
+Jul 15 04:04 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 04:04 : exception: No such playlist
+Jul 15 04:04 : client: [1] closed
+Jul 15 04:14 : client: [2] opened from 127.0.0.1:39538
+Jul 15 04:14 : client: [2] closed
+Jul 15 04:14 : client: [3] opened from 127.0.0.1:39542
+Jul 15 04:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 04:14 : client: [3] closed
+Jul 15 04:14 : exception: Failed to play on "Pulse Audio" (pulse): suspended
+Jul 15 04:15 : player: played "Grateful Dead/Complete Studio Albums Collection/5-08 Casey Jones.mp3"
+Jul 15 04:15 : player: played "Green Day/The Green Day Collection/130 Boulevard of Broken Dreams (live).mp3"
+Jul 15 15:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 15:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 15:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 15:00 : client: [0] opened from 127.0.0.1:57960
+Jul 15 15:00 : client: [1] opened from 127.0.0.1:57966
+Jul 15 15:00 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 15:00 : exception: No such playlist
+Jul 15 15:00 : client: [1] closed
+Jul 15 15:00 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 15:05 : player: played "Green Day/The Green Day Collection/130 Boulevard of Broken Dreams (live).mp3"
+Jul 15 15:09 : player: played "Guns N' Roses/Appetite for Destruction/5-01 Welcome to the Jungle.mp3"
+Jul 15 15:13 : client: [0] closed
+Jul 15 15:13 : player: played "Guns N' Roses/Appetite for Destruction/5-36 Sweet Child o' Mine.mp3"
+Jul 15 15:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 15:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 15:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 15:19 : client: [0] opened from 127.0.0.1:51728
+Jul 15 15:19 : client: [1] opened from 127.0.0.1:51732
+Jul 15 15:19 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 15:19 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 15:19 : exception: No such playlist
+Jul 15 15:19 : client: [1] closed
+Jul 15 15:21 : player: played "Guns N' Roses/Appetite for Destruction/5-36 Sweet Child o' Mine.mp3"
+Jul 15 15:25 : player: played "Heart/The Essential Heart/1-01 Crazy on You.mp3"
+Jul 15 15:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 15:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 15:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 15:27 : client: [0] opened from 127.0.0.1:36338
+Jul 15 15:27 : client: [1] opened from 127.0.0.1:36344
+Jul 15 15:27 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 15:27 : exception: No such playlist
+Jul 15 15:27 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 15:27 : client: [1] closed
+Jul 15 15:28 : player: played "Heart/The Essential Heart/1-01 Crazy on You.mp3"
+Jul 15 15:32 : player: played "Heart/The Essential Heart/1-04 Barracuda.mp3"
+Jul 15 15:36 : client: [2] opened from 127.0.0.1:36708
+Jul 15 15:36 : client: [2] closed
+Jul 15 15:57 : player: played "Hozier/Take Me to Church/01 Take Me to Church.mp3"
+Jul 15 15:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 15:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 15:58 : client: [0] opened from 127.0.0.1:46316
+Jul 15 15:58 : client: [1] opened from 127.0.0.1:46322
+Jul 15 15:58 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 15:58 : exception: No such playlist
+Jul 15 15:58 : client: [1] closed
+Jul 15 15:58 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 15:59 : client: [0] closed
+Jul 15 15:59 : player: played "Hozier/Take Me to Church/01 Take Me to Church.mp3"
+Jul 15 16:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:00 : client: [0] opened from 127.0.0.1:56458
+Jul 15 16:00 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 16:00 : exception: No such playlist
+Jul 15 16:00 : client: [0] closed
+Jul 15 16:00 : client: [1] opened from 127.0.0.1:56460
+Jul 15 16:00 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 16:07 : player: played "Hozier/Take Me to Church/01 Take Me to Church.mp3"
+Jul 15 16:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:09 : client: [0] opened from 127.0.0.1:53558
+Jul 15 16:09 : client: [1] opened from 127.0.0.1:53564
+Jul 15 16:09 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 16:09 : exception: No such playlist
+Jul 15 16:09 : client: [1] closed
+Jul 15 16:09 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 16:10 : player: played "Hozier/Take Me to Church/01 Take Me to Church.mp3"
+Jul 15 16:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:11 : client: [0] opened from 127.0.0.1:54598
+Jul 15 16:11 : client: [1] opened from 127.0.0.1:54604
+Jul 15 16:11 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 16:11 : exception: No such playlist
+Jul 15 16:11 : client: [1] closed
+Jul 15 16:11 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 16:21 : player: played "Hozier/Take Me to Church/01 Take Me to Church.mp3"
+Jul 15 16:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:24 : client: [0] opened from 127.0.0.1:54844
+Jul 15 16:24 : client: [1] opened from 127.0.0.1:54850
+Jul 15 16:24 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 16:24 : exception: No such playlist
+Jul 15 16:24 : client: [1] closed
+Jul 15 16:24 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 16:29 : player: played "Hozier/Take Me to Church/01 Take Me to Church.mp3"
+Jul 15 16:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:30 : client: [0] opened from 127.0.0.1:54550
+Jul 15 16:30 : client: [1] opened from 127.0.0.1:54558
+Jul 15 16:30 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 16:30 : exception: No such playlist
+Jul 15 16:30 : client: [1] closed
+Jul 15 16:30 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 16:33 : player: played "Hozier/Take Me to Church/01 Take Me to Church.mp3"
+Jul 15 16:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 16:34 : client: [0] opened from 127.0.0.1:51084
+Jul 15 16:34 : client: [1] opened from 127.0.0.1:51090
+Jul 15 16:34 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 16:34 : exception: No such playlist
+Jul 15 16:34 : client: [1] closed
+Jul 15 16:34 : avahi: Service 'Music Player @ brayanmb07' successfully established.

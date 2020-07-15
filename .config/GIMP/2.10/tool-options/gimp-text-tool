@@ -1,6 +1,6 @@
 # GIMP gimp-text-tool options
 
-(foreground (color-rgb 0.84313725490196079 0.59999999999999998 0.12941176470588237))
+(foreground (color-rgb 0.15686274509803921 0.15686274509803921 0.15686274509803921))
 (palette "Default")
 (font "Standard")
 (font-size 90)

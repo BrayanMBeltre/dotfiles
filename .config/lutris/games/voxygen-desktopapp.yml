@@ -1,0 +1,7 @@
+game:
+  appid: veloren-voxygen
+  args: ''
+  exe: /usr/bin/veloren-voxygen
+linux: {}
+system:
+  disable_runtime: true

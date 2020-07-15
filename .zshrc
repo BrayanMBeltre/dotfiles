@@ -130,6 +130,8 @@ alias clima='curl wttr.in'
 alias color='colorpicker --short --one-shot | xsel -b'
 #alias mongodb='mongod --port 27017 --dbpath ~/.config/mongodb'
 alias dependencies="expac -l '\n' %E -S '$2' | sort -u"
+alias lightdm='dm-tool switch-to-greeter'
+
 
 #For Fun
 alias noti='notify-send -i /usr/share/icons/manjaro-i3.png "Manjaro!!"'
