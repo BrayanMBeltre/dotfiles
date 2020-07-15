@@ -252,6 +252,7 @@ for_window [class="Transmission-gtk"] floating enable border pixel 1
 for_window [class="vvave"] floating enable border pixel 1
 for_window [class="Gnome-disks"] floating enable border pixel 1
 for_window [class="Ulauncher"] floating enable
+for_window [title="choose theme file"] floating enable resize set 759 568
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus

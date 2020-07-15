@@ -1,5 +1,5 @@
 <p align="center">
-  <b>My Dot Files</b>
+  <b>My Dot Files WIP</b>
 </p>
 
 ## Preview
@@ -22,8 +22,8 @@
 - **Browser**: firefox
 - **Image Viewer**: viewnior
 - **Bar**: polybar
-- **Notificactions**: dunst
-- **Autolocker**: xidlehook
+- **Notifications**: dunst
+- **Auto-locker**: xidlehook
 - **LockScreen**: i3lock
 - **TouchPad Gestures**: fusuma
 

@@ -1,6 +1,5 @@
 # GIMP gimp-by-color-select-tool options
 
 (feather-radius 2)
-(threshold 255)
 
 # end of gimp-by-color-select-tool options
