@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+notify-send 'Video Download Started' 
+youtube-dl --config-location ~/.config/youtube-dl/video  $@ 
+notify-send 'Video Download Finished'

@@ -115,10 +115,16 @@ alias player="ncmpcpp"
 alias mixer='ncpamixer'
 alias vlc='devour vlc'
 alias mute='amixer -q -D pulse sset Master toggle'
-alias dmusic='youtube-dl --config-location ~/.config/youtube-dl/music'
-alias dvideo='youtube-dl --config-location ~/.config/youtube-dl/video'
+#alias dmusic='youtube-dl --config-location ~/.config/youtube-dl/music'
+#alias dvideo='youtube-dl --config-location ~/.config/youtube-dl/video'
 alias ristretto='devour ristretto'
 alias zathura='devour zathura'
+#legendary epic games cli
+alias epiclist='legendary list-games'
+alias epiclistinstalled='legendary list-installed'
+alias epicinstall='legendary install'
+alias epicupdate='legendary list-installed --check-updates'
+alias epiclaunch='legendary launch'
 #Utilities
 alias class='xprop | grep -i -e "^wm_name\|^wm_class"'
 alias date='date "+%A, %B %d, %Y [%T]"'
@@ -131,6 +137,8 @@ alias color='colorpicker --short --one-shot | xsel -b'
 #alias mongodb='mongod --port 27017 --dbpath ~/.config/mongodb'
 alias dependencies="expac -l '\n' %E -S '$2' | sort -u"
 alias lightdm='dm-tool switch-to-greeter'
+
+
 
 
 #For Fun

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 ## Author : Aditya Shakya (adi1090x)
 ## Mail : adi1090x@gmail.com

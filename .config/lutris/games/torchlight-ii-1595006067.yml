@@ -1,0 +1,12 @@
+game:
+  exe: /home/brayanmb07/legendary/Torchlight2/Torchlight2.exe
+system:
+  env:
+    MANGOHUD_DLSYM: '1'
+  prefix_command: mangohud
+  prelaunch_command: ''
+wine:
+  dxvk: true
+  esync: true
+  version: lutris-lol-5.0-x86_64
+  vkd3d: true

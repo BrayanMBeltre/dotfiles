@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+#based on https://github.com/onespaceman/menu-calc/blob/master/%3D
+
+result=$(echo "$@" | bc -l | sed '/\./ s/\.\{0,1\}0\{1,\}$//')
+notify-send $result

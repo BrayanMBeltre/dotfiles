@@ -2126,3 +2126,354 @@ Jul 15 16:34 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.
 Jul 15 16:34 : exception: No such playlist
 Jul 15 16:34 : client: [1] closed
 Jul 15 16:34 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 17:07 : player: played "Hozier/Take Me to Church/01 Take Me to Church.mp3"
+Jul 15 19:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 19:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 19:51 : client: [0] opened from 127.0.0.1:37580
+Jul 15 19:51 : client: [1] opened from 127.0.0.1:37586
+Jul 15 19:51 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 19:51 : exception: No such playlist
+Jul 15 19:51 : client: [1] closed
+Jul 15 19:51 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 15 23:05 : player: played "Hozier/Take Me to Church/01 Take Me to Church.mp3"
+Jul 15 23:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 23:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 23:07 : client: [0] opened from 127.0.0.1:37384
+Jul 15 23:07 : client: [1] opened from 127.0.0.1:37390
+Jul 15 23:07 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 15 23:07 : exception: No such playlist
+Jul 15 23:07 : client: [1] closed
+Jul 15 23:07 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 16 02:41 : player: played "Hozier/Take Me to Church/01 Take Me to Church.mp3"
+Jul 16 11:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 11:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 11:53 : client: [0] opened from 127.0.0.1:47410
+Jul 16 11:53 : client: [1] opened from 127.0.0.1:47414
+Jul 16 11:53 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 16 11:53 : exception: No such playlist
+Jul 16 11:53 : client: [1] closed
+Jul 16 11:53 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 16 12:08 : client: [0] closed
+Jul 16 12:08 : client: [2] opened from 127.0.0.1:48092
+Jul 16 14:15 : client: [2] closed
+Jul 16 14:15 : client: [3] opened from 127.0.0.1:50066
+Jul 16 14:26 : client: [3] closed
+Jul 16 14:26 : client: [4] opened from 127.0.0.1:50216
+Jul 16 17:02 : client: [4] closed
+Jul 16 17:02 : client: [5] opened from 127.0.0.1:52720
+Jul 16 18:42 : client: [5] closed
+Jul 16 18:42 : client: [6] opened from 127.0.0.1:54130
+Jul 16 18:43 : client: [6] closed
+Jul 16 18:43 : client: [7] opened from 127.0.0.1:54140
+Jul 16 20:05 : client: [8] opened from 127.0.0.1:55032
+Jul 16 20:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 20:05 : client: [8] closed
+Jul 16 20:06 : player: played "Hozier/Take Me to Church/01 Take Me to Church.mp3"
+Jul 16 20:11 : client: [9] opened from 127.0.0.1:55196
+Jul 16 20:11 : client: [9] closed
+Jul 16 20:11 : client: [10] opened from 127.0.0.1:55200
+Jul 16 20:11 : client: [10] closed
+Jul 16 20:11 : client: [11] opened from 127.0.0.1:55204
+Jul 16 20:11 : client: [11] closed
+Jul 16 20:11 : client: [12] opened from 127.0.0.1:55208
+Jul 16 20:11 : client: [12] closed
+Jul 16 20:11 : client: [13] opened from 127.0.0.1:55212
+Jul 16 20:11 : client: [13] closed
+Jul 16 20:11 : client: [14] opened from 127.0.0.1:55216
+Jul 16 20:11 : client: [14] closed
+Jul 16 20:11 : client: [15] opened from 127.0.0.1:55220
+Jul 16 20:11 : client: [15] closed
+Jul 16 20:11 : client: [16] opened from 127.0.0.1:55224
+Jul 16 20:11 : client: [16] closed
+Jul 16 20:11 : client: [17] opened from 127.0.0.1:55228
+Jul 16 20:11 : client: [17] closed
+Jul 16 20:11 : client: [18] opened from 127.0.0.1:55232
+Jul 16 20:11 : client: [18] closed
+Jul 16 20:15 : player: played "Izal/Autoterapia/05 Pausa.mp3"
+Jul 16 20:19 : player: played "Janis Joplin/The Best Of/01 Piece of My Heart.mp3"
+Jul 16 20:23 : player: played "Janis Joplin/The Best Of/02 Cry Baby.mp3"
+Jul 16 20:27 : player: played "Jimi Hendrix/10 Tracks Performed Live at the Royal Albert Hall/09 Hey Joe.mp3"
+Jul 16 20:30 : player: played "Jimi Hendrix/Experience Hendrix_ The Best of Jimi Hendrix/01 The Jimi Hendrix Experience - Purple Haze.mp3"
+Jul 16 20:34 : player: played "Jimi Hendrix/Experience Hendrix_ The Best of Jimi Hendrix/05 The Jimi Hendrix Experience - All Along the Watchtower.mp3"
+Jul 16 20:38 : player: played "Joan Jett and the Blackhearts/Greatest Hits/2-10 I Hate Myself for Loving You.mp3"
+Jul 16 20:42 : player: played "Johnny Cash/American IV_ The Man Comes Around/2-01 Hurt.mp3"
+Jul 16 20:46 : player: played "Led Zeppelin/Definitive Collection/2-07 Ramble On.mp3"
+Jul 16 20:48 : client: [19] opened from 127.0.0.1:55732
+Jul 16 20:48 : client: [19] closed
+Jul 16 21:03 : client: [7] closed
+Jul 16 21:03 : client: [20] opened from 127.0.0.1:55802
+Jul 16 21:06 : client: [20] closed
+Jul 16 21:06 : client: [21] opened from 127.0.0.1:55832
+Jul 16 21:53 : client: [21] closed
+Jul 16 21:53 : client: [22] opened from 127.0.0.1:56266
+Jul 16 21:54 : client: [22] closed
+Jul 16 21:54 : client: [23] opened from 127.0.0.1:56274
+Jul 16 23:06 : client: [24] opened from 127.0.0.1:57110
+Jul 16 23:06 : client: [24] closed
+Jul 16 23:06 : client: [25] opened from 127.0.0.1:57112
+Jul 16 23:06 : client: [25] closed
+Jul 16 23:23 : client: [23] closed
+Jul 16 23:23 : client: [26] opened from 127.0.0.1:57388
+Jul 16 23:23 : client: [26] closed
+Jul 16 23:23 : client: [27] opened from 127.0.0.1:57400
+Jul 16 23:27 : client: [27] closed
+Jul 16 23:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 23:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 23:28 : client: [0] opened from 127.0.0.1:57446
+Jul 16 23:28 : client: [1] opened from 127.0.0.1:57450
+Jul 16 23:28 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 16 23:28 : exception: No such playlist
+Jul 16 23:28 : client: [1] closed
+Jul 16 23:28 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 16 23:28 : client: [0] closed
+Jul 16 23:28 : client: [2] opened from 127.0.0.1:57600
+Jul 16 23:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 23:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 23:29 : client: [0] opened from 127.0.0.1:57722
+Jul 16 23:29 : client: [1] opened from 127.0.0.1:57730
+Jul 16 23:29 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 16 23:29 : exception: No such playlist
+Jul 16 23:29 : client: [1] closed
+Jul 16 23:29 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 17 00:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 17 00:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 17 00:06 : client: [0] opened from 127.0.0.1:58692
+Jul 17 00:06 : client: [1] opened from 127.0.0.1:58700
+Jul 17 00:06 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 17 00:06 : exception: No such playlist
+Jul 17 00:06 : client: [1] closed
+Jul 17 00:06 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 17 00:11 : player: played "Led Zeppelin/The Complete Studio Recordings/1-01 Good Times Bad Times.mp3"
+Jul 17 00:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 17 00:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 17 00:11 : client: [0] opened from 127.0.0.1:38442
+Jul 17 00:11 : client: [1] opened from 127.0.0.1:38446
+Jul 17 00:11 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 17 00:11 : exception: No such playlist
+Jul 17 00:11 : client: [1] closed
+Jul 17 00:11 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 17 00:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 17 00:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 17 00:25 : client: [0] opened from 127.0.0.1:38886
+Jul 17 00:25 : client: [1] opened from 127.0.0.1:38892
+Jul 17 00:25 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 17 00:25 : exception: No such playlist
+Jul 17 00:25 : client: [1] closed
+Jul 17 00:25 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 17 16:18 : client: [2] opened from 127.0.0.1:48304
+Jul 17 16:18 : client: [2] closed
+Jul 17 16:18 : client: [3] opened from 127.0.0.1:48308
+Jul 17 16:18 : client: [3] closed
+Jul 17 16:18 : client: [4] opened from 127.0.0.1:48312
+Jul 17 16:18 : client: [4] closed
+Jul 17 16:18 : client: [5] opened from 127.0.0.1:48318
+Jul 17 16:18 : client: [5] closed
+Jul 17 16:18 : client: [6] opened from 127.0.0.1:48324
+Jul 17 16:18 : client: [6] closed
+Jul 17 16:18 : client: [7] opened from 127.0.0.1:48336
+Jul 17 16:18 : client: [7] closed
+Jul 17 16:18 : client: [8] opened from 127.0.0.1:48340
+Jul 17 16:18 : client: [8] closed
+Jul 17 16:18 : client: [9] opened from 127.0.0.1:48344
+Jul 17 16:18 : client: [9] closed
+Jul 17 16:18 : client: [10] opened from 127.0.0.1:48348
+Jul 17 16:18 : client: [10] closed
+Jul 17 16:18 : client: [11] opened from 127.0.0.1:48352
+Jul 17 16:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 17 16:18 : client: [11] closed
+Jul 17 16:18 : client: [12] opened from 127.0.0.1:48356
+Jul 17 16:18 : client: [12] closed
+Jul 17 16:18 : client: [13] opened from 127.0.0.1:48360
+Jul 17 16:18 : client: [13] closed
+Jul 17 16:18 : client: [14] opened from 127.0.0.1:48364
+Jul 17 16:18 : client: [14] closed
+Jul 17 17:01 : client: [15] opened from 127.0.0.1:48816
+Jul 17 17:01 : client: [15] closed
+Jul 17 18:19 : client: [16] opened from 127.0.0.1:50318
+Jul 17 18:19 : client: [16] closed
+Jul 17 18:19 : client: [17] opened from 127.0.0.1:50322
+Jul 17 18:19 : client: [17] closed
+Jul 17 18:19 : client: [18] opened from 127.0.0.1:50326
+Jul 17 18:19 : client: [18] closed
+Jul 17 18:19 : client: [19] opened from 127.0.0.1:50330
+Jul 17 18:19 : client: [19] closed
+Jul 17 18:19 : client: [20] opened from 127.0.0.1:50334
+Jul 17 18:19 : client: [20] closed
+Jul 17 18:28 : client: [21] opened from 127.0.0.1:50374
+Jul 17 18:28 : client: [21] closed
+Jul 17 18:28 : client: [22] opened from 127.0.0.1:50378
+Jul 17 18:28 : client: [22] closed
+Jul 17 18:43 : player: played "Led Zeppelin/The Complete Studio Recordings/1-01 Good Times Bad Times.mp3"
+Jul 17 18:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 17 18:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 17 18:45 : client: [0] opened from 127.0.0.1:32930
+Jul 17 18:45 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 17 18:45 : exception: No such playlist
+Jul 17 18:45 : client: [0] closed
+Jul 17 18:45 : client: [1] opened from 127.0.0.1:32934
+Jul 17 18:45 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 17 21:01 : client: [1] closed
+Jul 17 21:01 : client: [2] opened from 127.0.0.1:34102
+Jul 17 21:13 : client: [3] opened from 127.0.0.1:34182
+Jul 17 21:13 : client: [3] closed
+Jul 17 21:13 : client: [4] opened from 127.0.0.1:34186
+Jul 17 21:13 : client: [4] closed
+Jul 17 21:53 : client: [5] opened from 127.0.0.1:34654
+Jul 17 21:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 17 21:55 : client: [5] closed
+Jul 17 21:57 : client: [6] opened from 127.0.0.1:34754
+Jul 17 21:57 : client: [6] closed
+Jul 17 21:57 : client: [7] opened from 127.0.0.1:34758
+Jul 17 21:57 : client: [7] closed
+Jul 17 21:59 : client: [8] opened from 127.0.0.1:34780
+Jul 17 22:00 : client: [8] closed
+Jul 17 22:00 : client: [9] opened from 127.0.0.1:34792
+Jul 17 22:00 : client: [9] closed
+Jul 17 22:01 : client: [10] opened from 127.0.0.1:34798
+Jul 17 22:02 : client: [10] closed
+Jul 17 22:02 : client: [11] opened from 127.0.0.1:34806
+Jul 17 22:03 : client: [11] closed
+Jul 17 22:03 : client: [12] opened from 127.0.0.1:34808
+Jul 17 22:03 : client: [12] closed
+Jul 17 22:04 : client: [13] opened from 127.0.0.1:34818
+Jul 17 22:04 : client: [13] closed
+Jul 17 23:58 : client: [14] opened from 127.0.0.1:36766
+Jul 17 23:58 : client: [14] closed
+Jul 18 00:43 : player: played "Led Zeppelin/The Complete Studio Recordings/7-06 Kashmir.mp3"
+Jul 18 00:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 18 00:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 18 00:45 : client: [0] opened from 127.0.0.1:54884
+Jul 18 00:45 : client: [1] opened from 127.0.0.1:54888
+Jul 18 00:45 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 18 00:45 : exception: No such playlist
+Jul 18 00:45 : client: [1] closed
+Jul 18 00:45 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 18 03:09 : player: played "Led Zeppelin/The Complete Studio Recordings/7-06 Kashmir.mp3"
+Jul 18 11:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 18 11:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 18 11:51 : client: [0] opened from 127.0.0.1:57316
+Jul 18 11:51 : client: [1] opened from 127.0.0.1:57320
+Jul 18 11:51 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 18 11:51 : exception: No such playlist
+Jul 18 11:51 : client: [1] closed
+Jul 18 11:51 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 18 17:41 : client: [0] closed
+Jul 18 17:41 : client: [2] opened from 127.0.0.1:33308
+Jul 18 17:41 : client: [3] opened from 127.0.0.1:33314
+Jul 18 17:41 : client: [3] closed
+Jul 18 17:41 : client: [4] opened from 127.0.0.1:33318
+Jul 18 17:41 : client: [4] closed
+Jul 18 17:41 : client: [5] opened from 127.0.0.1:33322
+Jul 18 17:42 : client: [5] closed
+Jul 18 17:42 : client: [6] opened from 127.0.0.1:33326
+Jul 18 17:42 : client: [6] closed
+Jul 18 17:42 : client: [2] closed
+Jul 18 17:42 : client: [7] opened from 127.0.0.1:33334
+Jul 18 17:42 : client: [8] opened from 127.0.0.1:33340
+Jul 18 17:43 : client: [8] closed
+Jul 18 17:43 : client: [9] opened from 127.0.0.1:33352
+Jul 18 17:43 : client: [9] closed
+Jul 18 17:43 : client: [7] closed
+Jul 18 17:43 : client: [10] opened from 127.0.0.1:33356
+Jul 18 17:43 : client: [11] opened from 127.0.0.1:33362
+Jul 18 17:43 : client: [11] closed
+Jul 18 17:44 : client: [10] closed
+Jul 18 17:44 : client: [12] opened from 127.0.0.1:33368
+Jul 18 17:44 : client: [13] opened from 127.0.0.1:33370
+Jul 18 17:44 : client: [12] closed
+Jul 18 17:44 : client: [14] opened from 127.0.0.1:33376
+Jul 18 17:44 : client: [14] closed
+Jul 18 17:44 : client: [15] opened from 127.0.0.1:33382
+Jul 18 17:44 : client: [15] closed
+Jul 18 17:44 : client: [16] opened from 127.0.0.1:33386
+Jul 18 17:44 : client: [16] closed
+Jul 18 17:44 : client: [13] closed
+Jul 18 17:44 : client: [17] opened from 127.0.0.1:33388
+Jul 18 17:45 : client: [17] closed
+Jul 18 17:45 : client: [18] opened from 127.0.0.1:33392
+Jul 18 17:45 : client: [18] closed
+Jul 18 17:45 : client: [19] opened from 127.0.0.1:33396
+Jul 18 17:45 : client: [19] closed
+Jul 18 17:45 : client: [20] opened from 127.0.0.1:33406
+Jul 18 17:45 : client: [21] opened from 127.0.0.1:33408
+Jul 18 17:45 : client: [20] closed
+Jul 18 17:45 : client: [22] opened from 127.0.0.1:33414
+Jul 18 17:45 : client: [22] closed
+Jul 18 17:46 : client: [21] closed
+Jul 18 17:46 : client: [23] opened from 127.0.0.1:33416
+Jul 18 17:46 : client: [24] opened from 127.0.0.1:33422
+Jul 18 17:46 : client: [24] closed
+Jul 18 17:46 : client: [25] opened from 127.0.0.1:33428
+Jul 18 17:46 : client: [26] opened from 127.0.0.1:33432
+Jul 18 17:46 : client: [27] opened from 127.0.0.1:33436
+Jul 18 17:46 : client: [27] closed
+Jul 18 17:46 : client: [26] closed
+Jul 18 17:46 : client: [25] closed
+Jul 18 17:47 : client: [23] closed
+Jul 18 17:47 : client: [28] opened from 127.0.0.1:33452
+Jul 18 17:47 : client: [28] closed
+Jul 18 17:47 : client: [29] opened from 127.0.0.1:33454
+Jul 18 17:47 : client: [30] opened from 127.0.0.1:33460
+Jul 18 17:47 : client: [30] closed
+Jul 18 17:47 : client: [31] opened from 127.0.0.1:33464
+Jul 18 17:47 : client: [31] closed
+Jul 18 17:47 : client: [32] opened from 127.0.0.1:33468
+Jul 18 17:47 : client: [32] closed
+Jul 18 17:47 : client: [29] closed
+Jul 18 17:47 : client: [33] opened from 127.0.0.1:33472
+Jul 18 17:47 : client: [34] opened from 127.0.0.1:33478
+Jul 18 17:47 : client: [34] closed
+Jul 18 17:47 : client: [35] opened from 127.0.0.1:33484
+Jul 18 17:47 : client: [33] closed
+Jul 18 17:47 : client: [35] closed
+Jul 18 17:47 : client: [36] opened from 127.0.0.1:33486
+Jul 18 17:47 : client: [37] opened from 127.0.0.1:33492
+Jul 18 17:47 : client: [37] closed
+Jul 18 17:47 : client: [38] opened from 127.0.0.1:33496
+Jul 18 17:47 : client: [38] closed
+Jul 18 17:47 : client: [36] closed
+Jul 18 17:47 : client: [39] opened from 127.0.0.1:33498
+Jul 18 17:47 : client: [40] opened from 127.0.0.1:33504
+Jul 18 17:47 : client: [40] closed
+Jul 18 17:48 : client: [39] closed
+Jul 18 17:48 : client: [41] opened from 127.0.0.1:33510
+Jul 18 17:48 : client: [42] opened from 127.0.0.1:33518
+Jul 18 17:48 : client: [42] closed
+Jul 18 17:48 : client: [41] closed
+Jul 18 17:48 : client: [43] opened from 127.0.0.1:33520
+Jul 18 17:48 : client: [44] opened from 127.0.0.1:33526
+Jul 18 17:48 : client: [44] closed
+Jul 18 17:54 : client: [45] opened from 127.0.0.1:33590
+Jul 18 17:55 : client: [45] closed
+Jul 18 17:55 : client: [43] closed
+Jul 18 17:55 : client: [46] opened from 127.0.0.1:33600
+Jul 18 17:56 : client: [47] opened from 127.0.0.1:33606
+Jul 18 17:56 : client: [47] closed
+Jul 18 17:56 : client: [48] opened from 127.0.0.1:33610
+Jul 18 17:56 : client: [48] closed
+Jul 18 17:56 : client: [49] opened from 127.0.0.1:33614
+Jul 18 17:56 : client: [49] closed
+Jul 18 17:56 : client: [46] closed
+Jul 18 17:56 : client: [50] opened from 127.0.0.1:33618
+Jul 18 17:56 : client: [51] opened from 127.0.0.1:33624
+Jul 18 17:57 : client: [51] closed
+Jul 18 17:57 : client: [50] closed
+Jul 18 17:57 : client: [52] opened from 127.0.0.1:33630
+Jul 18 17:57 : client: [53] opened from 127.0.0.1:33636
+Jul 18 17:57 : client: [53] closed
+Jul 18 17:58 : client: [52] closed
+Jul 18 17:58 : client: [54] opened from 127.0.0.1:33642
+Jul 18 17:58 : client: [54] closed
+Jul 18 17:58 : client: [55] opened from 127.0.0.1:33652
+Jul 18 18:01 : client: [55] closed
+Jul 18 18:01 : client: [56] opened from 127.0.0.1:33664
+Jul 18 18:02 : client: [56] closed
+Jul 18 18:02 : client: [57] opened from 127.0.0.1:33668
+Jul 18 18:04 : client: [57] closed
+Jul 18 18:04 : client: [58] opened from 127.0.0.1:33682
+Jul 18 18:04 : client: [59] opened from 127.0.0.1:33688
+Jul 18 18:04 : client: [59] closed
+Jul 18 18:05 : client: [60] opened from 127.0.0.1:33704
+Jul 18 18:05 : client: [60] closed
+Jul 18 18:05 : client: [58] closed
+Jul 18 18:05 : client: [61] opened from 127.0.0.1:33708

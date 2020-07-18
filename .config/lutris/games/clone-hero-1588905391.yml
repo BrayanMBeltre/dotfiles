@@ -1,4 +1,6 @@
 game:
   exe: /home/brayanmb07/Games/Clone Hero/clonehero
 linux: {}
-system: {}
+system:
+  env: {}
+  prefix_command: mangohud

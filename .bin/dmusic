@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+notify-send 'Music Download Started'
+youtube-dl --config-location ~/.config/youtube-dl/music  $@
+notify-send 'Music Download Finished'

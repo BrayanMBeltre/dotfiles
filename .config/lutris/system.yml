@@ -1,2 +1,4 @@
 system:
+  env:
+    MANGOHUD_DLSYM: '1'
   resolution: 1366x768

@@ -2,4 +2,6 @@ game:
   exe: /home/brayanmb07/Games/HDD/Hollow Knight/hollow_knight.exe
 system:
   aco: true
-wine: {}
+  prefix_command: mangohud
+wine:
+  version: lutris-fshack-5.7-x86_64

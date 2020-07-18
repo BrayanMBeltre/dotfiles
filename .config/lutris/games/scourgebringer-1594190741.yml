@@ -2,5 +2,7 @@ game:
   exe: /home/brayanmb07/Games/Scourge Bringer/ScourgeBringer.exe
 system:
   aco: true
+  prefix_command: mangohud
 wine:
-  version: lutris-fshack-5.7-x86_64
+  esync: true
+  version: lutris-lol-5.0-x86_64

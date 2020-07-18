@@ -4048,6 +4048,12 @@
   <resource identifier="Serto Urhoy Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="SF Fedora" checksum="(null)">
+  </resource>
+
+  <resource identifier="SF Fedora Shadow" checksum="(null)">
+  </resource>
+
   <resource identifier="SFNS Display" checksum="(null)">
   </resource>
 

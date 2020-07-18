@@ -1,5 +1,7 @@
 game:
+  arch: win32
   exe: /home/brayanmb07/Games/HDD/Victor Vran Overkill Edition/VictorVranSteam.exe
 system:
   aco: true
+  prefix_command: mangohud
 wine: {}
