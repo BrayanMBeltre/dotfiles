@@ -13,13 +13,15 @@ state_line_color = "black"
 
 # playlist
 playlist_display_mode = "classic"
-song_list_format = "{{%t}|{%f}}"
-now_playing_prefix = " $2$7$0 "
+autocenter_mode = yes
+song_list_format = "{{%t}|{%f}}{$R%l}"
+now_playing_prefix = " $4$9 " 
+now_playing_suffix = " $4$9 "
 
 # progressbar
 progressbar_look = "━|━"
-progressbar_elapsed_color = 7
-progressbar_color = 9
+progressbar_elapsed_color = 4
+progressbar_color = 8
 
 # statusbar
 statusbar_visibility = "no"
@@ -36,3 +38,7 @@ enable_window_title = "yes"
 external_editor = "subl"
 mouse_support = "yes"
 user_interface = "classic"
+
+
+
+
