@@ -86,7 +86,7 @@ alias l.="ls -A | egrep '^\.'"
 #configs
 alias zshconfig="subl ~/.zshrc &"
 alias i3config="subl ~/.i3/config &"
-alias kittyconfg="subl ~/.config/kitty/kitty.conf &"
+alias kittyconfig="subl ~/.config/kitty/kitty.conf &"
 alias dunstconfig="subl ~/.config/dunst/dunstrc &"
 alias polybarconfig="subl ~/.config/polybar/config &"
 alias zathuraconfig="subl ~/.config/zathura/zathurarc &"

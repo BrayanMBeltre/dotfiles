@@ -2766,3 +2766,333 @@ Jul 18 21:27 : client: [122] closed
 Jul 18 21:27 : client: [123] opened from 127.0.0.1:48874
 Jul 18 21:27 : client: [123] closed
 Jul 18 21:27 : client: [124] opened from 127.0.0.1:48884
+Jul 18 22:29 : client: [124] closed
+Jul 18 22:29 : client: [125] opened from 127.0.0.1:49534
+Jul 18 23:00 : client: [125] closed
+Jul 18 23:00 : client: [126] opened from 127.0.0.1:49932
+Jul 18 23:20 : client: [126] closed
+Jul 18 23:20 : client: [127] opened from 127.0.0.1:50200
+Jul 18 23:35 : client: [127] closed
+Jul 18 23:35 : client: [128] opened from 127.0.0.1:50400
+Jul 18 23:46 : client: [128] closed
+Jul 18 23:46 : client: [129] opened from 127.0.0.1:50588
+Jul 18 23:47 : client: [129] closed
+Jul 18 23:47 : client: [130] opened from 127.0.0.1:50596
+Jul 18 23:47 : client: [130] closed
+Jul 18 23:47 : client: [131] opened from 127.0.0.1:50602
+Jul 18 23:47 : client: [131] closed
+Jul 18 23:47 : client: [132] opened from 127.0.0.1:50606
+Jul 18 23:48 : client: [132] closed
+Jul 18 23:48 : client: [133] opened from 127.0.0.1:50626
+Jul 18 23:48 : client: [133] closed
+Jul 18 23:48 : client: [134] opened from 127.0.0.1:50630
+Jul 18 23:49 : client: [134] closed
+Jul 18 23:49 : client: [135] opened from 127.0.0.1:50646
+Jul 18 23:50 : client: [135] closed
+Jul 18 23:50 : client: [136] opened from 127.0.0.1:50650
+Jul 18 23:52 : client: [136] closed
+Jul 18 23:52 : client: [137] opened from 127.0.0.1:50694
+Jul 18 23:52 : client: [137] closed
+Jul 18 23:52 : client: [138] opened from 127.0.0.1:50700
+Jul 18 23:53 : client: [138] closed
+Jul 18 23:53 : client: [139] opened from 127.0.0.1:50724
+Jul 18 23:53 : client: [139] closed
+Jul 18 23:53 : client: [140] opened from 127.0.0.1:50732
+Jul 18 23:56 : client: [140] closed
+Jul 18 23:56 : client: [141] opened from 127.0.0.1:50864
+Jul 18 23:56 : client: [141] closed
+Jul 18 23:56 : client: [142] opened from 127.0.0.1:50868
+Jul 18 23:58 : client: [143] opened from 127.0.0.1:50946
+Jul 18 23:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 18 23:58 : client: [143] closed
+Jul 18 23:58 : client: [144] opened from 127.0.0.1:50950
+Jul 18 23:58 : client: [144] closed
+Jul 18 23:58 : client: [145] opened from 127.0.0.1:50954
+Jul 18 23:58 : client: [145] closed
+Jul 18 23:58 : client: [146] opened from 127.0.0.1:50958
+Jul 18 23:58 : client: [146] closed
+Jul 18 23:58 : client: [147] opened from 127.0.0.1:50962
+Jul 18 23:58 : client: [147] closed
+Jul 18 23:58 : client: [148] opened from 127.0.0.1:50966
+Jul 18 23:58 : client: [148] closed
+Jul 18 23:58 : client: [149] opened from 127.0.0.1:50970
+Jul 18 23:58 : client: [149] closed
+Jul 18 23:58 : client: [150] opened from 127.0.0.1:50974
+Jul 18 23:58 : client: [150] closed
+Jul 18 23:58 : client: [151] opened from 127.0.0.1:50978
+Jul 18 23:58 : client: [151] closed
+Jul 18 23:58 : client: [152] opened from 127.0.0.1:50982
+Jul 18 23:58 : client: [152] closed
+Jul 18 23:58 : client: [153] opened from 127.0.0.1:50986
+Jul 18 23:58 : client: [153] closed
+Jul 18 23:58 : client: [154] opened from 127.0.0.1:50992
+Jul 18 23:58 : client: [154] closed
+Jul 18 23:58 : client: [155] opened from 127.0.0.1:50996
+Jul 18 23:58 : client: [155] closed
+Jul 18 23:58 : client: [156] opened from 127.0.0.1:51000
+Jul 18 23:58 : client: [156] closed
+Jul 18 23:58 : client: [157] opened from 127.0.0.1:51004
+Jul 18 23:58 : client: [157] closed
+Jul 18 23:58 : client: [158] opened from 127.0.0.1:51008
+Jul 18 23:58 : client: [158] closed
+Jul 18 23:58 : client: [159] opened from 127.0.0.1:51012
+Jul 18 23:58 : client: [159] closed
+Jul 19 00:00 : player: played "Lukas Graham/Lukas Graham/01 7 Years.mp3"
+Jul 19 00:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 00:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 00:01 : client: [0] opened from 127.0.0.1:46008
+Jul 19 00:01 : client: [1] opened from 127.0.0.1:46012
+Jul 19 00:01 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 19 00:01 : exception: No such playlist
+Jul 19 00:01 : client: [1] closed
+Jul 19 00:01 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 19 00:04 : client: [2] opened from 127.0.0.1:46210
+Jul 19 00:04 : client: [2] closed
+Jul 19 00:04 : client: [3] opened from 127.0.0.1:46214
+Jul 19 00:04 : client: [3] closed
+Jul 19 00:04 : client: [4] opened from 127.0.0.1:46218
+Jul 19 00:04 : client: [4] closed
+Jul 19 00:04 : client: [5] opened from 127.0.0.1:46234
+Jul 19 00:04 : client: [5] closed
+Jul 19 00:07 : client: [0] closed
+Jul 19 00:07 : client: [6] opened from 127.0.0.1:46540
+Jul 19 00:07 : client: [7] opened from 127.0.0.1:46548
+Jul 19 00:07 : client: [7] closed
+Jul 19 00:07 : client: [8] opened from 127.0.0.1:46554
+Jul 19 00:07 : client: [8] closed
+Jul 19 00:08 : client: [6] closed
+Jul 19 00:08 : client: [9] opened from 127.0.0.1:46558
+Jul 19 00:08 : client: [9] closed
+Jul 19 00:08 : client: [10] opened from 127.0.0.1:46562
+Jul 19 00:10 : player: played "Lukas Graham/Lukas Graham/01 7 Years.mp3"
+Jul 19 00:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 00:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 00:12 : client: [0] opened from 127.0.0.1:58600
+Jul 19 00:12 : client: [1] opened from 127.0.0.1:58604
+Jul 19 00:12 : exception: Failed to open '/home/brayanmb07/.mpd/playlists/music.m3u': No such file or directory
+Jul 19 00:12 : exception: No such playlist
+Jul 19 00:12 : client: [1] closed
+Jul 19 00:12 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 19 00:13 : client: [2] opened from 127.0.0.1:58922
+Jul 19 00:13 : client: [2] closed
+Jul 19 00:18 : client: [0] closed
+Jul 19 00:18 : client: [3] opened from 127.0.0.1:59250
+Jul 19 00:19 : client: [3] closed
+Jul 19 00:19 : client: [4] opened from 127.0.0.1:59268
+Jul 19 00:27 : client: [5] opened from 127.0.0.1:59548
+Jul 19 00:27 : client: [5] closed
+Jul 19 00:27 : client: [6] opened from 127.0.0.1:59552
+Jul 19 00:27 : client: [6] closed
+Jul 19 00:27 : client: [7] opened from 127.0.0.1:59556
+Jul 19 00:27 : client: [7] closed
+Jul 19 00:27 : client: [8] opened from 127.0.0.1:59560
+Jul 19 00:27 : client: [8] closed
+Jul 19 00:27 : client: [9] opened from 127.0.0.1:59564
+Jul 19 00:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 00:27 : client: [9] closed
+Jul 19 00:27 : client: [10] opened from 127.0.0.1:59568
+Jul 19 00:27 : client: [10] closed
+Jul 19 00:27 : client: [11] opened from 127.0.0.1:59572
+Jul 19 00:27 : client: [11] closed
+Jul 19 00:27 : client: [12] opened from 127.0.0.1:59576
+Jul 19 00:27 : client: [12] closed
+Jul 19 00:27 : client: [13] opened from 127.0.0.1:59580
+Jul 19 00:27 : client: [13] closed
+Jul 19 00:27 : client: [14] opened from 127.0.0.1:59584
+Jul 19 00:27 : client: [14] closed
+Jul 19 00:27 : client: [15] opened from 127.0.0.1:59588
+Jul 19 00:27 : client: [15] closed
+Jul 19 00:27 : client: [16] opened from 127.0.0.1:59592
+Jul 19 00:27 : client: [16] closed
+Jul 19 00:27 : client: [17] opened from 127.0.0.1:59596
+Jul 19 00:27 : client: [17] closed
+Jul 19 00:27 : client: [18] opened from 127.0.0.1:59600
+Jul 19 00:27 : client: [18] closed
+Jul 19 00:27 : client: [19] opened from 127.0.0.1:59604
+Jul 19 00:27 : client: [19] closed
+Jul 19 00:27 : client: [20] opened from 127.0.0.1:59608
+Jul 19 00:27 : client: [20] closed
+Jul 19 00:27 : client: [21] opened from 127.0.0.1:59612
+Jul 19 00:27 : client: [21] closed
+Jul 19 00:27 : client: [22] opened from 127.0.0.1:59616
+Jul 19 00:27 : client: [22] closed
+Jul 19 00:27 : client: [23] opened from 127.0.0.1:59620
+Jul 19 00:27 : client: [23] closed
+Jul 19 00:27 : client: [24] opened from 127.0.0.1:59624
+Jul 19 00:27 : client: [24] closed
+Jul 19 00:27 : client: [25] opened from 127.0.0.1:59628
+Jul 19 00:27 : client: [25] closed
+Jul 19 00:27 : client: [26] opened from 127.0.0.1:59632
+Jul 19 00:27 : client: [26] closed
+Jul 19 00:27 : client: [27] opened from 127.0.0.1:59636
+Jul 19 00:27 : client: [27] closed
+Jul 19 00:27 : client: [28] opened from 127.0.0.1:59648
+Jul 19 00:27 : client: [28] closed
+Jul 19 00:29 : client: [29] opened from 127.0.0.1:59916
+Jul 19 00:29 : client: [29] closed
+Jul 19 00:29 : client: [30] opened from 127.0.0.1:59920
+Jul 19 00:29 : client: [30] closed
+Jul 19 00:29 : client: [31] opened from 127.0.0.1:59924
+Jul 19 00:29 : client: [31] closed
+Jul 19 00:29 : client: [32] opened from 127.0.0.1:59928
+Jul 19 00:29 : client: [32] closed
+Jul 19 00:29 : client: [33] opened from 127.0.0.1:59932
+Jul 19 00:29 : client: [33] closed
+Jul 19 00:29 : client: [34] opened from 127.0.0.1:59936
+Jul 19 00:29 : client: [34] closed
+Jul 19 00:29 : client: [35] opened from 127.0.0.1:59940
+Jul 19 00:29 : client: [35] closed
+Jul 19 00:30 : client: [36] opened from 127.0.0.1:59984
+Jul 19 00:30 : client: [36] closed
+Jul 19 00:39 : client: [4] closed
+Jul 19 00:39 : client: [37] opened from 127.0.0.1:60258
+Jul 19 00:40 : client: [37] closed
+Jul 19 00:40 : client: [38] opened from 127.0.0.1:60262
+Jul 19 00:55 : client: [38] closed
+Jul 19 00:55 : client: [39] opened from 127.0.0.1:60396
+Jul 19 01:01 : client: [40] opened from 127.0.0.1:60532
+Jul 19 01:01 : client: [40] closed
+Jul 19 01:01 : client: [41] opened from 127.0.0.1:60536
+Jul 19 01:01 : client: [41] closed
+Jul 19 01:01 : client: [42] opened from 127.0.0.1:60540
+Jul 19 01:01 : client: [42] closed
+Jul 19 01:07 : client: [39] closed
+Jul 19 01:07 : client: [43] opened from 127.0.0.1:60666
+Jul 19 01:07 : client: [43] closed
+Jul 19 01:07 : client: [44] opened from 127.0.0.1:60670
+Jul 19 01:10 : client: [44] closed
+Jul 19 01:10 : client: [45] opened from 127.0.0.1:60812
+Jul 19 01:15 : client: [45] closed
+Jul 19 01:15 : client: [46] opened from 127.0.0.1:60880
+Jul 19 01:15 : client: [46] closed
+Jul 19 01:15 : client: [47] opened from 127.0.0.1:60884
+Jul 19 01:17 : client: [47] closed
+Jul 19 01:17 : client: [48] opened from 127.0.0.1:60942
+Jul 19 01:17 : client: [48] closed
+Jul 19 01:17 : client: [49] opened from 127.0.0.1:60946
+Jul 19 01:17 : client: [49] closed
+Jul 19 01:17 : client: [50] opened from 127.0.0.1:60950
+Jul 19 01:22 : client: [50] closed
+Jul 19 01:22 : client: [51] opened from 127.0.0.1:60990
+Jul 19 01:28 : client: [51] closed
+Jul 19 01:28 : client: [52] opened from 127.0.0.1:33042
+Jul 19 01:29 : client: [52] closed
+Jul 19 01:29 : client: [53] opened from 127.0.0.1:33092
+Jul 19 01:33 : client: [53] closed
+Jul 19 01:33 : client: [54] opened from 127.0.0.1:33128
+Jul 19 01:34 : client: [54] closed
+Jul 19 01:34 : client: [55] opened from 127.0.0.1:33134
+Jul 19 01:35 : client: [55] closed
+Jul 19 01:35 : client: [56] opened from 127.0.0.1:33150
+Jul 19 01:46 : client: [56] closed
+Jul 19 01:46 : client: [57] opened from 127.0.0.1:33396
+Jul 19 01:46 : client: [57] closed
+Jul 19 01:46 : client: [58] opened from 127.0.0.1:33400
+Jul 19 01:46 : client: [58] closed
+Jul 19 01:46 : client: [59] opened from 127.0.0.1:33404
+Jul 19 01:51 : client: [59] closed
+Jul 19 01:51 : client: [60] opened from 127.0.0.1:33466
+Jul 19 01:51 : client: [60] closed
+Jul 19 01:51 : client: [61] opened from 127.0.0.1:33470
+Jul 19 01:51 : client: [61] closed
+Jul 19 01:51 : client: [62] opened from 127.0.0.1:33474
+Jul 19 01:54 : client: [62] closed
+Jul 19 01:54 : client: [63] opened from 127.0.0.1:33558
+Jul 19 01:59 : client: [63] closed
+Jul 19 01:59 : client: [64] opened from 127.0.0.1:33606
+Jul 19 02:11 : client: [64] closed
+Jul 19 02:11 : client: [65] opened from 127.0.0.1:33672
+Jul 19 02:11 : client: [65] closed
+Jul 19 02:11 : client: [66] opened from 127.0.0.1:33678
+Jul 19 02:13 : client: [66] closed
+Jul 19 02:13 : client: [67] opened from 127.0.0.1:33694
+Jul 19 02:17 : client: [67] closed
+Jul 19 02:17 : client: [68] opened from 127.0.0.1:34088
+Jul 19 02:19 : client: [68] closed
+Jul 19 02:19 : client: [69] opened from 127.0.0.1:34096
+Jul 19 02:19 : client: [69] closed
+Jul 19 02:19 : client: [70] opened from 127.0.0.1:34102
+Jul 19 02:19 : client: [70] closed
+Jul 19 02:19 : client: [71] opened from 127.0.0.1:34106
+Jul 19 02:19 : client: [71] closed
+Jul 19 02:19 : client: [72] opened from 127.0.0.1:34110
+Jul 19 02:20 : client: [72] closed
+Jul 19 02:20 : client: [73] opened from 127.0.0.1:34114
+Jul 19 02:20 : client: [73] closed
+Jul 19 02:20 : client: [74] opened from 127.0.0.1:34118
+Jul 19 02:20 : client: [74] closed
+Jul 19 02:20 : client: [75] opened from 127.0.0.1:34122
+Jul 19 02:22 : client: [75] closed
+Jul 19 02:22 : client: [76] opened from 127.0.0.1:34222
+Jul 19 02:24 : client: [76] closed
+Jul 19 02:24 : client: [77] opened from 127.0.0.1:34244
+Jul 19 02:24 : client: [77] closed
+Jul 19 02:24 : client: [78] opened from 127.0.0.1:34248
+Jul 19 02:25 : client: [79] opened from 127.0.0.1:34252
+Jul 19 02:25 : client: [79] closed
+Jul 19 02:25 : client: [80] opened from 127.0.0.1:34254
+Jul 19 02:25 : client: [80] closed
+Jul 19 02:25 : client: [81] opened from 127.0.0.1:34256
+Jul 19 02:25 : client: [81] closed
+Jul 19 02:25 : client: [82] opened from 127.0.0.1:34258
+Jul 19 02:25 : client: [82] closed
+Jul 19 02:28 : client: [78] closed
+Jul 19 02:28 : client: [83] opened from 127.0.0.1:34276
+Jul 19 02:28 : client: [84] opened from 127.0.0.1:34280
+Jul 19 02:28 : client: [84] closed
+Jul 19 02:28 : client: [85] opened from 127.0.0.1:34284
+Jul 19 02:28 : client: [85] closed
+Jul 19 02:31 : client: [83] closed
+Jul 19 02:31 : client: [86] opened from 127.0.0.1:34292
+Jul 19 02:31 : client: [87] opened from 127.0.0.1:34296
+Jul 19 02:31 : client: [87] closed
+Jul 19 02:31 : client: [88] opened from 127.0.0.1:34298
+Jul 19 02:31 : client: [88] closed
+Jul 19 02:31 : client: [86] closed
+Jul 19 02:31 : client: [89] opened from 127.0.0.1:34300
+Jul 19 02:39 : client: [89] closed
+Jul 19 02:39 : client: [90] opened from 127.0.0.1:34392
+Jul 19 02:40 : client: [90] closed
+Jul 19 02:40 : client: [91] opened from 127.0.0.1:34402
+Jul 19 02:40 : client: [91] closed
+Jul 19 02:40 : client: [92] opened from 127.0.0.1:34408
+Jul 19 02:41 : client: [92] closed
+Jul 19 02:41 : client: [93] opened from 127.0.0.1:34414
+Jul 19 02:44 : client: [93] closed
+Jul 19 02:44 : client: [94] opened from 127.0.0.1:34436
+Jul 19 02:45 : client: [94] closed
+Jul 19 02:45 : client: [95] opened from 127.0.0.1:34444
+Jul 19 02:46 : client: [95] closed
+Jul 19 02:46 : client: [96] opened from 127.0.0.1:34452
+Jul 19 02:47 : client: [96] closed
+Jul 19 02:47 : client: [97] opened from 127.0.0.1:34460
+Jul 19 02:47 : client: [97] closed
+Jul 19 02:47 : client: [98] opened from 127.0.0.1:34468
+Jul 19 02:47 : client: [98] closed
+Jul 19 02:47 : client: [99] opened from 127.0.0.1:34474
+Jul 19 02:48 : client: [99] closed
+Jul 19 02:48 : client: [100] opened from 127.0.0.1:34482
+Jul 19 02:49 : client: [100] closed
+Jul 19 02:49 : client: [101] opened from 127.0.0.1:34488
+Jul 19 02:49 : client: [101] closed
+Jul 19 02:49 : client: [102] opened from 127.0.0.1:34492
+Jul 19 02:49 : client: [102] closed
+Jul 19 02:49 : client: [103] opened from 127.0.0.1:34496
+Jul 19 02:50 : client: [103] closed
+Jul 19 02:50 : client: [104] opened from 127.0.0.1:34502
+Jul 19 02:50 : client: [104] closed
+Jul 19 02:50 : client: [105] opened from 127.0.0.1:34508
+Jul 19 02:53 : client: [105] closed
+Jul 19 02:53 : client: [106] opened from 127.0.0.1:34560
+Jul 19 02:56 : client: [106] closed
+Jul 19 02:56 : client: [107] opened from 127.0.0.1:34580
+Jul 19 02:56 : client: [107] closed
+Jul 19 02:56 : client: [108] opened from 127.0.0.1:34588
+Jul 19 02:57 : client: [108] closed
+Jul 19 02:57 : client: [109] opened from 127.0.0.1:34592
+Jul 19 02:57 : client: [109] closed
+Jul 19 02:57 : client: [110] opened from 127.0.0.1:34600
+Jul 19 02:57 : client: [110] closed
+Jul 19 02:57 : client: [111] opened from 127.0.0.1:34606
+Jul 19 02:58 : client: [111] closed
+Jul 19 02:58 : client: [112] opened from 127.0.0.1:34616

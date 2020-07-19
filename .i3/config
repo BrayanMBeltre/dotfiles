@@ -34,7 +34,7 @@ bindsym $mod+Shift+q kill
 
 # start program launcher
 #bindsym $mod+d exec --no-startup-id dmenu_recency
-bindsym $mod+d exec ~/.config/rofi/launchers/launcher.sh
+bindsym $mod+d exec ~/.config/rofi/scripts/launcher.sh
 #bindsym $mod+d exec ~/.bin/launcher
 
 # launch categorized menu
@@ -239,7 +239,7 @@ for_window [class="Xfburn"] floating enable
 for_window [title="gotop"] floating enable resize set 759 568
 for_window [class="Xarchiver"] floating enable
 for_window [class="ark"] floating enable
-for_window [title="player-ncmpcpp"] floating enable resize set 430 350, move absolute position 20 px 30 px
+for_window [title="player-ncmpcpp"] floating enable, resize set 430 350, move absolute position 20 px 30 px
 for_window [class="Wine"] fullscreen enable
 for_window [class="File-roller"] floating enable border pixel 1
 for_window [class="Blueman-managerz"] floating enable border pixel 1
@@ -264,7 +264,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec ~/.config/rofi/scripts/menu_powermenu.sh
+bindsym $mod+Shift+e exec ~/.config/rofi/scripts/powermenu.sh
 
 # lockscreen
 bindsym $mod+l exec ~/.bin/lockScreen
@@ -338,45 +338,24 @@ exec --no-startup-id udiskie --no-automount --no-notify --tray
 exec --no-startup-id mconnect
 exec --no-startup-id pcmanfm -d
 
-# Color palette used for the kitty ( ~/.Xresources file )
-# Colors are gathered based on the documentation:
-# https://i3wm.org/docs/userguide.html#xresources
-# Change the variable name at the place you want to match the color
-# of your kitty like this:
-# [example]
-# If you want your bar to have the same background color as your 
-# kitty background change the line 362 from:
-# background #14191D
-# to:
-# background $term_background
-# Same logic applied to everything else.
-set_from_resource $term_background background
-set_from_resource $term_foreground foreground
-set_from_resource $term_color0     color0
-set_from_resource $term_color1     color1
-set_from_resource $term_color2     color2
-set_from_resource $term_color3     color3
-set_from_resource $term_color4     color4
-set_from_resource $term_color5     color5
-set_from_resource $term_color6     color6
-set_from_resource $term_color7     color7
-set_from_resource $term_color8     color8
-set_from_resource $term_color9     color9
-set_from_resource $term_color10    color10
-set_from_resource $term_color11    color11
-set_from_resource $term_color12    color12
-set_from_resource $term_color13    color13
-set_from_resource $term_color14    color14
-set_from_resource $term_color15    color15
+##################################
+### Set colors from Xresources ###
+##################################
+# Change 'color7' and 'color2' to whatever colors you want i3 to use 
+# from the generated scheme.
+# NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
+# it fails to get colors from Xresources.
+set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $bg i3wm.color2 #f0f0f0
 
-# Theme colors
-# class                   border  backgr. text    indic.   child_border
-client.focused          #556064 #d79921 #80FFF9 #FDF6E3
-client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
-client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
-client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
-client.placeholder      #000000 #0c0c0c #ffffff #000000 
-client.background       #2B2C2B
+# class                 border  backgr. text indicator child_border
+client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused_inactive $bg     $bg     $fg  $bg       $bg
+client.unfocused        $bg     $bg     $fg  $bg       $bg
+client.urgent           $bg     $bg     $fg  $bg       $bg
+client.placeholder      $bg     $bg     $fg  $bg       $bg
+
+client.background       $bg
 
 #############################
 ### settings for i3-gaps: ###

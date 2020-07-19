@@ -8,37 +8,37 @@
  */
 
 configuration {
-    drun-display-format: "{icon} {name}";
-    display-drun: "Applications";
-	show-icons: true;
-	icon-theme: "Papirus";
-	location: 0;
-	yoffset: 0;
-    xoffset: 0;
-	columns: 2;
-	fake-transparency: false;
-	hide-scrollbar: true;
-	bw: 0;
-    fullscreen: false;
-    show-icons: true;
-	terminal: "termite";
-	sidebar-mode: false;
+  drun-display-format: "{icon} {name}";
+  display-drun: "Applications";
+  show-icons: true;
+  icon-theme: "Papirus";
+  location: 0;
+  yoffset: 0;
+  xoffset: 0;
+  columns: 2;
+  fake-transparency: false;
+  hide-scrollbar: true;
+  bw: 0;
+  fullscreen: false;
+  show-icons: true;
+  terminal: "termite";
+  sidebar-mode: false;
 }
-
-@import "colors.rasi"
 
 * {
-  text-font:                            "Iosevka 12";
+  text-font: "Iosevka 12";
 
-  inputbar-margin:                      3px 3px;
-  prompt-padding:                       10px 10px;
-  entry-padding:                        10px 0px 10px 0px;
-  list-element-padding:                 10px;
-  list-element-margin:                  @inputbar-margin;
-  list-element-border:                  0px 0px 0px 4px;
+  inputbar-margin: 3px 3px;
+  prompt-padding: 10px 10px;
+  entry-padding: 10px 0px 10px 0px;
+  list-element-padding: 10px;
+  list-element-margin: @inputbar-margin;
+  list-element-border: 0px 0px 0px 4px;
 
-  apps-textbox-prompt-colon-padding:    10px -5px 0px 0px;
+  apps-textbox-prompt-colon-padding: 10px -5px 0px 0px;
 }
+
+@import "~/.cache/wal/colors-rofi-dark.rasi" 
 
 #window {
   width: 50%;

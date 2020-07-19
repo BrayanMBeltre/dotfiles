@@ -7,31 +7,35 @@
  *
  */
 
-@import "colors.rasi"
-
 /* ########### */
 
 * {
   /* General */
-  text-font:                            "Comfortaa 12";
-  icon-font:                            "Hurmit Nerd Font Mono 32";
-  icon-font-small:                      "Hurmit Nerd Font Mono 24";
+  text-font: "Comfortaa 14";
+  icon-font: "Hurmit Nerd Font Mono 48";
+  icon-font-small: "Hurmit Nerd Font Mono 24";
 
-  option-6-listview-spacing:            10px;
+  option-6-listview-spacing: 10px;
 
-  menu-window-padding:                   5px 15px;
-  menu-inputbar-margin:                  10px 0px;
-  menu-prompt-padding:                   10px 20px 10px 20px;
-  menu-prompt-margin:                    0px 0px 0px -2px;
-  menu-element-border:                   10px;
-  menu-element-padding:                  3px 8px -1px -40px;
+  menu-window-padding: 25px 35px;
+  menu-inputbar-margin: 10px 0px;
+  menu-prompt-padding: 10px 20px 10px 20px;
+  menu-prompt-margin: 0px 0px 0px -2px;
+  menu-element-border: 9px;
+  menu-element-padding: 25px 35px 20px -40px;
 }
+
+@import "~/.cache/wal/colors-rofi-dark.rasi"
 
 /* ########### */
 
 #window {
-  width: 29%;
-  height: 20%;
+  width: 46%;
+  height: 33%;
+  anchor: center;
+  location: center;
+  x-offset: 0%;
+  y-offset: 0%;
 }
 
 /* ########### */
@@ -92,7 +96,7 @@ textbox-prompt-colon {
 }
 #listview {
   spacing: @option-6-listview-spacing;
-  lines: 5;
+  lines: 4;
 }
 #element {
   font: @icon-font;
@@ -121,4 +125,3 @@ element.selected.active {
 element.selected.active {
   border-color: @accent;
 }
-

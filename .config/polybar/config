@@ -14,17 +14,13 @@
 ;==========================================================
 
 [color]
-background = #282828
-foreground = #ebdbb2
-foreground-light = #BBA590
-red = #cc241d
-green = #43B581
-blue = #3A71C1
-cyan = #00bcd4
-yellow = #d79921
-white = #FFFFFF
-black = #000000
-trans = #00000000
+background = ${xrdb:color0:#222}
+foreground = ${xrdb:color7:#222}
+red = ${xrdb:color1:#222}
+green = ${xrdb:color2:#222}
+blue = ${xrdb:color4:#222}
+yellow = ${xrdb:color3:#222}
+
 
 ;==========================================================
 
@@ -85,17 +81,6 @@ modules-right = updates_i updates battery backlight volume date
 
 ;== Modules ========================================================
 
-[module/title]
-type = internal/xwindow
-
-format = <label>
-format-foreground = ${color.foreground}
-
-label = %title%
-label-maxlen = 40
-
-;========================================================
-
 [module/polywins]
 type = custom/script
 exec = ~/.config/polybar/scripts/polywins.sh 2>/dev/null
@@ -103,14 +88,6 @@ format = <label>
 label = %output%
 label-padding = 1
 interval = .5
-
-[module/polybar-windows]
-type = custom/script
-exec = ~/.config/polybar/scripts/polybar-windows.sh 2>/dev/null
-format = <label>
-label = %output%
-label-padding = 1
-interval = 0.1
 
 ;========================================================
 
@@ -198,10 +175,12 @@ label-offline = "MPD is offline"
 
 label-song = "%artist% - %title%" 
 
-icon-next =   
-;icon-prev =   
-icon-play =   
-icon-pause =   
+;icon-next =   
+;icon-prev =  
+icon-play = 
+icon-pause = 
+;icon-play =   
+;sicon-pause =   
 ;icon-stop =   
 
 label-song-maxlen = 25

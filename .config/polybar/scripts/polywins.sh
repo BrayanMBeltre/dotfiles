@@ -1,14 +1,17 @@
 #!/bin/sh
 # POLYWINS
 
+# Import the colors.
+. "${HOME}/.cache/wal/colors.sh"
+
 # SETTINGS {{{ ---
 
-active_text_color="#d79921"
+active_text_color="$color3"
 active_underline="true"
-active_underline_color="#d79921"
-inactive_text_color="#ebdbb2"
+active_underline_color="$color3"
+inactive_text_color="$color7"
 inactive_underline="false"
-inactive_underline_color="#F1EF7D"
+inactive_underline_color="$color4"
 separator="|"
 show="window_class" # options: window_title, window_class, window_classname
 char_limit=20       # useful with window_title
