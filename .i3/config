@@ -83,7 +83,7 @@ bindsym Print --release exec --no-startup-id flameshot gui && flameshot full -p 
 #bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Shift+x --release exec --no-startup-id xkill
-bindsym Ctrl+Shift+Escape exec kitty -e gotop
+bindsym Ctrl+Shift+Escape exec kitty -e htop
 
 # focus_follows_mouse no
 
@@ -223,22 +223,11 @@ for_window [class="Lxappearance"] floating enable sticky enable border pixel 1
 for_window [class="Manjaro-hello"] floating enable
 for_window [class="Manjaro Settings Manager"] floating enable border pixel 1
 for_window [title="MuseScore: Play Panel"] floating enable
-for_window [class="Nitrogen"] floating enable sticky enable border pixel 1
-for_window [class="Oblogout"] fullscreen enable
-for_window [class="octopi"] floating enable
 for_window [class="Pamac-manager"] floating enable
 for_window [class="Pavucontrol"] floating enable resize set 640 480
-for_window [class="qt5ct"] floating enable sticky enable border pixel 1
-for_window [class="Qtconfig-qt4"] floating enable sticky enable border pixel 1
-for_window [class="Simple-scan"] floating enable border pixel 1
-for_window [class="(?i)System-config-printer.py"] floating enable border pixel 1
-for_window [class="Skype"] floating enable border pixel 1
 for_window [class="Timeset-gui"] floating enable border pixel 1
 for_window [class="(?i)virtualbox"] floating enable border pixel 1
-for_window [class="Xfburn"] floating enable
-for_window [title="gotop"] floating enable resize set 759 568
-for_window [class="Xarchiver"] floating enable
-for_window [class="ark"] floating enable
+for_window [title="htop"] floating enable resize set 759 568
 for_window [title="player-ncmpcpp"] floating enable, resize set 430 350, move absolute position 20 px 30 px
 for_window [class="Wine"] fullscreen enable
 for_window [class="File-roller"] floating enable border pixel 1
@@ -307,49 +296,45 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
-# Autostart applications
+##############################
+### Autostart applications ###
+##############################
+
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec_always --no-startup-id $HOME/.config/feh/bg-slideshow.sh
-#exec_always --no-startup-id wal -i ~/Pictures/Wallpapers
+exec --no-startup-id wal -R
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id blueman-applet
-exec_always --no-startup-id pamac-tray
-# exec_always --no-startup-id sbxkb
-# exec --no-startup-id start_conky_maia
-# exec --no-startup-id start_conky_green
-#exec --no-startup-id xautolock -time 5 -locker ~/.bin/lock
 exec --no-startup-id ~/.bin/locker
-#exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-#exec --no-startup-id google-chrome-stable
 exec firefox
 exec --no-startup-id xinput --set-prop "Synaptics TM3096-006" "libinput Natural Scrolling Enabled" 0
 exec --no-startup-id picom --experimental-backend -b
 exec_always $HOME/.config/polybar/launch.sh
 exec --no-startup-id mpd
-exec --no-startup-id kitty mpc load music
 exec --no-startup-id fusuma
 for_window [class="discord"] move container to workspace 5
 exec discord
-##exec --no-startup-id ulauncher --hide-window
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
-exec --no-startup-id udiskie --no-automount --no-notify --tray
 exec --no-startup-id mconnect
 exec --no-startup-id pcmanfm -d
+exec --no-startup-id redshift
 
 ##################################
 ### Set colors from Xresources ###
 ##################################
+
 # Change 'color7' and 'color2' to whatever colors you want i3 to use 
 # from the generated scheme.
 # NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
 # it fails to get colors from Xresources.
 set_from_resource $fg i3wm.color7 #f0f0f0
 set_from_resource $bg i3wm.color2 #f0f0f0
+set_from_resource $ac i3wm.color3 #f0f0f0
 
 # class                 border  backgr. text indicator child_border
-client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused          $bg     $bg     $fg  $bg       $ac
 client.focused_inactive $bg     $bg     $fg  $bg       $bg
 client.unfocused        $bg     $bg     $fg  $bg       $bg
 client.urgent           $bg     $bg     $fg  $bg       $bg

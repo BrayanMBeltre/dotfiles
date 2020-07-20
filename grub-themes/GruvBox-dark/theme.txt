@@ -1,0 +1,64 @@
+#GruvBoxDark grub2 theme
+#Based On https://www.gnome-look.org/p/1177401/ and Mechanics
+
+# Global Property
+title-text: ""
+desktop-color: "#282828"
+desktop-image: "background.png"
+terminal-box: "terminal_box_*.png"
+terminal-font: "Gnu Unifont Mono Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Show the boot menu
++ boot_menu {
+  left = 10%
+  width = 80%
+  top = 25%
+  height = 50%
+
+  item_font = "DejaVu Sans Bold 12"
+  item_color = "#ebdbb2"
+  item_height = 32
+  item_icon_space = 8
+  item_spacing = 2
+
+  selected_item_font = "DejaVu Sans Bold 12"
+  selected_item_color= "#282828"
+  selected_item_pixmap_style = "select_*.png"
+
+  icon_height = 32
+  icon_width = 32
+
+  scrollbar = true
+  scrollbar_width = 20
+  scrollbar_thumb = "slider_*.png"
+}
+
+# Show a countdown message using the label component
++ progress_bar {
+  id = "__timeout__"
+
+  left = 15%
+  top = 85%
+  height = 15
+  width = 70%
+
+  # font = "DejaVu Sans Regular 12"
+
+  # text_color = "#ebdbb2"
+  fg_color = "#d79921"
+
+  bg_color = "#282828"
+  border_color = "#282828"
+
+  # instead of the above colors, use pixmaps
+  # bar_style = "progress_bar_*.png"
+  # highlight_style = "progress_highlight_*.png"
+
+  # text = "@TIMEOUT_NOTIFICATION_LONG@"
+}
+

@@ -1,0 +1,6 @@
+game:
+  exe: /home/brayanmb07/Games/Pathway/Pathway.exe
+system:
+  prefix_command: mangohud
+wine:
+  version: system

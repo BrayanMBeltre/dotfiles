@@ -1,43 +1,21 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-#if [[ -r "${XDG_CACHE_HOME:-$HOMEby/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-#  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-#fi
+# Theme
+ZSH_THEME=agnoster
 
 # default_browser
 export BROWSER=/usr/bin/firefox
 
-#export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="/home/brayanmb07/.oh-my-zsh"
 
-# Set name of the theme to load
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
-# Uncomment the following line to change how often to auto-update (in days).
+# Auto-update (in days).
 export UPDATE_ZSH_DAYS=2
 
 # Which plugins would you like to load?
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-256color bgnotify)
 
-#autoload -U compinit && compinit
-#zstyle ':completion:*' rehash tru
-
-source $ZSH/oh-my-zsh.sh
+skip_global_compinit=1
 
 ### User configuration ###
-
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
-
-#export HISTCONTROL=ignoreboth:erasedups
-#PS1='[\u@\h \W]\$ '
 
 if [ -d "$HOME/.bin" ]; then
   PATH="$HOME/.bin:$PATH"
@@ -85,7 +63,7 @@ alias l.="ls -A | egrep '^\.'"
 
 #configs
 alias zshconfig="subl ~/.zshrc &"
-alias i3config="subl ~/.i3/config &"
+alias i3config="subl ~/.config/i3/config &"
 alias kittyconfig="subl ~/.config/kitty/kitty.conf &"
 alias dunstconfig="subl ~/.config/dunst/dunstrc &"
 alias polybarconfig="subl ~/.config/polybar/config &"
@@ -117,7 +95,7 @@ alias vlc='devour vlc'
 alias mute='amixer -q -D pulse sset Master toggle'
 #alias dmusic='youtube-dl --config-location ~/.config/youtube-dl/music'
 #alias dvideo='youtube-dl --config-location ~/.config/youtube-dl/video'
-alias ristretto='devour ristretto'
+alias viewnior='devour ristretto'
 alias zathura='devour zathura'
 #legendary epic games cli
 alias epiclist='legendary list-games'
@@ -138,9 +116,6 @@ alias color='colorpicker --short --one-shot | xsel -b'
 alias dependencies="expac -l '\n' %E -S '$2' | sort -u"
 alias lightdm='dm-tool switch-to-greeter'
 
-
-
-
 #For Fun
 alias noti='notify-send -i /usr/share/icons/manjaro-i3.png "Manjaro!!"'
 alias acuarium='asciiquarium'
@@ -148,33 +123,16 @@ alias tt='tt'
 
 ### Aliases ###
 
-export LESS=-R
-export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
-export LESS_TERMCAP_md=$'\E[1;36m'     # begin bold
-export LESS_TERMCAP_me=$'\E[0m'        # reset bold/blink
-export LESS_TERMCAP_so=$'\E[01;44;33m' # begin reverse video
-export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
-export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
-export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
-
 #for man
 man() {
   LESS_TERMCAP_md=$'\e[01;31m' \
     LESS_TERMCAP_me=$'\e[0m' \
     LESS_TERMCAP_se=$'\e[0m' \
     LESS_TERMCAP_so=$'\e[01;44;33m' \
-    LESS_TERMCAP_ue=$'\e[0m' \
+    LESS_TERMCAP_ue=$'\[e0m' \
     LESS_TERMCAP_us=$'\e[01;32m' \
     command man "$@"
 }
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-###-tns-completion-start-###
-if [ -f /home/brayanmb07/.tnsrc ]; then
-  source /home/brayanmb07/.tnsrc
-fi
-###-tns-completion-end-###
-
-export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:'
+source $ZSH/oh-my-zsh.sh
