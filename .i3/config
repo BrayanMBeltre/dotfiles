@@ -319,7 +319,7 @@ exec discord
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
 exec --no-startup-id mconnect
 exec --no-startup-id pcmanfm -d
-exec --no-startup-id redshift
+exec --no-startup-id redshift-gtk
 
 ##################################
 ### Set colors from Xresources ###

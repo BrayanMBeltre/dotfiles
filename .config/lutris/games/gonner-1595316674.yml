@@ -1,0 +1,8 @@
+game:
+  exe: /home/brayanmb07/Games/GoNNER/Gonner.exe
+system:
+  gamemode: true
+  prefix_command: mangohud
+wine:
+  esync: false
+  fsync: false

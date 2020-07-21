@@ -265,7 +265,7 @@ animation-charging-framerate = 750
 ;==========================================================
 
 [module/volume]
-type = internal/alsa
+type = internal/pulseaudio
 speaker-mixer = Speaker
 headphone-mixer = Headphone
 headphone-id = 16

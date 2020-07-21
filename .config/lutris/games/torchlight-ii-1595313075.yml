@@ -1,0 +1,8 @@
+game:
+  exe: /home/brayanmb07/Games/Torchlight2/Torchlight2.exe
+system:
+  prefix_command: mangohud
+wine:
+  esync: true
+  fsync: false
+  version: system

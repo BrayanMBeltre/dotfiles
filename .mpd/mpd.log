@@ -3238,3 +3238,38 @@ Jul 20 03:02 : exception: OutputThread could not get realtime scheduling, contin
 Jul 20 03:02 : client: [0] opened from 127.0.0.1:41938
 Jul 20 03:02 : client: [0] closed
 Jul 20 03:02 : client: [1] opened from 127.0.0.1:41940
+Jul 20 13:50 : client: [1] closed
+Jul 20 13:50 : client: [2] opened from 127.0.0.1:47728
+Jul 20 13:50 : client: [2] closed
+Jul 20 13:50 : client: [3] opened from 127.0.0.1:47732
+Jul 20 14:00 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 20 14:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 20 14:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 20 14:27 : client: [0] opened from 127.0.0.1:53850
+Jul 20 14:27 : client: [0] closed
+Jul 20 14:27 : client: [1] opened from 127.0.0.1:53854
+Jul 20 14:29 : client: [1] closed
+Jul 20 14:29 : client: [2] opened from 127.0.0.1:54150
+Jul 20 14:34 : client: [3] opened from 127.0.0.1:54242
+Jul 20 14:34 : client: [3] closed
+Jul 20 14:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 20 14:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 20 14:35 : client: [0] opened from 127.0.0.1:54260
+Jul 20 14:35 : client: [0] closed
+Jul 20 14:35 : client: [1] opened from 127.0.0.1:54264
+Jul 20 14:42 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 20 21:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 20 21:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 20 21:35 : client: [0] opened from 127.0.0.1:37550
+Jul 20 21:35 : client: [0] closed
+Jul 20 21:35 : client: [1] opened from 127.0.0.1:37554
+Jul 20 22:01 : client: [2] opened from 127.0.0.1:38442
+Jul 20 22:01 : client: [2] closed
+Jul 20 22:01 : client: [3] opened from 127.0.0.1:38446
+Jul 20 22:01 : client: [3] closed
+Jul 20 23:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 20 23:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 20 23:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 20 23:35 : client: [0] opened from 127.0.0.1:39978
+Jul 20 23:35 : client: [0] closed
+Jul 20 23:35 : client: [1] opened from 127.0.0.1:39982
