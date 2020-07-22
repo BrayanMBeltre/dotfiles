@@ -13,8 +13,6 @@ export UPDATE_ZSH_DAYS=2
 # Which plugins would you like to load?
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-256color bgnotify)
 
-skip_global_compinit=1
-
 ### User configuration ###
 
 if [ -d "$HOME/.bin" ]; then
@@ -50,7 +48,11 @@ ex() {
   fi
 }
 
-source $HOME/.aliases
+ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
+if [[ ! -d $ZSH_CACHE_DIR ]]; then
+  mkdir $ZSH_CACHE_DIR
+fi
+#=
 
 #for man
 man() {
@@ -65,3 +67,4 @@ man() {
 
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.profile

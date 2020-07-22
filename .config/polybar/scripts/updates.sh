@@ -40,7 +40,7 @@ while true; do
     # and network uptime, only checking once every 30 min for new updates
     while ((UPDATES == 0)); do
         echo $BAR_ICON
-        sleep 3600
+        sleep 1800
         get_total_updates
     done
 done

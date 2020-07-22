@@ -3273,3 +3273,223 @@ Jul 20 23:35 : exception: OutputThread could not get realtime scheduling, contin
 Jul 20 23:35 : client: [0] opened from 127.0.0.1:39978
 Jul 20 23:35 : client: [0] closed
 Jul 20 23:35 : client: [1] opened from 127.0.0.1:39982
+Jul 21 04:57 : client: [2] opened from 127.0.0.1:49064
+Jul 21 04:57 : client: [2] closed
+Jul 21 05:00 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 05:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 05:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 05:10 : client: [0] opened from 127.0.0.1:43052
+Jul 21 05:10 : client: [0] closed
+Jul 21 05:10 : client: [1] opened from 127.0.0.1:43056
+Jul 21 01:40 : client: [1] closed
+Jul 21 01:40 : client: [2] opened from 127.0.0.1:44608
+Jul 21 01:40 : client: [2] closed
+Jul 21 01:40 : client: [3] opened from 127.0.0.1:44692
+Jul 21 01:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 01:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 01:43 : client: [0] opened from 127.0.0.1:44802
+Jul 21 01:43 : client: [0] closed
+Jul 21 01:43 : client: [1] opened from 127.0.0.1:44806
+Jul 21 01:54 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 05:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 05:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 05:55 : client: [0] opened from 127.0.0.1:46488
+Jul 21 05:55 : client: [0] closed
+Jul 21 05:55 : client: [1] opened from 127.0.0.1:46494
+Jul 21 05:55 : client: [2] opened from 127.0.0.1:46566
+Jul 21 05:55 : client: [2] closed
+Jul 21 05:55 : client: [3] opened from 127.0.0.1:46570
+Jul 21 05:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 05:55 : client: [3] closed
+Jul 21 05:55 : client: [4] opened from 127.0.0.1:46574
+Jul 21 05:55 : client: [4] closed
+Jul 21 05:55 : client: [5] opened from 127.0.0.1:46578
+Jul 21 05:55 : client: [5] closed
+Jul 21 01:55 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 05:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 05:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 05:56 : client: [0] opened from 127.0.0.1:53978
+Jul 21 05:56 : client: [0] closed
+Jul 21 05:56 : client: [1] opened from 127.0.0.1:53982
+Jul 21 02:05 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 06:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:06 : client: [0] opened from 127.0.0.1:39130
+Jul 21 06:06 : client: [0] closed
+Jul 21 06:06 : client: [1] opened from 127.0.0.1:39134
+Jul 21 06:06 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 06:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:07 : client: [0] opened from 127.0.0.1:36304
+Jul 21 06:07 : client: [0] closed
+Jul 21 06:07 : client: [1] opened from 127.0.0.1:36310
+Jul 21 02:24 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 06:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:25 : client: [0] opened from 127.0.0.1:60144
+Jul 21 06:25 : client: [0] closed
+Jul 21 06:25 : client: [1] opened from 127.0.0.1:60148
+Jul 21 02:28 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 06:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:32 : client: [0] opened from 127.0.0.1:45104
+Jul 21 06:32 : client: [0] closed
+Jul 21 06:32 : client: [1] opened from 127.0.0.1:45106
+Jul 21 06:33 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 06:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:33 : client: [0] opened from 127.0.0.1:44202
+Jul 21 06:33 : client: [0] closed
+Jul 21 06:33 : client: [1] opened from 127.0.0.1:44206
+Jul 21 02:35 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 06:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:36 : client: [0] opened from 127.0.0.1:51138
+Jul 21 06:36 : client: [0] closed
+Jul 21 06:36 : client: [1] opened from 127.0.0.1:51140
+Jul 21 06:37 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 06:38 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:38 : client: [0] opened from 127.0.0.1:56458
+Jul 21 06:38 : client: [0] closed
+Jul 21 06:38 : client: [1] opened from 127.0.0.1:56460
+Jul 21 06:38 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 06:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:40 : client: [0] opened from 127.0.0.1:58274
+Jul 21 06:40 : client: [0] closed
+Jul 21 06:40 : client: [1] opened from 127.0.0.1:58276
+Jul 21 06:44 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 06:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 06:49 : client: [0] opened from 127.0.0.1:46844
+Jul 21 06:49 : client: [0] closed
+Jul 21 06:49 : client: [1] opened from 127.0.0.1:46850
+Jul 21 03:02 : client: [1] closed
+Jul 21 03:02 : client: [2] opened from 127.0.0.1:47404
+Jul 21 03:33 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 07:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 07:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 07:34 : client: [0] opened from 127.0.0.1:52814
+Jul 21 07:34 : client: [0] closed
+Jul 21 07:34 : client: [1] opened from 127.0.0.1:52820
+Jul 21 04:12 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 11:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 11:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 11:23 : client: [0] opened from 127.0.0.1:60818
+Jul 21 11:23 : client: [0] closed
+Jul 21 11:23 : client: [1] opened from 127.0.0.1:60820
+Jul 21 11:24 : client: [1] closed
+Jul 21 11:24 : client: [2] opened from 127.0.0.1:60822
+Jul 21 08:33 : client: [2] closed
+Jul 21 08:33 : client: [3] opened from 127.0.0.1:33826
+Jul 21 08:37 : client: [3] closed
+Jul 21 08:37 : client: [4] opened from 127.0.0.1:33858
+Jul 21 10:00 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 14:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 14:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 14:01 : client: [0] opened from 127.0.0.1:47928
+Jul 21 14:01 : client: [0] closed
+Jul 21 14:01 : client: [1] opened from 127.0.0.1:47934
+Jul 21 10:03 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 14:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 14:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 14:04 : client: [0] opened from 127.0.0.1:40946
+Jul 21 14:04 : client: [0] closed
+Jul 21 14:04 : client: [1] opened from 127.0.0.1:40956
+Jul 21 10:39 : client: [1] closed
+Jul 21 10:39 : client: [2] opened from 127.0.0.1:41902
+Jul 21 11:19 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 15:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 15:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 15:20 : client: [0] opened from 127.0.0.1:60966
+Jul 21 15:20 : client: [0] closed
+Jul 21 15:20 : client: [1] opened from 127.0.0.1:60970
+Jul 21 11:23 : client: [1] closed
+Jul 21 11:23 : client: [2] opened from 127.0.0.1:33190
+Jul 21 12:29 : client: [3] opened from 127.0.0.1:34964
+Jul 21 12:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 12:29 : client: [3] closed
+Jul 21 12:29 : client: [4] opened from 127.0.0.1:34966
+Jul 21 12:29 : client: [4] closed
+Jul 21 13:25 : player: played "Mungo Jerry/In the Summertime/01 In the Summertime.mp3"
+Jul 21 17:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 17:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 17:26 : client: [0] opened from 127.0.0.1:58930
+Jul 21 17:26 : client: [0] closed
+Jul 21 17:26 : client: [1] opened from 127.0.0.1:58932
+Jul 21 13:50 : client: [2] opened from 127.0.0.1:59852
+Jul 21 13:50 : client: [2] closed
+Jul 21 13:58 : client: [3] opened from 127.0.0.1:60088
+Jul 21 13:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 21 14:00 : client: [1] closed
+Jul 21 14:00 : client: [4] opened from 127.0.0.1:60092
+Jul 21 14:00 : client: [4] closed
+Jul 21 14:00 : client: [5] opened from 127.0.0.1:60096
+Jul 21 14:01 : client: [6] opened from 127.0.0.1:60108
+Jul 21 14:01 : client: [6] closed
+Jul 21 14:01 : client: [3] closed
+Jul 21 14:01 : client: [5] closed
+Jul 21 14:01 : client: [7] opened from 127.0.0.1:60110
+Jul 21 14:01 : client: [8] opened from 127.0.0.1:60114
+Jul 21 14:01 : client: [8] closed
+Jul 21 14:01 : client: [7] closed
+Jul 21 14:01 : client: [9] opened from 127.0.0.1:60118
+Jul 21 14:01 : client: [9] closed
+Jul 21 14:01 : client: [10] opened from 127.0.0.1:60122
+Jul 21 14:02 : client: [11] opened from 127.0.0.1:60134
+Jul 21 14:03 : client: [11] closed
+Jul 21 14:04 : client: [12] opened from 127.0.0.1:60148
+Jul 21 14:05 : client: [12] closed
+Jul 21 14:07 : player: played "RADWIMPS/Your Name (Original Motion Picture Soundtrack)/08 Zenzenzense (Movie Version).mp3"
+Jul 21 14:08 : client: [13] opened from 127.0.0.1:60372
+Jul 21 14:08 : client: [13] closed
+Jul 21 14:15 : client: [10] closed
+Jul 21 14:15 : client: [14] opened from 127.0.0.1:60740
+Jul 21 14:15 : client: [14] closed
+Jul 21 14:16 : client: [15] opened from 127.0.0.1:60742
+Jul 21 14:16 : client: [15] closed
+Jul 21 14:16 : client: [16] opened from 127.0.0.1:60744
+Jul 21 14:16 : client: [16] closed
+Jul 21 14:16 : client: [17] opened from 127.0.0.1:60752
+Jul 21 14:17 : client: [17] closed
+Jul 21 14:17 : client: [18] opened from 127.0.0.1:60760
+Jul 21 14:17 : client: [18] closed
+Jul 21 14:17 : client: [19] opened from 127.0.0.1:60764
+Jul 21 14:19 : client: [19] closed
+Jul 21 14:19 : client: [20] opened from 127.0.0.1:60786
+Jul 21 14:56 : client: [21] opened from 127.0.0.1:33018
+Jul 21 14:56 : client: [21] closed
+Jul 21 14:56 : client: [20] closed
+Jul 21 14:57 : client: [22] opened from 127.0.0.1:33020
+Jul 21 14:58 : player: played "RADWIMPS/Your Name (Original Motion Picture Soundtrack)/24 Sparkle (Movie Version).mp3"
+Jul 21 14:58 : client: [22] closed
+Jul 21 14:58 : client: [23] opened from 127.0.0.1:33022
+Jul 21 14:58 : client: [23] closed
+Jul 21 14:58 : client: [24] opened from 127.0.0.1:33024
+Jul 21 15:02 : player: played "Rush/ICON 2/1-08 Limelight.mp3"
+Jul 21 15:05 : player: played "Sayuri/[non-album tracks]/14 birthday song.mp3"
+Jul 21 15:09 : player: played "Supertramp/The Best of Supertramp/13 Give a Little Bit.mp3"
+Jul 21 15:14 : player: played "Talking Heads/Once in a Lifetime (Same as It Never Was) Liquid People Remix/03 Once in a Lifetime (Same as It Never Was) (original Talking Heads album version).mp3"
+Jul 21 15:15 : client: [24] closed
+Jul 21 15:15 : client: [25] opened from 127.0.0.1:33026
+Jul 21 15:15 : client: [25] closed
+Jul 21 15:15 : client: [26] opened from 127.0.0.1:33028
+Jul 21 15:16 : player: played "The Beatles/1/04 I Want to Hold Your Hand.mp3"
+Jul 21 15:17 : client: [26] closed
+Jul 21 15:17 : client: [27] opened from 127.0.0.1:33030
+Jul 21 15:20 : player: played "The Beatles/1/25 Come Together.mp3"
+Jul 21 15:24 : player: played "The Beatles/Love/20 Revolution (Love version).mp3"
+Jul 21 15:27 : player: played "The Doors/Celebration/02 Touch Me (Smothers Brothers Show).mp3"
+Jul 21 15:32 : client: [28] opened from 127.0.0.1:33418
+Jul 21 15:32 : client: [28] closed
+Jul 21 16:00 : client: [29] opened from 127.0.0.1:34368
+Jul 21 16:00 : client: [29] closed
+Jul 21 16:01 : client: [30] opened from 127.0.0.1:34380
+Jul 21 16:01 : client: [30] closed
+Jul 21 19:49 : client: [31] opened from 127.0.0.1:36600
+Jul 21 19:49 : client: [31] closed
+Jul 21 19:49 : client: [32] opened from 127.0.0.1:36602
+Jul 21 19:49 : client: [32] closed
+Jul 21 19:58 : client: [27] closed
+Jul 21 19:58 : client: [33] opened from 127.0.0.1:36926

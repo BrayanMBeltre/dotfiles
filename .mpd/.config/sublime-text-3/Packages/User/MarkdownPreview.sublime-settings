@@ -1,0 +1,5 @@
+{
+"browser": "firefox",
+"parser": "github",
+"enabled_parsers": ["github"]
+}

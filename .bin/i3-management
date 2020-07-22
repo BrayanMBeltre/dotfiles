@@ -1,0 +1,8 @@
+#! /usr/bin/env zsh
+#based on https://github.com/onespaceman/menu-calc/blob/master/%3D
+
+status=$(i3 split horizontal | tail -1) 
+if [[ $status == "success:true" ]]; then
+	notify-send "$status"
+fi
+notify-send "$status"

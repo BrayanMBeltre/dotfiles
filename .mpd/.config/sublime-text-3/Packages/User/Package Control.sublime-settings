@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Color Highlight",
+		"Formatter",
+		"Generic Config",
+		"gruvbox",
+		"Gruvbox Dark",
+		"Hexa",
+		"i3 wm",
+		"MarkdownPreview",
+		"Materialize",
+		"Package Control",
+		"Sync Settings",
+		"WakaTime"
+	]
+}
