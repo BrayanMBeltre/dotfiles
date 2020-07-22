@@ -1,9 +1,12 @@
+########################
+###   basic config   ###
+########################
+
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
 
-# Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border pixel 1
-default_floating_border pixel 1
+# terminal
+bindsym $mod+Return exec kitty
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -12,48 +15,50 @@ font xft:Hack Nerd Font 10
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
 
-# start a kitty
-bindsym $mod+Return exec kitty
+##########################
+###   User Shortcuts   ###
+##########################
 
-# kill focused window
-bindsym $mod+Shift+q kill
-
+# Browser
+#bindsym $mod+F1 exec firefox
+# Editor
+bindsym $mod+F2 exec subl
+# File Explorer
+bindsym $mod+F3 exec pcmanfm
+# Extra
+bindsym $mod+F4 exec lutris
+# Player
+bindsym $mod+p exec kitty --title=player-ncmpcpp -e 'ncmpcpp'
+# Picom
+bindsym $mod+t exec exec --no-startup-id picom -b
+bindsym $mod+Shift+t --no-startup-id pkill picom
+# Dunst
+bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
+# Screenshots
+bindsym Print --release exec --no-startup-id flameshot gui && flameshot full -p ~/Pictures/Screenshots/
+bindsym $mod+Print --release exec --no-startup-id "flameshot full -p ~/Pictures/Screenshots/ | notify-send 'Screenshot'"
+# Kill a windows
+bindsym $mod+Shift+x --release exec --no-startup-id xkill
+bindsym Ctrl+Shift+Escape exec kitty -e htop
+# lockscreen
+bindsym $mod+l exec ~/.bin/lockScreen
+# Mixer
+bindsym $mod+Ctrl+m exec pavucontrol
 # launcher
 bindsym $mod+d exec ~/.config/rofi/scripts/launcher.sh
-
+# Powermenu
+bindsym $mod+Shift+e exec ~/.config/rofi/scripts/powermenu.sh
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec "brightnessctl set 5%+"
 bindsym XF86MonBrightnessDown exec "brightnessctl set 5%-"
-
-# Mixer
-bindsym $mod+Ctrl+m exec pavucontrol
-
 # Media player controls
 bindsym XF86AudioPlay exec ~/.bin/music toggle
 bindsym XF86AudioNext exec ~/.bin/music next
 bindsym XF86AudioPrev exec ~/.bin/music prev
-
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec pamixer -i 5
 bindsym XF86AudioLowerVolume exec pamixer -d 5
 bindsym XF86AudioMute        exec pamixer -t
-
-##############################
-###   Start Applications   ###
-##############################
-
-#bindsym $mod+F1 exec firefox
-bindsym $mod+F2 exec subl
-bindsym $mod+F3 exec pcmanfm
-bindsym $mod+F4 exec lutris
-bindsym $mod+p exec kitty --title=player-ncmpcpp -e 'ncmpcpp'
-bindsym $mod+t exec exec --no-startup-id picom -b
-bindsym $mod+Shift+t --no-startup-id pkill picom
-bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
-bindsym Print --release exec --no-startup-id flameshot gui && flameshot full -p ~/Pictures/Screenshots/
-bindsym $mod+Shift+x --release exec --no-startup-id xkill
-bindsym Ctrl+Shift+Escape exec kitty -e htop
-
 ##############################
 ###       Management       ###
 ##############################
@@ -69,6 +74,15 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# switch to workspace with urgent window automatically
+for_window [urgent=latest] focus
 
 # split orientation
 bindsym $mod+h split h;exec notify-send 'tile horizontally'
@@ -86,30 +100,14 @@ bindsym $mod+e layout toggle split
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
-# change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
-
 # toggle sticky
 bindsym $mod+Shift+s sticky toggle
-
-# focus the parent container
-bindsym $mod+a focus parent
-
-# move the currently focused window to the scratchpad
-bindsym $mod+Shift+minus move scratchpad
-
-# Show the next scratchpad window or hide the focused scratchpad window.
-# If there are multiple scratchpad windows, this command cycles through them.
-bindsym $mod+minus scratchpad show
 
 #navigate workspaces next / previous
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
 
-# Workspace names
-# to display names or symbols instead of plain workspace numbers you can use
-# something like: set $ws1 1:mail
-#                 set $ws2 2:
+# Workspace names (NOT CHANGE)
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
@@ -151,8 +149,10 @@ bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
-# Open applications on specific workspaces
-# assign [class="Google-chrome"] $ws1
+####################################################
+###   Open applications on specific workspaces   ###
+####################################################
+
 assign [class="firefox"] $ws1
 assign [class="Subl"] $ws2
 assign [class="code-oss"] $ws2
@@ -163,7 +163,10 @@ assign [class="explorer.exe"] $ws4
 assign [class="Teams"] $ws5
 assign [class="Discord"] $ws5
 
-# Open specific applications in floating mode
+######################################
+###   Rules for specific windows   ###
+######################################
+
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="calamares"] floating enable border pixel 1
 for_window [class="Clipgrab"] floating enable
@@ -187,19 +190,44 @@ for_window [title="player-ncmpcpp"] floating enable, resize set 430 350, move ab
 for_window [class="Wine"] fullscreen enable
 for_window [class="File-roller"] floating enable border pixel 1
 for_window [class="Blueman-managerz"] floating enable border pixel 1
-
+# Teams
 no_focus [title="Microsoft Teams Notification"]
 for_window [title="Microsoft Teams Notification"] floating enable move absolute position 4812 px 1316 px
-#for_window [class="Microsoft Teams - Preview"] floating enable move absolute position 4812 px 1316 px
-
+# Teams
 for_window [class="Transmission-gtk"] floating enable border pixel 1
 for_window [class="vvave"] floating enable border pixel 1
 for_window [class="Gnome-disks"] floating enable border pixel 1
 for_window [class="Ulauncher"] floating enable
 for_window [title="choose theme file"] floating enable resize set 759 568
+for_window [class="discord"] move container to workspace 5
 
-# switch to workspace with urgent window automatically
-for_window [urgent=latest] focus
+##############################
+### Autostart applications ###
+##############################
+
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec_always --no-startup-id $HOME/.config/feh/bg-slideshow.sh
+exec --no-startup-id wal -R
+exec --no-startup-id nm-applet
+exec --no-startup-id xfce4-power-manager
+exec --no-startup-id blueman-applet
+exec --no-startup-id ~/.bin/locker
+exec_always --no-startup-id fix_xcursor
+exec firefox
+exec --no-startup-id xinput --set-prop "Synaptics TM3096-006" "libinput Natural Scrolling Enabled" 0
+exec --no-startup-id picom --experimental-backend -b
+exec_always $HOME/.config/polybar/launch.sh
+exec --no-startup-id mpd
+exec --no-startup-id fusuma
+exec discord
+exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+exec --no-startup-id mconnect
+exec --no-startup-id pcmanfm -d
+exec --no-startup-id redshift-gtk
+
+#####################
+###   I3 config   ###
+#####################
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -207,11 +235,8 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 
-# exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec ~/.config/rofi/scripts/powermenu.sh
-
-# lockscreen
-bindsym $mod+l exec ~/.bin/lockScreen
+# kill focused window
+bindsym $mod+Shift+q kill
 
 # Set shut down, restart and locking features
 bindsym $mod+0 mode "$mode_system"
@@ -232,16 +257,6 @@ mode "$mode_system" {
 # Resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 5 px or 5 ppt
-        bindsym k resize grow height 5 px or 5 ppt
-        bindsym l resize shrink height 5 px or 5 ppt
-        bindsym semicolon resize grow width 5 px or 5 ppt       
-        # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
         bindsym Up resize shrink height 10 px or 10 ppt
@@ -250,72 +265,6 @@ mode "resize" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-
-##############################
-### Autostart applications ###
-##############################
-
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec_always --no-startup-id $HOME/.config/feh/bg-slideshow.sh
-exec --no-startup-id wal -R
-exec --no-startup-id nm-applet
-exec --no-startup-id xfce4-power-manager
-exec --no-startup-id blueman-applet
-exec --no-startup-id ~/.bin/locker
-exec_always --no-startup-id fix_xcursor
-exec firefox
-exec --no-startup-id xinput --set-prop "Synaptics TM3096-006" "libinput Natural Scrolling Enabled" 0
-exec --no-startup-id picom --experimental-backend -b
-exec_always $HOME/.config/polybar/launch.sh
-exec --no-startup-id mpd
-exec --no-startup-id fusuma
-for_window [class="discord"] move container to workspace 5
-exec discord
-exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
-exec --no-startup-id mconnect
-exec --no-startup-id pcmanfm -d
-exec --no-startup-id redshift-gtk
-
-##################################
-### Set colors from Xresources ###
-##################################
-
-# Change 'color7' and 'color2' to whatever colors you want i3 to use 
-# from the generated scheme.
-# NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
-# it fails to get colors from Xresources.
-set_from_resource $fg i3wm.color7 #f0f0f0
-set_from_resource $bg i3wm.color2 #f0f0f0
-set_from_resource $ac i3wm.color3 #f0f0f0
-
-# class                 border  backgr. text indicator child_border
-client.focused          $bg     $bg     $fg  $bg       $ac
-client.focused_inactive $bg     $bg     $fg  $bg       $bg
-client.unfocused        $bg     $bg     $fg  $bg       $bg
-client.urgent           $bg     $bg     $fg  $bg       $bg
-client.placeholder      $bg     $bg     $fg  $bg       $bg
-
-client.background       $bg
-
-#############################
-### settings for i3-gaps: ###
-#############################
-
-# Set inner/outer gaps
-gaps inner 14
-gaps outer -2
-
-# Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
-# gaps inner|outer current|all set|plus|minus <px>
-# gaps inner all set 10
-# gaps outer all plus 5
-
-# Smart gaps (gaps used if only more than one container on the workspace)
-smart_gaps on
-
-# Smart borders (draw borders around container only if it is not the only container on this workspace) 
-# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-smart_borders on
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner
@@ -353,3 +302,38 @@ mode "$mode_gaps_outer" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
+#####################
+###   Customize   ###
+#####################
+
+# Configure border style <normal|1pixel|pixel xx|none|pixel>
+default_border pixel 1
+default_floating_border pixel 1
+
+# from the generated scheme.
+# NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
+# it fails to get colors from Xresources.
+set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $bg i3wm.color2 #f0f0f0
+set_from_resource $ac i3wm.color3 #f0f0f0
+
+# class                 border  backgr. text indicator child_border
+client.focused          $bg     $bg     $fg  $bg       $ac
+client.focused_inactive $bg     $bg     $fg  $bg       $bg
+client.unfocused        $bg     $bg     $fg  $bg       $bg
+client.urgent           $bg     $bg     $fg  $bg       $bg
+client.placeholder      $bg     $bg     $fg  $bg       $bg
+
+client.background       $bg
+
+# Set inner/outer gaps
+gaps inner 14
+gaps outer -2
+
+# Smart gaps (gaps used if only more than one container on the workspace)
+smart_gaps on
+
+# Smart borders (draw borders around container only if it is not the only container on this workspace) 
+# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
+smart_borders on
+
