@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /usr/bin/env bash
 
 # The script is looking for a window with a given WM_CLASS property. The window
 # will be attached to the root node (R in the graph below), the root note is

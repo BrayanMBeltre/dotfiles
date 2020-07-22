@@ -1,4 +1,4 @@
-#! /usr/bin/env zsh
+#! /usr/bin/env bash
 #based on https://github.com/onespaceman/menu-calc/blob/master/%3D
 
 status=$(i3 split horizontal | tail -1) 

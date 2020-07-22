@@ -1,7 +1,7 @@
-export MANGOHUD=1
-export MANGOHUD_DLSYM=1
-export ENABLE_VKBASALT=1
-export MSBuildSDKsPath=(echo /usr/share/dotnet/sdk/3.*/Sdks)
+#export MANGOHUD=1
+#export MANGOHUD_DLSYM=1
+#export ENABLE_VKBASALT=1
+#export MSBuildSDKsPath=(echo /usr/share/dotnet/sdk/3.*/Sdks)
 
 ### Aliases ###
 
@@ -53,7 +53,7 @@ alias mute='amixer -q -D pulse sset Master toggle'
 #alias dvideo='youtube-dl --config-location ~/.config/youtube-dl/video'
 alias viewnior='devour ristretto'
 alias zathura='devour zathura'
-#legendary epic games cli
+#legendary epic games launcher cli
 alias epiclist='legendary list-games'
 alias epiclistinstalled='legendary list-installed'
 alias epicinstall='legendary install'

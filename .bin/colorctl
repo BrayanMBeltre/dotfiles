@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /usr/bin/env bash
 
 calculate_brightness_index() {
 	brightness_index=$(awk -F ''${separator-,}'' '{ r = $1; g = $2; b = $3; \

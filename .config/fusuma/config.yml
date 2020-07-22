@@ -10,9 +10,13 @@ swipe:
       command: "xdotool key ctrl+minus"
   4:
     right:
-      command: "i3-msg 'workspace next'"
+      command: exec i3 workspace next
     left:
-      command: "i3-msg 'workspace prev'"
+     command: exec i3 workspace prev
+    up:
+      command: exec i3 fullscreen toggle
+    down:
+      command: exec i3 floating toggle
 pinch:
   in:
     command: "xdotool key ctrl+shift+plus"

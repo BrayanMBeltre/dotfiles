@@ -3517,3 +3517,136 @@ Jul 21 21:55 : client: [43] closed
 Jul 21 21:55 : client: [44] opened from 127.0.0.1:39388
 Jul 21 22:01 : client: [44] closed
 Jul 21 22:02 : client: [45] opened from 127.0.0.1:39444
+Jul 21 23:47 : client: [45] closed
+Jul 21 23:47 : client: [46] opened from 127.0.0.1:41294
+Jul 21 23:55 : client: [46] closed
+Jul 21 23:55 : client: [47] opened from 127.0.0.1:41370
+Jul 22 00:51 : player: played "The Doors/Perception/2-17 Light My Fire.mp3"
+Jul 22 04:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 22 04:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 22 04:52 : client: [0] opened from 127.0.0.1:50892
+Jul 22 04:52 : client: [0] closed
+Jul 22 04:52 : client: [1] opened from 127.0.0.1:50898
+Jul 22 00:56 : client: [1] closed
+Jul 22 00:56 : client: [2] opened from 127.0.0.1:51238
+Jul 22 00:56 : client: [2] closed
+Jul 22 00:56 : client: [3] opened from 127.0.0.1:51240
+Jul 22 00:58 : client: [3] closed
+Jul 22 00:58 : client: [4] opened from 127.0.0.1:51284
+Jul 22 00:58 : client: [4] closed
+Jul 22 00:58 : client: [5] opened from 127.0.0.1:51288
+Jul 22 00:58 : client: [5] closed
+Jul 22 00:58 : client: [6] opened from 127.0.0.1:51292
+Jul 22 00:58 : client: [6] closed
+Jul 22 00:58 : client: [7] opened from 127.0.0.1:51326
+Jul 22 00:58 : client: [7] closed
+Jul 22 00:58 : client: [8] opened from 127.0.0.1:51328
+Jul 22 00:58 : client: [8] closed
+Jul 22 00:59 : player: played "The Doors/Perception/2-17 Light My Fire.mp3"
+Jul 22 05:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 22 05:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 22 05:46 : client: [0] opened from 127.0.0.1:36316
+Jul 22 05:46 : client: [0] closed
+Jul 22 05:46 : client: [1] opened from 127.0.0.1:36322
+Jul 22 01:48 : player: played "The Doors/Perception/2-17 Light My Fire.mp3"
+Jul 22 13:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 22 13:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 22 13:21 : client: [0] opened from 127.0.0.1:44012
+Jul 22 13:21 : client: [0] closed
+Jul 22 13:21 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 22 13:21 : client: [1] opened from 127.0.0.1:44024
+Jul 22 13:30 : client: [2] opened from 127.0.0.1:44276
+Jul 22 13:30 : client: [2] closed
+Jul 22 13:33 : client: [3] opened from 127.0.0.1:44598
+Jul 22 13:33 : client: [3] closed
+Jul 22 13:37 : client: [4] opened from 127.0.0.1:44724
+Jul 22 13:37 : client: [4] closed
+Jul 22 13:42 : player: played "The Doors/Perception/2-17 Light My Fire.mp3"
+Jul 22 13:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 22 13:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 22 13:43 : client: [0] opened from 127.0.0.1:58130
+Jul 22 13:43 : client: [0] closed
+Jul 22 13:43 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 22 13:43 : client: [1] opened from 127.0.0.1:58142
+Jul 22 13:51 : client: [2] opened from 127.0.0.1:59100
+Jul 22 13:51 : client: [2] closed
+Jul 22 13:51 : client: [3] opened from 127.0.0.1:59104
+Jul 22 13:51 : client: [3] closed
+Jul 22 13:56 : player: played "The Doors/Perception/2-17 Light My Fire.mp3"
+Jul 22 13:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 22 13:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 22 13:57 : client: [0] opened from 127.0.0.1:37590
+Jul 22 13:57 : client: [0] closed
+Jul 22 13:57 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 22 13:57 : client: [1] opened from 127.0.0.1:37600
+Jul 22 13:57 : client: [2] opened from 127.0.0.1:37692
+Jul 22 13:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 22 13:57 : client: [2] closed
+Jul 22 13:57 : client: [3] opened from 127.0.0.1:37720
+Jul 22 13:57 : client: [3] closed
+Jul 22 14:08 : client: [4] opened from 127.0.0.1:38292
+Jul 22 14:08 : client: [4] closed
+Jul 22 14:43 : client: [5] opened from 127.0.0.1:40160
+Jul 22 14:43 : client: [5] closed
+Jul 22 14:43 : client: [6] opened from 127.0.0.1:40206
+Jul 22 14:43 : client: [6] closed
+Jul 22 14:43 : client: [7] opened from 127.0.0.1:40210
+Jul 22 14:43 : client: [7] closed
+Jul 22 14:44 : client: [8] opened from 127.0.0.1:40254
+Jul 22 14:44 : client: [8] closed
+Jul 22 14:44 : client: [9] opened from 127.0.0.1:40258
+Jul 22 14:44 : client: [10] opened from 127.0.0.1:40262
+Jul 22 14:44 : client: [9] closed
+Jul 22 14:44 : client: [10] closed
+Jul 22 14:44 : client: [1] closed
+Jul 22 14:44 : client: [11] opened from 127.0.0.1:40272
+Jul 22 14:44 : client: [12] opened from 127.0.0.1:40276
+Jul 22 14:44 : client: [12] closed
+Jul 22 14:46 : player: played "The Doors/Perception/2-17 Light My Fire.mp3"
+Jul 22 14:49 : player: played "The Doors/The Best of The Doors/1-07 Love Her Madly.mp3"
+Jul 22 14:52 : client: [13] opened from 127.0.0.1:40544
+Jul 22 14:52 : client: [13] closed
+Jul 22 14:54 : player: played "The Doors/The Doors Box Set/2-01 Roadhouse Blues.mp3"
+Jul 22 14:58 : player: played "The Killers/Day & Age/13 Human.mp3"
+Jul 22 15:03 : player: played "The Killers/Sam's Town/16 When You Were Young (no jump).mp3"
+Jul 22 15:08 : player: played "The Killers/Wonderful Wonderful/05 Run for Cover.mp3"
+Jul 22 15:12 : player: played "THE ORAL CIGARETTES/Kyouran Hey Kids!!/01 Frenzy Hey Kids!!.mp3"
+Jul 22 15:21 : client: [14] opened from 127.0.0.1:41300
+Jul 22 15:21 : client: [14] closed
+Jul 22 15:21 : client: [15] opened from 127.0.0.1:41304
+Jul 22 15:21 : client: [15] closed
+Jul 22 15:21 : client: [16] opened from 127.0.0.1:41308
+Jul 22 15:21 : client: [16] closed
+Jul 22 15:21 : client: [17] opened from 127.0.0.1:41312
+Jul 22 15:21 : client: [17] closed
+Jul 22 15:26 : player: played "The Rolling Stones/Greatest Hits, Part 2/1-02 Beast of Burden.mp3"
+Jul 22 15:29 : player: played "The Rolling Stones/Paint It Black/01 Paint It Black.mp3"
+Jul 22 15:33 : player: played "The Rolling Stones/The Rolling Stones_ Original Master Recordings/10-04 (I Can't Get No) Satisfaction.mp3"
+Jul 22 15:37 : player: played "The Rolling Stones/The Rolling Stones_ Original Master Recordings/11-08 Brown Sugar.mp3"
+Jul 22 15:41 : player: played "The Strokes/Room on Fire/02 Reptilia.mp3"
+Jul 22 15:44 : player: played "The Who/Then and Now (1964-2007)/02 My Generation.mp3"
+Jul 22 15:48 : player: played "The Who/Then and Now (1964-2007)/12 Behind Blue Eyes.mp3"
+Jul 22 15:51 : player: played "The Who/Tommy/13 Pinball Wizard.mp3"
+Jul 22 15:54 : player: played "The Who/Who's Better, Who's Best/10 Won't Get Fooled Again (edit).mp3"
+Jul 22 15:56 : client: [18] opened from 127.0.0.1:42440
+Jul 22 15:56 : client: [18] closed
+Jul 22 15:56 : client: [19] opened from 127.0.0.1:42444
+Jul 22 15:56 : client: [19] closed
+Jul 22 15:56 : client: [20] opened from 127.0.0.1:42448
+Jul 22 15:56 : client: [20] closed
+Jul 22 15:56 : client: [21] opened from 127.0.0.1:42452
+Jul 22 15:56 : client: [21] closed
+Jul 22 15:56 : client: [22] opened from 127.0.0.1:42456
+Jul 22 15:56 : client: [22] closed
+Jul 22 16:00 : player: played "twenty one pilots/Trench/04 My Blood.mp3"
+Jul 22 16:06 : player: played "twenty one pilots/Twenty One Pilots/14 Isle of Flightless Birds.mp3"
+Jul 22 16:10 : player: played "Various Artists/100 Hits Paint It Black/51 Cream - Sunshine of Your Love.mp3"
+Jul 22 16:12 : player: played "Various Artists/100 Hits The House of the Rising Sun/07 Bob Dylan - Knockin' on Heaven's Door.mp3"
+Jul 22 16:16 : player: played "Various Artists/Back to the US of A/3-07 Kansas - Dust in the Wind.mp3"
+Jul 22 16:19 : player: played "Various Artists/Bacobens Rock Top 500 (CD8)/23 Tom Petty and the Heartbreakers - American Girl.mp3"
+Jul 22 16:24 : player: played "Various Artists/Bacobens Rock Top 500 (CD8)/32 Rush - Tom Sawyer.mp3"
+Jul 22 16:29 : player: played "Various Artists/Best of British/01 The Who - Baba O'Riley.mp3"
+Jul 22 16:32 : player: played "Various Artists/Billboard #1s_ The '80s/1-01 Queen - Another One Bites the Dust.mp3"
+Jul 22 16:37 : player: played "Various Artists/Billboard Hottest Hits, Volume 9_ Greatest Top 10 Hits 1980-1990/16 Journey - Don't Stop Believing.mp3"
+Jul 22 16:40 : player: played "Various Artists/Capital Gold_ Platinum Legends/2-12 Steve Miller Band - The Joker.mp3"
+Jul 22 16:44 : player: played "Various Artists/Classic Cuts Presents_ 70's Night_ The Definitive DJ Collection_ A to B/2-12 David Bowie - The Jean Genie.mp3"

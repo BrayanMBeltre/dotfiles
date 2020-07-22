@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /usr/bin/env bash
 
 while true; do
   for f in $HOME/Pictures/Wallpapers/*; do
