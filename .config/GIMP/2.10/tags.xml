@@ -10,10 +10,10 @@
     <tag>round</tag>
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-image" checksum="4d3bc070e5d05e807af0d5879d135df3">
+  <resource identifier="gimp-brush-clipboard-image" checksum="157dcef48665ab465439cfaf10d6feeb">
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-mask" checksum="cca63ee955113bd0a8e26c1d73134c09">
+  <resource identifier="gimp-brush-clipboard-mask" checksum="157dcef48665ab465439cfaf10d6feeb">
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="c84494b4a904a7c1a3548e564b073ca3">
@@ -772,7 +772,7 @@
   <resource identifier="${mypaint_brushes_dir}/ramon/wet_round.myb" checksum="038abfe33947692f773e0244d2ac7fc1">
   </resource>
 
-  <resource identifier="gimp-pattern-clipboard-image" checksum="0b8a8d17dd8b89e63c4f896c19a53756">
+  <resource identifier="gimp-pattern-clipboard-image" checksum="eff9598f9f61c1dc78d842f1798c2ab8">
   </resource>
 
   <resource identifier="${gimp_data_dir}/patterns/Legacy/3dgreen.pat" checksum="00052731f14a5bc614daece969b368bc">
@@ -1177,7 +1177,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="67241b3ac6e7167f8a88e48fa601e071">
+  <resource identifier="gimp-palette-color-history" checksum="bc31f8e3513d9a750bd7f3a862db81ef">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -1303,61 +1303,16 @@
   <resource identifier="${gimp_data_dir}/palettes/Web.gpl" checksum="f02e8dfa23d01d6acfbab7f895c2dd16">
   </resource>
 
-  <resource identifier="Abel" checksum="(null)">
+  <resource identifier="Arimo" checksum="(null)">
   </resource>
 
-  <resource identifier="a_FuturaOrto Bold" checksum="(null)">
+  <resource identifier="Arimo Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="a_FuturaOrtoLt Light" checksum="(null)">
+  <resource identifier="Arimo Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="a_FuturaOrtoOtl Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="a_FuturaOrtoRg Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="agave" checksum="(null)">
-  </resource>
-
-  <resource identifier="AG_Futura" checksum="(null)">
-  </resource>
-
-  <resource identifier="AG_Futura Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Akaash Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="AkrutiMal1" checksum="(null)">
-  </resource>
-
-  <resource identifier="AkrutiMal1 Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="AkrutiMal2" checksum="(null)">
-  </resource>
-
-  <resource identifier="AkrutiMal2 Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="AkrutiTml1" checksum="(null)">
-  </resource>
-
-  <resource identifier="AkrutiTml1 Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="AkrutiTml2" checksum="(null)">
-  </resource>
-
-  <resource identifier="AkrutiTml2 Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="AnonymicePowerline Nerd Font" checksum="(null)">
-  </resource>
-
-  <resource identifier="ASNXBS+Plaak-46-ExpandedBold Bold Expanded" checksum="(null)">
+  <resource identifier="Arimo Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Avenir LT Std" checksum="(null)">
@@ -1373,18 +1328,6 @@
   </resource>
 
   <resource identifier="Beon Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Berlin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Berlin Bold, Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Bianco Sans" checksum="(null)">
-  </resource>
-
-  <resource identifier="Bianco Sans" checksum="(null)">
   </resource>
 
   <resource identifier="Bitstream Vera Sans" checksum="(null)">
@@ -1417,18 +1360,6 @@
   <resource identifier="Bitstream Vera Serif Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="Bront" checksum="(null)">
-  </resource>
-
-  <resource identifier="Brothers" checksum="(null)">
-  </resource>
-
-  <resource identifier="Brothers Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="BrothersWordLogos" checksum="(null)">
-  </resource>
-
   <resource identifier="C059" checksum="(null)">
   </resource>
 
@@ -1441,7 +1372,16 @@
   <resource identifier="C059 Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="CamingoCode" checksum="(null)">
+  <resource identifier="Caladea" checksum="(null)">
+  </resource>
+
+  <resource identifier="Caladea Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Caladea Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Caladea Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Cantarell" checksum="(null)">
@@ -1471,16 +1411,16 @@
   <resource identifier="Cantarell Ultra-Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="Century Gothic" checksum="(null)">
+  <resource identifier="Carlito" checksum="(null)">
   </resource>
 
-  <resource identifier="Century Gothic Bold" checksum="(null)">
+  <resource identifier="Carlito Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="CgFuturaMaxi Bold" checksum="(null)">
+  <resource identifier="Carlito Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="CodingFontTobi" checksum="(null)">
+  <resource identifier="Carlito Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Comfortaa" checksum="(null)">
@@ -1492,16 +1432,16 @@
   <resource identifier="Comfortaa Light" checksum="(null)">
   </resource>
 
-  <resource identifier="Courier Prime for Powerline" checksum="(null)">
-  </resource>
-
   <resource identifier="Cousine" checksum="(null)">
   </resource>
 
   <resource identifier="Cousine Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="Crisp" checksum="(null)">
+  <resource identifier="Cousine Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cousine Italic" checksum="(null)">
   </resource>
 
   <resource identifier="D050000L" checksum="(null)">
@@ -1532,9 +1472,6 @@
   </resource>
 
   <resource identifier="DejaVu Sans Mono Bold Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="DejaVuSansMono Nerd Font" checksum="(null)">
   </resource>
 
   <resource identifier="DejaVu Sans Mono Oblique" checksum="(null)">
@@ -1576,103 +1513,7 @@
   <resource identifier="DejaVu Serif Semi-Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Dina ttf 10px," checksum="(null)">
-  </resource>
-
-  <resource identifier="Droid Arabic Kufi" checksum="(null)">
-  </resource>
-
-  <resource identifier="Droid Arabic Kufi Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Droid Naskh Shift Alt" checksum="(null)">
-  </resource>
-
-  <resource identifier="Droid Sans" checksum="(null)">
-  </resource>
-
-  <resource identifier="Droid Sans Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Droid Sans Mono" checksum="(null)">
-  </resource>
-
-  <resource identifier="DroidSansMono Nerd Font" checksum="(null)">
-  </resource>
-
-  <resource identifier="Droid Sans Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Droid Serif" checksum="(null)">
-  </resource>
-
-  <resource identifier="Droid Serif Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Droid Serif Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Droid Serif Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="East Syriac Adiabene" checksum="(null)">
-  </resource>
-
-  <resource identifier="East Syriac Ctesiphon" checksum="(null)">
-  </resource>
-
-  <resource identifier="Edit Undo BRK" checksum="(null)">
-  </resource>
-
-  <resource identifier="Edit Undo Dot BRK" checksum="(null)">
-  </resource>
-
-  <resource identifier="Edit Undo Line BRK" checksum="(null)">
-  </resource>
-
-  <resource identifier="Edlo" checksum="(null)">
-  </resource>
-
-  <resource identifier="Estrangelo Antioch" checksum="(null)">
-  </resource>
-
-  <resource identifier="Estrangelo Edessa" checksum="(null)">
-  </resource>
-
-  <resource identifier="Estrangelo Midyat" checksum="(null)">
-  </resource>
-
-  <resource identifier="Estrangelo Nisibin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Estrangelo Nisibin Outline" checksum="(null)">
-  </resource>
-
-  <resource identifier="Estrangelo Quenneshrin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Estrangelo Talada" checksum="(null)">
-  </resource>
-
-  <resource identifier="Estrangelo TurAbdin" checksum="(null)">
-  </resource>
-
-  <resource identifier="EYBVFK+Plaak-26-ExpandedLight Ultra-Light Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="F37 Ginger" checksum="(null)">
-  </resource>
-
-  <resource identifier="F37 Ginger Bold" checksum="(null)">
-  </resource>
-
   <resource identifier="Fantasque Sans Mono" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fantasque Sans Mono Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="FantasqueSansMono Nerd Font" checksum="(null)">
   </resource>
 
   <resource identifier="feather" checksum="(null)">
@@ -1696,22 +1537,49 @@
   <resource identifier="Font Awesome 5 Brands" checksum="(null)">
   </resource>
 
+  <resource identifier="Font Awesome 5 Free" checksum="(null)">
+  </resource>
+
   <resource identifier="Font Awesome 5 Free Heavy" checksum="(null)">
   </resource>
 
-  <resource identifier="Franklin Gothic Demi" checksum="(null)">
+  <resource identifier="Fredoka One" checksum="(null)">
   </resource>
 
-  <resource identifier="Franklin Gothic Heavy," checksum="(null)">
+  <resource identifier="FreeMono" checksum="(null)">
   </resource>
 
-  <resource identifier="Franklin Gothic Medium," checksum="(null)">
+  <resource identifier="FreeMono Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="FreeMono for Powerline" checksum="(null)">
+  <resource identifier="FreeMono Bold Oblique" checksum="(null)">
   </resource>
 
-  <resource identifier="FuraCode Nerd Font" checksum="(null)">
+  <resource identifier="FreeMono Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="FreeSans" checksum="(null)">
+  </resource>
+
+  <resource identifier="FreeSans Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="FreeSans Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FreeSans Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="FreeSerif" checksum="(null)">
+  </resource>
+
+  <resource identifier="FreeSerif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="FreeSerif Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="FreeSerif Italic" checksum="(null)">
   </resource>
 
   <resource identifier="FuraCode Nerd Font Bold" checksum="(null)">
@@ -1726,307 +1594,13 @@
   <resource identifier="FuraCode Nerd Font Mono Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="FuraMonoForPowerline Nerd Font" checksum="(null)">
-  </resource>
-
-  <resource identifier="Futura BdCn BT Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Futura-Bold Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="FuturaDisplayEF Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="FuturaLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="Futura Lt BT" checksum="(null)">
-  </resource>
-
-  <resource identifier="Gargi-1.2b Medium Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Goha-Tibeb Zemen Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="GohuFont Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="GohuFont Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="GohuFont Powerline Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Go Mono for Powerline" checksum="(null)">
-  </resource>
-
-  <resource identifier="Google Sans" checksum="(null)">
-  </resource>
-
-  <resource identifier="Google Sans Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Google Sans Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Google Sans Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Google Sans Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Google Sans Medium Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="GurbaniBoliLite Medium Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="GurbaniBoliLite weight=101 Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Helvetica World" checksum="(null)">
-  </resource>
-
-  <resource identifier="Helvetica World Bold" checksum="(null)">
-  </resource>
-
   <resource identifier="Hurmit Nerd Font Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Hurmit Nerd Font Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Hurmit Nerd Font Mono Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="icomoon" checksum="(null)">
-  </resource>
-
-  <resource identifier="icomoons" checksum="(null)">
-  </resource>
-
-  <resource identifier="Icons" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Bold Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Bold Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Bold Extra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Bold Extra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Bold Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Bold Semi-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Bold Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Bold Ultra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Extra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Extra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="InconsolataForPowerline Nerd Font Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Heavy" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Heavy Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Heavy Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Heavy Extra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Heavy Extra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Heavy Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Heavy Semi-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Heavy Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Heavy Ultra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Light Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Light Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Light Extra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Light Extra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Light Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Light Semi-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Light Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Light Ultra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Medium Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Medium Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Medium Extra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Medium Extra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Medium Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Medium Semi-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Medium Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Medium Ultra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Semi-Bold Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Semi-Bold Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Semi-Bold Extra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Semi-Bold Extra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Semi-Bold Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Semi-Bold Semi-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Semi-Bold Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Semi-Bold Ultra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Semi-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Ultra-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Ultra-Bold Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Ultra-Bold Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Ultra-Bold Extra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Ultra-Bold Extra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Ultra-Bold Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Ultra-Bold Semi-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Ultra-Bold Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Ultra-Bold Ultra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata Ultra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata weight=280" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata weight=280 Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata weight=280 Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata weight=280 Extra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata weight=280 Extra-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata weight=280 Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata weight=280 Semi-Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata weight=280 Ultra-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Inconsolata weight=280 Ultra-Expanded" checksum="(null)">
+  <resource identifier="IcoMoon-Free" checksum="(null)">
   </resource>
 
   <resource identifier="Iosevka" checksum="(null)">
@@ -2035,34 +1609,10 @@
   <resource identifier="Iosevka Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="Iosevka Custom" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Custom Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Custom Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Custom Bold Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Custom Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Custom Oblique" checksum="(null)">
-  </resource>
-
   <resource identifier="Iosevka Light" checksum="(null)">
   </resource>
 
-  <resource identifier="Iosevka Nerd Font" checksum="(null)">
-  </resource>
-
   <resource identifier="Iosevka Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Knack Nerd Font" checksum="(null)">
   </resource>
 
   <resource identifier="Lato" checksum="(null)">
@@ -2116,85 +1666,10 @@
   <resource identifier="Liberation Serif Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Ligconsolata" checksum="(null)">
-  </resource>
-
-  <resource identifier="Ligconsolata Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Likhan Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Linearicons-Free" checksum="(null)">
-  </resource>
-
-  <resource identifier="LiterationMonoPowerline Nerd Font" checksum="(null)">
-  </resource>
-
-  <resource identifier="Luculent" checksum="(null)">
-  </resource>
-
-  <resource identifier="Luculent Bold" checksum="(null)">
-  </resource>
-
   <resource identifier="M+ 1mn" checksum="(null)">
   </resource>
 
   <resource identifier="M+ 1mn Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="malayalam" checksum="(null)">
-  </resource>
-
-  <resource identifier="MalOtf" checksum="(null)">
-  </resource>
-
-  <resource identifier="MesloLGL Nerd Font" checksum="(null)">
-  </resource>
-
-  <resource identifier="MesloLGS NF" checksum="(null)">
-  </resource>
-
-  <resource identifier="MesloLGS NF Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="MesloLGS NF Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="MesloLGS NF Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Mirai-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Mirai-Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Mirai-Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="monofur" checksum="(null)">
-  </resource>
-
-  <resource identifier="MonofurForPowerline Nerd Font" checksum="(null)">
-  </resource>
-
-  <resource identifier="monofur Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Monoid Bold Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Monoid Light Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Monoid Nerd Font Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Monoid Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="mononoki" checksum="(null)">
   </resource>
 
   <resource identifier="mononoki Bold" checksum="(null)">
@@ -2224,52 +1699,10 @@
   <resource identifier="mplus Nerd Font Mono" checksum="(null)">
   </resource>
 
-  <resource identifier="Mukti Narrow" checksum="(null)">
-  </resource>
-
-  <resource identifier="Mukti Narrow Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Mukti Narrow Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="NeoGram" checksum="(null)">
-  </resource>
-
-  <resource identifier="NeoGram Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="NeoGram Light" checksum="(null)">
-  </resource>
-
   <resource identifier="Neon Adventure" checksum="(null)">
   </resource>
 
   <resource identifier="Neon Lights" checksum="(null)">
-  </resource>
-
-  <resource identifier="Neo Sans Pro" checksum="(null)">
-  </resource>
-
-  <resource identifier="Neo Sans Pro Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Neo Sans Pro Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Neue Haas Unica Pro" checksum="(null)">
-  </resource>
-
-  <resource identifier="Neue Haas Unica Pro Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Neue Haas Unica Pro Semi-Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Neue Haas Unica W1G Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Neue Haas Unica W1G Semi-Light" checksum="(null)">
   </resource>
 
   <resource identifier="Nimbus Mono PS" checksum="(null)">
@@ -2318,39 +1751,6 @@
   </resource>
 
   <resource identifier="Nimbus Sans Narrow Semi-Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="nimbus-sans-novus-cond-bold Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="nimbus-sans-novus-cond-light Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="nimbus-sans-novus-cond-medium Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="nimbus-sans-novus-cond-regular Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="nimbus-sans-novus-cond-semibold Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="nimbus-sans-novus-light Ultra-Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="nimbus-sans-novus-medium Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="nimbus-sans-novus-regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="nimbus-sans-novus-semibold Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="NoirPro-Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Noto Color Emoji" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Kufi Arabic" checksum="(null)">
@@ -2579,6 +1979,111 @@
   </resource>
 
   <resource identifier="Noto Sans Cherokee Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Semi-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK JP" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK JP Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK JP Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK JP Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK JP Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK JP Semi-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK JP Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK KR" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK KR Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK KR Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK KR Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK KR Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK KR Semi-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK KR Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK SC" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK SC Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK SC Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK SC Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK SC Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK SC Semi-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK SC Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK TC" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK TC Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK TC Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK TC Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK TC Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK TC Semi-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK TC Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Coptic" checksum="(null)">
@@ -3055,6 +2560,36 @@
   <resource identifier="Noto Sans Mono Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Mono CJK HK" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mono CJK HK Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mono CJK JP" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mono CJK JP Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mono CJK KR" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mono CJK KR Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mono CJK SC" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mono CJK SC Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mono CJK TC" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mono CJK TC Bold" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Mono Heavy" checksum="(null)">
   </resource>
 
@@ -3511,6 +3046,90 @@
   <resource identifier="Noto Serif Bold Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Serif CJK JP" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK JP Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK JP Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK JP Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK JP Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK JP Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK JP Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK KR" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK KR Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK KR Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK KR Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK KR Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK KR Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK KR Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK SC" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK SC Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK SC Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK SC Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK SC Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK SC Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK SC Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK TC" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK TC Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK TC Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK TC Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK TC Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK TC Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif CJK TC Ultra-Light" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Serif Devanagari" checksum="(null)">
   </resource>
 
@@ -3886,15 +3505,6 @@
   <resource identifier="Noto Serif Tibetan Thin" checksum="(null)">
   </resource>
 
-  <resource identifier="OpenDyslexicMono for Powerline" checksum="(null)">
-  </resource>
-
-  <resource identifier="orya Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="outrun future" checksum="(null)">
-  </resource>
-
   <resource identifier="Outrun future Bold" checksum="(null)">
   </resource>
 
@@ -3916,69 +3526,6 @@
   <resource identifier="P052 Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="padmaa Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="padmaa Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Panic Sans" checksum="(null)">
-  </resource>
-
-  <resource identifier="Panic Sans Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Pica Hole - ABS" checksum="(null)">
-  </resource>
-
-  <resource identifier="Pica Hole - MRT" checksum="(null)">
-  </resource>
-
-  <resource identifier="Pica Hole - XPL" checksum="(null)">
-  </resource>
-
-  <resource identifier="PixelCarnageMonoTT" checksum="(null)">
-  </resource>
-
-  <resource identifier="POE New Sans" checksum="(null)">
-  </resource>
-
-  <resource identifier="POE New Sans Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Pothana2000" checksum="(null)">
-  </resource>
-
-  <resource identifier="PragmataPro" checksum="(null)">
-  </resource>
-
-  <resource identifier="PragmataPro Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="PragmataPro Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="PragmataPro for Powerline" checksum="(null)">
-  </resource>
-
-  <resource identifier="PragmataPro for Powerline Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="PragmataPro Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Precious Sans Two Bold," checksum="(null)">
-  </resource>
-
-  <resource identifier="RobotoMono Nerd Font Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Sagar Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Sampige" checksum="(null)">
-  </resource>
-
   <resource identifier="Sans-serif" checksum="(null)">
   </resource>
 
@@ -3989,12 +3536,6 @@
   </resource>
 
   <resource identifier="Sans-serif Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="SauceCodePro Nerd Font" checksum="(null)">
-  </resource>
-
-  <resource identifier="saxMono" checksum="(null)">
   </resource>
 
   <resource identifier="Segoe UI" checksum="(null)">
@@ -4012,58 +3553,7 @@
   <resource identifier="Serif Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Serto Batnan" checksum="(null)">
-  </resource>
-
-  <resource identifier="Serto Batnan Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Serto Jerusalem" checksum="(null)">
-  </resource>
-
-  <resource identifier="Serto Jerusalem Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Serto Jerusalem Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Serto Jerusalem Outline" checksum="(null)">
-  </resource>
-
-  <resource identifier="Serto Kharput" checksum="(null)">
-  </resource>
-
-  <resource identifier="Serto Malankara" checksum="(null)">
-  </resource>
-
-  <resource identifier="Serto Mardin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Serto Mardin Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Serto Urhoy" checksum="(null)">
-  </resource>
-
-  <resource identifier="Serto Urhoy Bold" checksum="(null)">
-  </resource>
-
   <resource identifier="SF Fedora" checksum="(null)">
-  </resource>
-
-  <resource identifier="SF Fedora Shadow" checksum="(null)">
-  </resource>
-
-  <resource identifier="SFNS Display" checksum="(null)">
-  </resource>
-
-  <resource identifier="SFNS Display Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="SFNS Display weight=255" checksum="(null)">
-  </resource>
-
-  <resource identifier="SFNS Display weight=255" checksum="(null)">
   </resource>
 
   <resource identifier="SF Pro Text" checksum="(null)">
@@ -4165,82 +3655,55 @@
   <resource identifier="Standard Symbols PS" checksum="(null)">
   </resource>
 
-  <resource identifier="Star Jedi" checksum="(null)">
+  <resource identifier="Tinos" checksum="(null)">
   </resource>
 
-  <resource identifier="Star Jedi Hollow" checksum="(null)">
+  <resource identifier="Tinos Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="Stockholm" checksum="(null)">
+  <resource identifier="Tinos Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Stockholm Mono" checksum="(null)">
+  <resource identifier="Tinos Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Subway Ticker" checksum="(null)">
+  <resource identifier="Ubuntu" checksum="(null)">
   </resource>
 
-  <resource identifier="Sudo" checksum="(null)">
+  <resource identifier="Ubuntu Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="Sudo Bold" checksum="(null)">
+  <resource identifier="Ubuntu Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Tahoma" checksum="(null)">
+  <resource identifier="Ubuntu Condensed," checksum="(null)">
   </resource>
 
-  <resource identifier="Tahoma Bold" checksum="(null)">
+  <resource identifier="Ubuntu Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="TAMu_Kadambri" checksum="(null)">
+  <resource identifier="Ubuntu Light" checksum="(null)">
   </resource>
 
-  <resource identifier="TAMu_Kalyani" checksum="(null)">
+  <resource identifier="Ubuntu Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="TAMu_Maduram" checksum="(null)">
+  <resource identifier="Ubuntu Mono" checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Bold" checksum="(null)">
+  <resource identifier="Ubuntu Mono Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Bold Italic" checksum="(null)">
+  <resource identifier="Ubuntu Mono Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Medium" checksum="(null)">
+  <resource identifier="Ubuntu Mono Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Medium Italic" checksum="(null)">
+  <resource identifier="Ubuntu Semi-Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="TerminessTTF Nerd Font Mono Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="TerminessTTF Nerd Font Mono Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="TerminessTTF Nerd Font Mono Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="TerminessTTF Nerd Font Mono Medium Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="TSCu_Comic" checksum="(null)">
-  </resource>
-
-  <resource identifier="TSCu_Paranar" checksum="(null)">
-  </resource>
-
-  <resource identifier="TSCu_Paranar Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="TSCu_Paranar Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="TSCu_Times" checksum="(null)">
-  </resource>
-
-  <resource identifier="UbuntuMono Nerd Font" checksum="(null)">
+  <resource identifier="Ubuntu Semi-Bold Italic" checksum="(null)">
   </resource>
 
   <resource identifier="URW Bookman Light" checksum="(null)">
@@ -4267,25 +3730,7 @@
   <resource identifier="URW Gothic Semi-Bold Oblique" checksum="(null)">
   </resource>
 
-  <resource identifier="VCR OSD Mono" checksum="(null)">
-  </resource>
-
-  <resource identifier="VinylRegular" checksum="(null)">
-  </resource>
-
-  <resource identifier="Whois Medium" checksum="(null)">
-  </resource>
-
   <resource identifier="Xirod" checksum="(null)">
-  </resource>
-
-  <resource identifier="xos4 Terminus" checksum="(null)">
-  </resource>
-
-  <resource identifier="xos4 Terminus Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="XUJFLY+Plaak-36-ExpandedRegular Expanded" checksum="(null)">
   </resource>
 
   <resource identifier="Z003 Medium Italic" checksum="(null)">

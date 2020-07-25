@@ -1,6 +1,7 @@
 set -g -x PATH /usr/local/bin $PATH
 set -U fish_user_paths ~/.bin ~/.dotnet
-set -Ux BROWSER firefox
+set -U BROWSER firefox
+set -U QT_QPA_PLATFORMTHEME qt5ct
 
 function su
    command su --shell=/usr/bin/fish $argv

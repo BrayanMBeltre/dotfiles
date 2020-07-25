@@ -2,8 +2,8 @@
 #export MANGOHUD_DLSYM=1
 #export ENABLE_VKBASALT=1
 #export MSBuildSDKsPath=(echo /usr/share/dotnet/sdk/3.*/Sdks)
-
-### Aliases ###
+export QT_QPA_PLATFORMTHEME=qt5ct
+## Aliases ###
 
 alias cp='cp -iv'
 alias mv='mv -iv'
@@ -73,7 +73,7 @@ alias dependencies="expac -l '\n' %E -S '$2' | sort -u"
 alias lightdm='dm-tool switch-to-greeter'
 
 #For Fun
-alias noti='notify-send -i /usr/share/icons/manjaro-i3.png "Manjaro!!"'
+alias noti='notify-send -i /home/brayanmb07/.icons/oomox-baloon/16x16/categories/notifyconf.svg "Manjaro!!"'
 alias acuarium='asciiquarium'
 alias tt='tt'
 

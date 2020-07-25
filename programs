@@ -12,7 +12,7 @@ firefox
 subl
 pcmanfm
 ncmpcpp
-picom
+picom-ibhagwan-git
 dunst
 flameshot
 visual-studio-code-bin
@@ -40,3 +40,6 @@ expac
 gimp
 i3-gaps
 i3lock-color
+font-manager
+lightdm-webkit2-greeter (https://github.com/manilarome/lightdm-webkit2-theme-glorious)
+file-roller

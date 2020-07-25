@@ -1,5 +1,6 @@
 package extract
 package grc
+theme agnoster
 theme bobthefish
 theme default
 theme spacefish

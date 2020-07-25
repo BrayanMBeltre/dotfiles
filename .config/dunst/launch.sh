@@ -1,7 +1,9 @@
 #!/usr/bin/env sh
 
-killall -q dunst
+# Symlink dunst config
+ln -sf ~/.cache/wal/dunstrc ~/.config/dunst/dunstrc
 
-dunst
-
+# Restart dunst with the new color scheme
+pidof dunst && killall dunst
+dunst &
 notify-send "Dunst Started"
