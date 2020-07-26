@@ -8810,3 +8810,12 @@ Jul 26 08:51 : client: [6] opened from 127.0.0.1:34004
 Jul 26 08:51 : client: [6] closed
 Jul 26 09:45 : exception: Failed to create /home/brayanmb07/.mpd/mpdstate: No such file or directory
 Jul 26 09:45 : player: played "Arctic Monkeys/Teddy Picker/01 Teddy Picker.mp3"
+Jul 26 16:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 26 16:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 26 16:03 : client: [0] opened from 127.0.0.1:56772
+Jul 26 16:03 : avahi: Service 'Music Player @ brayanmb07' successfully established.
+Jul 26 16:04 : client: [1] opened from 127.0.0.1:56780
+Jul 26 16:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 26 16:04 : client: [2] opened from 127.0.0.1:56788
+Jul 26 16:04 : client: [2] closed
+Jul 26 16:04 : client: [1] closed
