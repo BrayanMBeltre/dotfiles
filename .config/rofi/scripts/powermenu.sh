@@ -32,6 +32,6 @@ $lock)
     ~/.bin/lock
     ;;
 $logout)
-    i3exit logout
+    i3 exit
     ;;
 esac

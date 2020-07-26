@@ -23,7 +23,7 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 2)
+            (current-page 4)
             (dockable "gimp-color-editor"
                 (locked)
                 (tab-style automatic)
@@ -80,11 +80,11 @@
     (size 890 672))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 227 50)
-    (size 838 694))
+    (position 226 49)
+    (size 890 672))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
-    (position 526 165))
+    (position 525 164))
 (session-info "toplevel"
     (factory-entry "gimp-preferences-dialog")
     (position 258 0)

@@ -1,0 +1,4 @@
+feh -B #282828 \
+--scale-down \
+--auto-zoom \
+--cache-thumbnails \

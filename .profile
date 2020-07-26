@@ -1,8 +1,3 @@
-#export MANGOHUD=1
-#export MANGOHUD_DLSYM=1
-#export ENABLE_VKBASALT=1
-#export MSBuildSDKsPath=(echo /usr/share/dotnet/sdk/3.*/Sdks)
-export QT_QPA_PLATFORMTHEME=qt5ct
 ## Aliases ###
 
 alias cp='cp -iv'
@@ -47,12 +42,12 @@ alias picom='picom --experimental-backend'
 #Multimedia
 alias player="ncmpcpp"
 alias mixer='ncpamixer'
-alias vlc='devour vlc'
+#alias vlc='devour vlc'
 alias mute='amixer -q -D pulse sset Master toggle'
 #alias dmusic='youtube-dl --config-location ~/.config/youtube-dl/music'
 #alias dvideo='youtube-dl --config-location ~/.config/youtube-dl/video'
-alias viewnior='devour ristretto'
-alias zathura='devour zathura'
+#alias viewnior='devour ristretto'
+#alias zathura='devour zathura'
 #legendary epic games launcher cli
 alias epiclist='legendary list-games'
 alias epiclistinstalled='legendary list-installed'
@@ -78,3 +73,40 @@ alias acuarium='asciiquarium'
 alias tt='tt'
 
 ### Aliases ###
+
+
+### Clean Home ###
+
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+export CARGO_HOME="$XDG_DATA_HOME/.local/share/cargo"
+export GNUPGHOME="$XDG_CONFIG_HOME/gnupg"
+export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc-2.0"
+export LESSHISTFILE="-"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+export WINEPREFIX="$XDG_DATA_HOME/.local/share/wineprefixes/default"
+export GOPATH="$XDG_DATA_HOME/.local/share/go"
+export HISTFILE="$XDG_DATA_HOME/.local/share/history"
+export NPM_CONFIG_USERCONFIG="$XDG_DATA_HOME/npm/npmrc"
+export NUGET_PACKAGES="$XDG_CACHE_HOME/NuGetPackages"
+export WAKATIME_HOME="$XDG_CONFIG_HOME/wakatime"
+export ANDROID_SDK_HOME="$XDG_CONFIG_HOME/android"
+export ANDROID_AVD_HOME="$XDG_DATA_HOME"/android/
+export ANDROID_EMULATOR_HOME="$XDG_DATA_HOME"/android/
+export ADB_VENDOR_KEY="$XDG_CONFIG_HOME"/android
+
+### Clean Home ###
+
+### Stuffs ###
+
+#export MANGOHUD=1
+#export MANGOHUD_DLSYM=1
+#export ENABLE_VKBASALT=1
+#export MSBuildSDKsPath=(echo /usr/share/dotnet/sdk/3.*/Sdks)
+export QT_QPA_PLATFORMTHEME=qt5ct
+#export MOZ_USE_XINPUT2="1"
+export LIBVA_DRIVER_NAME=iHD
+
+### Stuffs ###
