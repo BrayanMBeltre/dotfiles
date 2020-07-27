@@ -1,0 +1,8 @@
+game:
+  appid: leagueoflegends_leagueoflegends
+  args: BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/leagueoflegends_leagueoflegends.desktop
+    /var/lib/snapd/snap/bin/leagueoflegends
+  exe: /usr/bin/env
+linux: {}
+system:
+  disable_runtime: true

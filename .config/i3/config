@@ -204,6 +204,8 @@ for_window [title="choose theme file"] floating enable resize set 759 568
 for_window [class="discord"] move container to workspace 5
 for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
 for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable resize set 759 568
+for_window [class="Wine" title="League of Legends"] floating enable
+
 
 ##############################
 ### Autostart applications ###

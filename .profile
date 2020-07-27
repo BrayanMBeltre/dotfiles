@@ -32,6 +32,7 @@ alias updatefc='sudo fc-cache -fv'
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
 #pacman
+alias updatemirrors="sudo  reflector --verbose --latest 15 --sort rate --save /etc/pacman.d/mirrorlist"
 alias install="yay -S"
 alias update="yay -Syyuu"
 alias remove="yay -Rns"
@@ -68,12 +69,12 @@ alias dependencies="expac -l '\n' %E -S '$2' | sort -u"
 alias lightdm='dm-tool switch-to-greeter'
 
 #For Fun
-alias noti='notify-send -i /home/brayanmb07/.icons/oomox-baloon/16x16/categories/notifyconf.svg "Manjaro!!"'
+alias noti='notify-send -i $XDG_DATA_HOME/icons/oomox-baloon/16x16/categories/notifyconf.svg "Manjaro!!"'
 alias acuarium='asciiquarium'
 alias tt='tt'
+alias pk='pkill'
 
 ### Aliases ###
-
 
 ### Clean Home ###
 
@@ -86,9 +87,9 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc-2.0"
 export LESSHISTFILE="-"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"
-export WINEPREFIX="$XDG_DATA_HOME/.local/share/wineprefixes/default"
-export GOPATH="$XDG_DATA_HOME/.local/share/go"
-export HISTFILE="$XDG_DATA_HOME/.local/share/history"
+export WINEPREFIX="$XDG_DATA_HOME/wineprefixes/default"
+export GOPATH="$XDG_DATA_HOME/go"
+export HISTFILE="$XDG_DATA_HOME/history"
 export NPM_CONFIG_USERCONFIG="$XDG_DATA_HOME/npm/npmrc"
 export NUGET_PACKAGES="$XDG_CACHE_HOME/NuGetPackages"
 export WAKATIME_HOME="$XDG_CONFIG_HOME/wakatime"
@@ -106,7 +107,6 @@ export ADB_VENDOR_KEY="$XDG_CONFIG_HOME"/android
 #export ENABLE_VKBASALT=1
 #export MSBuildSDKsPath=(echo /usr/share/dotnet/sdk/3.*/Sdks)
 export QT_QPA_PLATFORMTHEME=qt5ct
-#export MOZ_USE_XINPUT2="1"
-export LIBVA_DRIVER_NAME=iHD
+export MOZ_USE_XINPUT2=1
 
 ### Stuffs ###
