@@ -1,0 +1,9 @@
+game:
+  exe: /home/brayanmb07/Games/Darksiders2/Darksiders2.exe
+system:
+  aco: false
+  mangohud: false
+wine:
+  dxvk: false
+  esync: false
+  version: lutris-lol-5.5-2-x86_64

@@ -75,8 +75,8 @@ tray-maxsize = 16
 
 ;== Module Location ========================================================
 
-modules-left = i3 mpd
-modules-center = polywins
+modules-left = i3
+modules-center = mpd
 modules-right = updates_i updates battery backlight volume date
 
 ;== Modules ========================================================
@@ -164,27 +164,51 @@ label-empty-foreground = ${color.foreground}
 
 ;==========================================================
 
+[module/mpc]
+type = custom/script
+
+exec = ~/.config/polybar/scripts/mpd.sh
+
+tail = true
+interval = 5
+
+format-background = ${color.background}
+format-foreground = ${color.foreground}
+format-padding = 1
+
+click-left = mpc toggle
+
+;==========================================================
+
+[module/mpc_i]
+type = custom/text
+
+content = 
+content-background = ${color.background}
+content-foreground = ${color.foreground}
+content-padding = 1
+
+click-left = mpc toggle
+
+;==========================================================
+
 [module/mpd]
 type = internal/mpd
-format-online = <toggle> <label-song>
+format-online = <icon-prev> <label-song> <icon-next>
 format-online-padding = 0
 format-playing-foreground = ${color.yellow}
 format-paused-foreground = ${color.foreground}
 
 label-offline = "MPD is offline" 
 
-label-song = "%artist% - %title%" 
+label-song = %{A1:mpc toggle:}%artist%  %title%%{A}
 
-;icon-next =   
-;icon-prev =  
-icon-play = 
-icon-pause = 
-;icon-play =   
-;sicon-pause =   
-;icon-stop =   
+icon-next = 
+icon-prev = 
 
-label-song-maxlen = 25
-label-song-ellipsis = true
+
+;label-song-maxlen = 48 
+;label-song-ellipsis = true
 
 ;==========================================================
 

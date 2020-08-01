@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+status=$(wmctrl -l | grep 'miniplayer-ncmpcpp' -c)
+
+if [[ $status == 0 ]]; then
+	kitty --title=miniplayer-ncmpcpp -e 'ncmpcpp'
+else
+	wmctrl -c miniplayer-ncmpcpp
+fi
+

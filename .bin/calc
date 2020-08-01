@@ -1,6 +1,0 @@
-#! /usr/bin/env bash
-#based on https://github.com/onespaceman/menu-calc/blob/master/%3D
-
-function ll
-    ls -l $argv
-end

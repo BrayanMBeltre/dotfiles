@@ -27,8 +27,8 @@ bindsym $mod+F2 exec subl
 bindsym $mod+F3 exec pcmanfm
 # Extra
 bindsym $mod+F4 exec lutris
-# Player
-bindsym $mod+p exec kitty --title=player-ncmpcpp -e 'ncmpcpp'
+# MiniPlayer
+bindsym $mod+p exec ~/.bin/miniplayer
 # Picom
 bindsym $mod+t exec --no-startup-id picom -b
 bindsym $mod+Shift+t --no-startup-id pkill picom
@@ -87,7 +87,7 @@ for_window [urgent=latest] focus
 # split orientation
 bindsym $mod+h split h;exec notify-send 'tile horizontally'
 bindsym $mod+v split v;exec notify-send 'tile vertically'
-bindsym $mod+q split toggle
+#bindsym $mod+q split toggle
 
 # toggle fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -159,6 +159,7 @@ assign [class="code-oss"] $ws2
 assign [class="Code"] $ws2
 assign [class="Pcmanfm"] $ws3
 assign [class="Thunar"] $ws3
+assign [class="Nautilus"] $ws3
 assign [class="Wine"] $ws4
 assign [class="explorer.exe"] $ws4
 assign [class="Teams"] $ws5
@@ -171,6 +172,7 @@ assign [class="Discord"] $ws5
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="calamares"] floating enable border pixel 1
 for_window [class="Clipgrab"] floating enable
+for_window [class="Nautilus"] border pixel 1
 for_window [title="File Transfer*"] floating enable
 for_window [class="fpakman"] floating enable
 for_window [class="Galculator"] floating enable border pixel 1
@@ -188,14 +190,16 @@ for_window [class="(?i)virtualbox"] floating enable border pixel 1
 for_window [class="VirtualBox Machine"] floating disable
 for_window [title="htop"] floating enable resize set 759 568
 for_window [title="Select file"] floating enable resize set 759 568
-for_window [title="player-ncmpcpp"] floating enable, resize set 430 350, move absolute position 20 px 30 px
+# miniplayer size and position
+for_window [title="miniplayer-ncmpcpp"] border pixel 0, floating enable, resize set 430 350, move absolute position 0 px 30 px
+
 for_window [class="Wine"] fullscreen enable
 for_window [class="File-roller"] floating enable border pixel 1
 for_window [class="Blueman-managerz"] floating enable border pixel 1
 # Teams
 no_focus [title="Microsoft Teams Notification"]
 for_window [title="Microsoft Teams Notification"] floating enable move absolute position 4812 px 1316 px
-# Teams
+
 for_window [class="Transmission-gtk"] floating enable border pixel 1
 for_window [class="vvave"] floating enable border pixel 1
 for_window [class="Gnome-disks"] floating enable border pixel 1
@@ -243,7 +247,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # Set shut down, restart and locking features
 bindsym $mod+0 mode "$mode_system"

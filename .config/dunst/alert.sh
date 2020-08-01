@@ -42,7 +42,7 @@ if [[ $summary_case != "locking screen in 30 seconds" ]]; then
         exit
         ;;
     *)
-        paplay --volume 90000 $AUDIO_DIR/notification.wav
+        paplay --volume 50000 $AUDIO_DIR/notification.wav
         # do nothing..
         ;;
     esac

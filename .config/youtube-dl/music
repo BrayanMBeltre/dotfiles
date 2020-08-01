@@ -4,5 +4,4 @@
 --audio-quality 0
 --add-metadata
 --console-title
---embed-thumbnail  
 --output ~/Music/%(title)s.%(ext)s

@@ -32,7 +32,7 @@ function next() {
 		playerctl next
 	elif [[ $mStatus == "playing" ]]; then
 		mpc next
-		bash -e /home/brayanmb07/.bin/music-cover
+		~/.bin/music-cover
 	fi
 }
 
@@ -41,7 +41,7 @@ function prev() {
 		playerctl next
 	elif [[ $mStatus == "playing" ]]; then
 		mpc prev
-		bash -e /home/brayanmb07/.bin/music-cover
+		~/.bin/music-cover
 	fi
 }
 

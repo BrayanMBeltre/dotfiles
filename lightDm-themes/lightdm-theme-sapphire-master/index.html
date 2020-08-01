@@ -46,7 +46,9 @@
     <script src="js/index.js"></script>
   </head>
   <body>
-    <div class="bg-image"></div>
+    <div class="bg-image"><div class="blur">
+      
+    </div></div>
     <div id="alert" style="display: none;">
       <div id="alert-container" class="text-center">
         <h3 style="padding: 25px;">
@@ -67,7 +69,7 @@
       </div>
     </div>
     <div id="mainContent" class="row">
-      <div class="col col-6" style="background: rgba(0, 0, 0, 0.02);">
+      <div class="col" style="background: rgba(0, 0, 0, 0.02);">
         <div id="login">
           <div id="login-user-img">
             <img class="img-fluid" src="images/user.svg" />
@@ -89,7 +91,6 @@
           </div>
           <button class="btn btn-light" id="login-current-session">
             <span id="login-session-text">SESSION</span>
-            <i class="text-right fas fa-angle-right arrow-right"></i>
           </button>
         </div>
 
@@ -101,63 +102,57 @@
 
         <div id="login-users" style="display: none;"></div>
       </div>
-      <div id="clock" class="col col-6">
-        <div id="clock-date" class="text-right disableSelector">
-          <span id="clock-date-day">DAY</span>,
-          <span id="clock-date-date">MON 00</span>
+    </div>
+    <div id="clock" class="disableSelector">
+  
+        <span id="clock-date-day">DAY</span>,
+        <span id="clock-date-date">MON 00</span> |
+        <span id="clock-time-hr">00</span>:<span id="clock-time-min" class="disable-selector">00</spans>
         </div>
-        <div id="clock-time" class="text-right disableSelector">
-          <span id="clock-time-hr">00</span>:<span
-            id="clock-time-min"
-            class="disable-selector"
-            >00</span
+      <div id="controls" class="row">
+        <div class="col col-3">
+          <button
+            type="button"
+            class="btn btn-light"
+            data-toggle="tooltip"
+            title="Shutdown"
+            id="control-shutdown"
           >
+            <i class="fas fa-power-off"></i>
+          </button>
         </div>
-        <div id="controls" class="row">
-          <div class="col col-3">
-            <button
-              type="button"
-              class="btn btn-light"
-              data-toggle="tooltip"
-              title="Shutdown"
-              id="control-shutdown"
-            >
-              <i class="fas fa-power-off"></i>
-            </button>
-          </div>
-          <div class="col col-3">
-            <button
-              type="button"
-              class="btn btn-light"
-              data-toggle="tooltip"
-              title="Hibernate"
-              id="control-hibernate"
-            >
-              <i class="fas fa-snowflake"></i>
-            </button>
-          </div>
-          <div class="col col-3">
-            <button
-              type="button"
-              class="btn btn-light"
-              data-toggle="tooltip"
-              title="Suspend"
-              id="control-suspend"
-            >
-              <i class="fas fa-pause"></i>
-            </button>
-          </div>
-          <div class="col col-3">
-            <button
-              type="button"
-              class="btn btn-light"
-              data-toggle="tooltip"
-              title="Restart"
-              id="control-restart"
-            >
-              <i class="fas fa-sync-alt"></i>
-            </button>
-          </div>
+        <div class="col col-3">
+          <button
+            type="button"
+            class="btn btn-light"
+            data-toggle="tooltip"
+            title="Hibernate"
+            id="control-hibernate"
+          >
+            <i class="fas fa-snowflake"></i>
+          </button>
+        </div>
+        <div class="col col-3">
+          <button
+            type="button"
+            class="btn btn-light"
+            data-toggle="tooltip"
+            title="Suspend"
+            id="control-suspend"
+          >
+            <i class="fas fa-pause"></i>
+          </button>
+        </div>
+        <div class="col col-3">
+          <button
+            type="button"
+            class="btn btn-light"
+            data-toggle="tooltip"
+            title="Restart"
+            id="control-restart"
+          >
+            <i class="fas fa-sync-alt"></i>
+          </button>
         </div>
       </div>
     </div>
@@ -168,17 +163,16 @@
       style="display: none; height: 0; width: 0; position: fixed; left: -500px;"
     >
       <button id="dump-userButton" class="btn btn-light">
-        <i class="text-left fas fa-angle-left arrow-left"></i>
-        <p class="container text-right">
+        
+        <p class="container text-center">
+          <img class="img-fluid" src="images/user.svg" />
           <span class="name">Name</span> -
           <span class="username">USERNAME</span>
         </p>
-        <img class="img-fluid" src="images/user.svg" />
       </button>
 
       <button id="dump-sessionButton" class="btn btn-light">
-        <i class="text-left fas fa-angle-left arrow-left"></i
-        ><span class="container">SESSION</span>
+        <span class="container">SESSION</span>
       </button>
     </div>
   </body>

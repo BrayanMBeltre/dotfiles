@@ -39,7 +39,6 @@ external_editor = "subl"
 mouse_support = "yes"
 user_interface = "classic"
 ncmpcpp_directory = "~/.config/ncmpcpp/"
-
-
-
-
+lyrics_directory = "~/.config/ncmpcpp/lyrics"
+#execute_on_song_change = pkill dunst && notify-send "Now Playing ♫" "$(mpc current)"
+execute_on_song_change="~/.bin/music-cover"

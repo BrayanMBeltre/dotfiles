@@ -1,0 +1,5 @@
+game:
+  exe: /home/brayanmb07/Games/Aeon Drive Beta/Aeon Drive.exe
+system: {}
+wine:
+  fsync: true

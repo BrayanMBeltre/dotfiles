@@ -11,8 +11,8 @@
     (size 620 200))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 0 30)
-    (size 1366 738)
+    (position 918 42)
+    (size 434 712)
     (open-on-exit)
     (aux-info
         (left-docks-width "44")
@@ -28,7 +28,7 @@
                 (locked)
                 (tab-style automatic)
                 (aux-info
-                    (current-page "GimpColorSelect")))
+                    (current-page "GimpColorScales")))
             (dockable "gimp-histogram-editor"
                 (locked)
                 (tab-style automatic))
@@ -76,12 +76,12 @@
     (position 495 465))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
-    (position 120 49)
-    (size 890 672))
+    (position 118 47)
+    (size 890 675))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 226 49)
-    (size 890 672))
+    (position 234 54)
+    (size 890 675))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
     (position 525 164))

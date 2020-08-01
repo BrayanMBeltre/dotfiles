@@ -4,21 +4,37 @@ MUSIC_DIR=~/Music/ # Your music directory
 COVER=/tmp/cover.jpg
 
 {
-    album="$(mpc --format %album% current -p 6600)"
+    album="$(mpc --format %album% current -p 6600)" # Your Port
     file="$(mpc --format %file% current -p 6600)"
     album_dir="${file%/*}"
     [[ -z "$album_dir" ]] && exit 1
     album_dir="$MUSIC_DIR/$album_dir"
-    covers="$(find "$album_dir" -type d -exec find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\|cover\|folder\|artwork\|front\).*[.]\(jpe?g\|png\|gif\|bmp\)" \; )"
+
+    # Generate album
+    song="$(find "$album_dir" -type d -exec find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\).*[.]\(mp3\)" \;)"
+    src2="$(echo -n "$song" | head -n1)"
+    echo $song
+    #ffmpeg -i "$song" "$album_dir/cover.jpg"
+    if [[ -n "$src2" ]]; then
+        ffmpeg -i "$src2" "$album_dir/cover.jpg"
+
+    fi
+
+    covers="$(find "$album_dir" -type d -exec find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\|cover\|folder\|artwork\|front\).*[.]\(jpe?g\|png\|gif\|bmp\)" \;)"
     src="$(echo -n "$covers" | head -n1)"
-    rm -f "$COVER" 
-    
+    rm -f "$COVER"
+
     # For Notifications
-    if [[ -n "$src" ]] ; then
+    if [[ -n "$src" ]]; then
         # Resize the image's width to 64px
         convert "$src" -resize 64x "$COVER"
-        if [[ -f "$COVER" ]] ; then
-            notify-send -u normal -i ${COVER} " Now Playing" "`mpc current`"
+        if [[ -f "$COVER" ]]; then
+            pkill dunst
+            notify-send -u normal -i ${COVER} " Now Playing" "$(mpc current)"
         fi
+    else
+        pkill dunst
+        notify-send -u normal " Now Playing" "$(mpc current)"
+
     fi
 } &

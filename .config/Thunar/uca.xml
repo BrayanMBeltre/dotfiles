@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1595520216596300-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Create Link</name>
+	<unique-id>1595572478847570-1</unique-id>
+	<command>ln -s %f &apos;%n link&apos;</command>
+	<description>Create SoftLink</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Send To Device</name>
+	<unique-id>1595572994756044-2</unique-id>
+	<command>mconnectctl share-file /org/mconnect/device/0 %F</command>
+	<description>Send with mconnect</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>Open as Root</name>
+	<unique-id>1595575777889445-3</unique-id>
+	<command>pkexec thunar %f</command>
+	<description>Open as Root</description>
+	<patterns>*</patterns>
+	<directories/>
+	<text-files/>
+</action>
+</actions>
