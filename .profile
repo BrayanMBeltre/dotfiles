@@ -21,7 +21,8 @@ alias top='htop'
 
 #configs
 alias zshconfig="subl ~/.zshrc &"
-alias colors="subl ~/.config/wal/colorschemes/dark/GruvBox.json &"
+alias gbcolors="subl ~/.config/wal/colorschemes/dark/GruvBox.json &"
+alias ncolors="subl ~/.config/wal/colorschemes/dark/Nord.json &"
 alias fishconfig="subl ~/.config/fish/config.fish &"
 alias profile="subl ~/.profile &"
 alias i3config="subl ~/.config/i3/config &"
@@ -85,8 +86,9 @@ alias gc='git clone'
 #For Fun
 alias noti='notify-send -i $XDG_DATA_HOME/icons/oomox-baloon/16x16/categories/notifyconf.svg "Manjaro!!"'
 alias acuarium='asciiquarium'
-alias tt='tt'
+alias tt='cli-typer'
 alias pk='pkill'
+alias k91='kill -9 -1'
 
 ### Aliases ###
 
@@ -117,6 +119,7 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 
 ### Stuffs ###
 
+export EDITOR=subl
 #export MANGOHUD=1
 #export MANGOHUD_DLSYM=1
 export ENABLE_VKBASALT=1

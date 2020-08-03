@@ -13,11 +13,11 @@ COVER=/tmp/cover.jpg
     # Generate album
     song="$(find "$album_dir" -type d -exec find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\).*[.]\(mp3\)" \;)"
     src2="$(echo -n "$song" | head -n1)"
-    echo $song
-    #ffmpeg -i "$song" "$album_dir/cover.jpg"
-    if [[ -n "$src2" ]]; then
-        ffmpeg -i "$src2" "$album_dir/cover.jpg"
 
+    if [[ $song < 1 ]]; then
+        if [[ -n "$src2" ]]; then
+            ffmpeg -i "$src2" "$album_dir/cover.jpg"
+        fi
     fi
 
     covers="$(find "$album_dir" -type d -exec find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\|cover\|folder\|artwork\|front\).*[.]\(jpe?g\|png\|gif\|bmp\)" \;)"

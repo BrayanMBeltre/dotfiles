@@ -38,7 +38,7 @@ configuration {
   apps-textbox-prompt-colon-padding: 10px -5px 0px 0px;
 }
 
-@import "~/.cache/wal/colors-rofi-dark.rasi" 
+@import "~/.config/wpg/templates/colors-rofi-dark.rasi" 
 
 #window {
   width: 50%;

@@ -25,7 +25,7 @@
   menu-element-padding: 25px 35px 20px -40px;
 }
 
-@import "~/.cache/wal/colors-rofi-dark.rasi"
+@import "~/.config/wpg/templates/colors-rofi-dark.rasi"
 
 /* ########### */
 

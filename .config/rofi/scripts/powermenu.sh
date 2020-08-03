@@ -32,6 +32,7 @@ $lock)
     ~/.bin/lock
     ;;
 $logout)
+	mpc stop
     i3 exit
     ;;
 esac

@@ -1,0 +1,5 @@
+game:
+  exe: /home/brayanmb07/Games/Panzer Paladin/PanzerPaladin.exe
+  prefix: ~/Games/league-of-legends
+system: {}
+wine: {}

@@ -1,0 +1,8 @@
+game:
+  exe: /home/brayanmb07/Games/Grounded/Grounded.exe
+  prefix: ~/Games/epic-games-store
+system: {}
+wine:
+  Desktop: true
+  fsync: true
+  version: lutris-lol-5.5-2-x86_64

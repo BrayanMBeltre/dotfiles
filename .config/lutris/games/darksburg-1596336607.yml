@@ -1,0 +1,9 @@
+game:
+  exe: /home/brayanmb07/Games/Darksburg/Darksburg.exe
+  prefix: /home/brayanmb07/Games/epic-games-store
+system:
+  mangohud: false
+wine:
+  esync: true
+  fsync: true
+  version: lutris-lol-5.5-2-x86_64

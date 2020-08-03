@@ -4,7 +4,7 @@ configuration {
   show-icons: true;
   icon-theme: "Papirus";
   location: 5;
-  theme: "~/.cache/wal/colors-rofi-dark";
+  theme: "~/.config/wpg/templates/colors-rofi-dark";
 }
 /** 
 yoffset: -583;

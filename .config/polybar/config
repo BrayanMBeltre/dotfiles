@@ -15,12 +15,11 @@
 
 [color]
 background = ${xrdb:color0:#222}
-foreground = ${xrdb:color7:#222}
+foreground = ${xrdb:color15:#222}
 red = ${xrdb:color1:#222}
 green = ${xrdb:color2:#222}
-blue = ${xrdb:color4:#222}
-yellow = ${xrdb:color3:#222}
-
+yellow = ${xrdb:color4:#222}
+blue = ${xrdb:color3:#222}
 
 ;==========================================================
 

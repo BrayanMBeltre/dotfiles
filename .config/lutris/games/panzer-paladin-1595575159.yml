@@ -1,0 +1,6 @@
+game:
+  exe: /home/brayanmb07/Games/Panzer Paladin/PanzerPaladin.exe
+  prefix: ~/Games/league-of-legends
+system: {}
+wine:
+  version: lutris-5.7-8-x86_64

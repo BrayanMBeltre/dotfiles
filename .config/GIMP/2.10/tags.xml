@@ -10,10 +10,10 @@
     <tag>round</tag>
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-image" checksum="ff05fc100a7891fd9fa5567e7e567900">
+  <resource identifier="gimp-brush-clipboard-image" checksum="4f080e5e2027d3c4b79b60c844a6c292">
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-mask" checksum="9b754a281d2fb75f884bc2de8d2c6542">
+  <resource identifier="gimp-brush-clipboard-mask" checksum="84e1ef66e349dd79fa52aeca03d09e75">
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="c84494b4a904a7c1a3548e564b073ca3">
@@ -772,7 +772,7 @@
   <resource identifier="${mypaint_brushes_dir}/ramon/wet_round.myb" checksum="038abfe33947692f773e0244d2ac7fc1">
   </resource>
 
-  <resource identifier="gimp-pattern-clipboard-image" checksum="a1e83ad529a604f28ef7f2e81e1e8a21">
+  <resource identifier="gimp-pattern-clipboard-image" checksum="5554232c757712744b11cf5f41121b50">
   </resource>
 
   <resource identifier="${gimp_data_dir}/patterns/Legacy/3dgreen.pat" checksum="00052731f14a5bc614daece969b368bc">
@@ -1177,7 +1177,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="bc31f8e3513d9a750bd7f3a862db81ef">
+  <resource identifier="gimp-palette-color-history" checksum="c6fb7f882837266b91d834e3d8bd7f74">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -3503,45 +3503,6 @@
   </resource>
 
   <resource identifier="Noto Serif Tibetan Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Condensed, Bold Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Condensed, Light Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Condensed, Light Italic Condensed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Semi-Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Ultra-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Open Sans Ultra-Bold Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Outrun future Bold" checksum="(null)">
