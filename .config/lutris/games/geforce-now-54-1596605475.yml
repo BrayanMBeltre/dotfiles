@@ -1,0 +1,10 @@
+game:
+  arch: win64
+  exe: drive_c/users/brayanmb07/AppData/Local/NVIDIA Corporation/GeForceNOW/CEF/GeForceNOW.exe
+  prefix: /home/brayanmb07/Games/geforce-now
+system:
+  manual_command: /home/brayanmb07/Games/geforce-now/configupdater.sh
+  prelaunch_command: /home/brayanmb07/Games/geforce-now/configupdater.sh
+  prelaunch_wait: true
+wine:
+  version: lutris-gfn-3-x86_64

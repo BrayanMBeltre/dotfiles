@@ -1,0 +1,6 @@
+#!/bin/sh
+
+color1="a2d1ec" # Blue
+
+left="%{F#$color1}"
+echo $left hello

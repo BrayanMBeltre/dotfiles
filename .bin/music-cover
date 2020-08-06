@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 MUSIC_DIR=~/Music/ # Your music directory
-COVER=/tmp/cover.jpg
+COVERCACHE=/tmp/COVERCACHE.jpg
 
 {
     album="$(mpc --format %album% current -p 6600)" # Your Port
@@ -16,21 +16,21 @@ COVER=/tmp/cover.jpg
 
     if [[ $song < 1 ]]; then
         if [[ -n "$src2" ]]; then
-            ffmpeg -i "$src2" "$album_dir/cover.jpg"
+            ffmpeg -i "$src2" "$album_dir/COVERCACHE.jpg"
         fi
     fi
 
-    covers="$(find "$album_dir" -type d -exec find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\|cover\|folder\|artwork\|front\).*[.]\(jpe?g\|png\|gif\|bmp\)" \;)"
-    src="$(echo -n "$covers" | head -n1)"
-    rm -f "$COVER"
+    COVERCACHEs="$(find "$album_dir" -type d -exec find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\|COVERCACHE\|folder\|artwork\|front\).*[.]\(jpe?g\|png\|gif\|bmp\)" \;)"
+    src="$(echo -n "$COVERCACHEs" | head -n1)"
+    rm -f "$COVERCACHE"
 
     # For Notifications
     if [[ -n "$src" ]]; then
         # Resize the image's width to 64px
-        convert "$src" -resize 64x "$COVER"
-        if [[ -f "$COVER" ]]; then
+        convert "$src" -resize 64x "$COVERCACHE"
+        if [[ -f "$COVERCACHE" ]]; then
             pkill dunst
-            notify-send -u normal -i ${COVER} " Now Playing" "$(mpc current)"
+            notify-send -u normal -i ${COVERCACHE} " Now Playing" "$(mpc current)"
         fi
     else
         pkill dunst

@@ -11,8 +11,8 @@
     (size 620 200))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 690 42)
-    (size 662 712)
+    (position 0 30)
+    (size 1366 738)
     (open-on-exit)
     (aux-info
         (left-docks-width "44")
@@ -66,8 +66,8 @@
                     (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
-    (position 212 52)
-    (size 838 642))
+    (position 211 51)
+    (size 890 675))
 (session-info "toplevel"
     (factory-entry "gimp-shear-tool-dialog")
     (position 464 463))
@@ -80,7 +80,7 @@
     (size 890 675))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 233 53)
+    (position 231 51)
     (size 890 675))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
@@ -106,7 +106,7 @@
     (position 843 239))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 845 107))
+    (position 838 100))
 (session-info "toplevel"
     (factory-entry "gimp-offset-tool-dialog")
     (position 467 238))

@@ -28,7 +28,7 @@ bindsym $mod+F3 exec pcmanfm
 # Extra
 bindsym $mod+F4 exec lutris
 # MiniPlayer
-bindsym $mod+p exec ~/.bin/miniplayer
+bindsym $mod+p exec ~/.bin/music miniplayer
 # Picom
 bindsym $mod+t exec --no-startup-id picom -b
 bindsym $mod+Shift+t --no-startup-id pkill picom
@@ -39,7 +39,7 @@ bindsym Print --release exec --no-startup-id flameshot gui && flameshot full -p 
 bindsym $mod+Print --release exec --no-startup-id "flameshot full -p ~/Pictures/Screenshots/ | notify-send 'Screenshot'"
 # Kill a windows
 bindsym $mod+Shift+x --release exec --no-startup-id xkill
-bindsym Ctrl+Shift+Escape exec kitty -e htop
+bindsym Ctrl+Shift+Escape exec ~/.bin/kitty-htop
 # lockscreen
 bindsym $mod+l exec ~/.bin/lockScreen
 # Mixer
@@ -49,15 +49,15 @@ bindsym $mod+d exec ~/.config/rofi/scripts/launcher.sh
 # Powermenu
 bindsym $mod+Shift+e exec ~/.config/rofi/scripts/powermenu.sh
 # Screen brightness controls
-bindsym XF86MonBrightnessUp exec "brightnessctl set 5%+"
-bindsym XF86MonBrightnessDown exec "brightnessctl set 5%-"
+bindsym XF86MonBrightnessUp   exec ~/.bin/bars bl-up
+bindsym XF86MonBrightnessDown exec ~/.bin/bars bl-down
 # Media player controls
 bindsym XF86AudioPlay exec ~/.bin/music toggle
 bindsym XF86AudioNext exec ~/.bin/music next
 bindsym XF86AudioPrev exec ~/.bin/music prev
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec pamixer -i 5 | pamixer --get-volume > /tmp/xobpipe | tail -f /tmp/xobpipe | xob
-bindsym XF86AudioLowerVolume exec pamixer -d 5 | pamixer --get-volume > /tmp/xobpipe | tail -f /tmp/xobpipe | xob
+bindsym XF86AudioRaiseVolume exec ~/.bin/bars vol-up
+bindsym XF86AudioLowerVolume exec ~/.bin/bars vol-down
 bindsym XF86AudioMute        exec pamixer -t
 ##############################
 ###       Management       ###
@@ -188,7 +188,6 @@ for_window [class="Pavucontrol"] floating enable resize set 468 500
 for_window [class="Timeset-gui"] floating enable border pixel 1
 for_window [class="(?i)virtualbox"] floating enable border pixel 1
 for_window [class="VirtualBox Machine"] floating disable
-for_window [title="htop"] floating enable resize set 759 568
 for_window [title="Select file"] floating enable resize set 759 568
 # miniplayer size and position
 for_window [title="miniplayer-ncmpcpp"] border pixel 0, floating enable, resize set 430 350, move absolute position 0 px 30 px
@@ -210,6 +209,7 @@ for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
 for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable resize set 759 568
 for_window [class="Wine" title="League of Legends"] floating enable
 for_window [class="Wpg"] floating enable
+for_window [title="floating-htop"] floating enable resize set 759 568
 
 ##############################
 ### Autostart applications ###

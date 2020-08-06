@@ -1,0 +1,60 @@
+#! /usr/bin/env bash
+# dependencies xorg-xbacklight
+
+mute=$(pactl list | grep Mute: | head -n1 | cut -b7-)
+volume=$(pactl list | grep Volume | head -n1 | awk {'print $5'} | cut -b-2)
+xobpipe=~/.config/xob/xobpipe
+# increase or decrease
+value=5
+
+# if xobpipe don't exist then create that file
+if [ ! -f "$xobpipe" ]; then
+    touch $xobpipe
+fi
+
+# Volume Up
+function vol-up() {
+    pamixer -i $value
+    pamixer --get-volume > $xobpipe
+    tail -f $xobpipe | xob -s volume
+}
+
+# Volume Down
+function vol-down() {
+    pamixer -d $value
+    pamixer --get-volume > $xobpipe
+    tail -f $xobpipe | xob -s volume
+}
+
+# Brightness / Backlight up
+function bl-up() {
+    xbacklight -inc +$value
+    xbacklight -get > $xobpipe
+    tail -f $xobpipe | xob -s backlight
+}
+
+# Brightness / Backlight down
+function bl-down() {
+    xbacklight -dec +$value
+    xbacklight -get > $xobpipe
+    tail -f $xobpipe | xob -s backlight
+}
+
+killall xob
+case "$1" in
+vol-up)
+    vol-up
+    ;;
+vol-down)
+    vol-down
+    ;;
+bl-up)
+    bl-up
+    ;;
+bl-down)
+    bl-down
+    ;;
+*)
+    notify-send 'Use vol-down, vol-up, bl-up, bl-down'
+    ;;
+esac

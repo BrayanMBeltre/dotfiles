@@ -66,6 +66,7 @@
 (theme "System")
 (icon-size small)
 (layer-new-name "New Layer")
+(layer-new-fill-type white)
 (fill-options
     (style solid)
     (antialias yes)
