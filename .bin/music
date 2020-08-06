@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 # mpc status
-if [[ $(mpc status | grep -c "playing" ) == 1 ]]; then
+if [[ $(mpc status | grep -c "playing") == 1 ]]; then
     mStatus="playing"
 else
     mpcStatus="paused"
@@ -9,22 +9,22 @@ fi
 
 # next song on the actual player
 function next() {
-	if [[ $mStatus == "playing" ]]; then
-	    mpc next
-	    ~/.bin/music cover
-	else
-	    playerctl next
-	fi
+    if [[ $mStatus == "playing" ]]; then
+        mpc next
+        ~/.bin/music cover
+    else
+        playerctl next
+    fi
 }
 
 # next song on the actual player
 function prev() {
-	if [[ $mStatus == "playing" ]]; then
-	    mpc prev
-	    ~/.bin/music cover
-	else
-	    playerctl previous
-	fi
+    if [[ $mStatus == "playing" ]]; then
+        mpc prev
+        ~/.bin/music cover
+    else
+        playerctl previous
+    fi
 }
 
 #get polybar

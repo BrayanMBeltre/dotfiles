@@ -98,7 +98,8 @@ label-offline = "MPD is offline"
 [module/backlight]
 type = internal/xbacklight
 
-card = intel_backlight
+;If this module doesn't work for you, try to use the backlight module
+;https://github.com/polybar/polybar/wiki/Module:-backlight
 
 format = <ramp> <label>
 format-background = ${color.background}
@@ -108,6 +109,19 @@ format-padding = 0
 ramp-0 = 
 
 label = %percentage%%
+
+;==========================================================
+
+[module/updates_i]
+type = custom/text
+
+content = 
+content-background = ${color.background}
+content-foreground = ${color.foreground}
+content-padding = 1
+
+click-left = kitty yay -Syu
+; terminal   ^^^^
 
 ;==========================================================
 
@@ -123,19 +137,8 @@ format-background = ${color.background}
 format-foreground = ${color.foreground}
 format-padding = 1
 
-click-left = ~/.config/polybar/scripts/lupdates &
-
-;==========================================================
-
-[module/updates_i]
-type = custom/text
-
-content = 
-content-background = ${color.background}
-content-foreground = ${color.foreground}
-content-padding = 1
-
-click-left = ~/.config/polybar/scripts/lupdates &
+click-left = kitty yay -Syu
+; terminal   ^^^^
 
 ;==========================================================
 
@@ -143,6 +146,7 @@ click-left = ~/.config/polybar/scripts/lupdates &
 type = internal/battery
 full-at = 98
 time-format = %H:%M
+; get info: ls -1 /sys/class/power_supply/
 battery = BAT0
 adapter = AC
 

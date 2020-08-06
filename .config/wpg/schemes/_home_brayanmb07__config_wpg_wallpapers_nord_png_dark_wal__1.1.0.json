@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/brayanmb07/.config/wpg/wallpapers/nord.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#2E3440",
+        "foreground": "#fafdff",
+        "cursor": "#fafdff"
+    },
+    "colors": {
+        "color0": "#2E3440",
+        "color1": "#EC5F67",
+        "color2": "#99c794",
+        "color3": "#F9AE58",
+        "color4": "#6699cc",
+        "color5": "#C594C5",
+        "color6": "#a4ffff",
+        "color7": "#ECEFF4",
+        "color8": "#424b5d",
+        "color9": "#ff6572",
+        "color10": "#b4ffa9",
+        "color11": "#ffe35c",
+        "color12": "#8fbcbb",
+        "color13": "#ffaaff",
+        "color14": "#70c6ff",
+        "color15": "#fafdff"
+    }
+}
