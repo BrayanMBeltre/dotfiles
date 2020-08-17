@@ -1,16 +1,14 @@
 # GIMP user context
 
-(tool "gimp-operation-tool")
+(tool "gimp-rect-select-tool")
 (paint-info "gimp-paintbrush")
-(foreground (color-rgb 0.1803921568627451 0.20392156862745098 0.25098039215686274))
-(background (color-rgb 0.91372555494308472 0.79607850313186646 0.80392163991928101))
-(brush "2. Hardness 100")
+(brush "2. Hardness 025")
 (dynamics "Dynamics Off")
-(mybrush "bulk")
+(mybrush "100% Opaque")
 (pattern "Pine")
-(gradient "Custom")
-(palette "Default")
-(font "Standard")
+(gradient "FG to BG (RGB)")
+(palette "Standard")
+(font "AajaxSurrealFreak")
 (tool-preset "Core Pointer")
 
 # end of user context

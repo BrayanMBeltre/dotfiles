@@ -1,0 +1,10 @@
+game:
+  exe: /home/brayanmb07/Downloads/jre-8u261-windows-x64.exe
+  prefix: ~/Games/epic-games-store
+system: {}
+wine:
+  Desktop: true
+  dxvk: false
+  esync: false
+  fsync: false
+  version: lutris-5.7-8-x86_64

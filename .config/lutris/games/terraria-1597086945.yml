@@ -1,0 +1,12 @@
+game:
+  exe: /home/brayanmb07/Games/Terraria v1.4.0.5/Terraria.exe
+  prefix: ~/Games/epic-games-store
+system:
+  mangohud: false
+  resolution: 1920x1080
+wine:
+  Desktop: false
+  dxvk: false
+  esync: false
+  fsync: false
+  version: lutris-lol-5.5-2-x86_64

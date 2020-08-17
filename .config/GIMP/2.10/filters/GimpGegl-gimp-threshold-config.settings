@@ -1,14 +1,9 @@
 # settings
 
-(GimpGegl-gimp-threshold-config "2020-05-01 14:02:10"
-    (time 1588316530)
+(GimpGegl-gimp-threshold-config "2020-06-02 10:38:27"
+    (time 1591105107)
     (channel value)
-    (low 0)
-    (high 1))
-(GimpGegl-gimp-threshold-config "2020-05-01 13:43:36"
-    (time 1588315416)
-    (channel value)
-    (low 0.51764705882352946)
+    (low 0.83529411764705885)
     (high 1))
 
 # end of settings

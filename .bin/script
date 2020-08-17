@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+echo "$(ls ~/Music/)"| rofi -dmenu  | sed 's/.mp3//g' > song.info
+notify-send "Now Playing: $(cat song.info)" -t 3000
+play ~/Music/$(cat song.info).mp3
+echo "Nothing Playing" > song.info

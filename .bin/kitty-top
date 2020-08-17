@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+status=$(wmctrl -l | grep 'floating-top' -c)
+
+if [[ $status == 0 ]]; then
+	kitty --title=floating-top -e 'bashtop'
+else
+	wmctrl -c floating-top
+fi
+

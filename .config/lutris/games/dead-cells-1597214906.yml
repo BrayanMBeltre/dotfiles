@@ -1,0 +1,13 @@
+game:
+  exe: /home/brayanmb07/Games/Dead Cells v1.9/deadcells.exe
+  prefix: ~/Games/epic-games-store
+system:
+  mangohud: false
+  prefer_system_libs: true
+  prefix_command: mangohud
+wine:
+  dumbxinputemu: true
+  fsync: true
+  version: lutris-lol-5.5-2-x86_64
+  x360ce-dinput: true
+  x360ce-xinput9: true

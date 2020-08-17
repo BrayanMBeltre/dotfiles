@@ -30,8 +30,8 @@ bindsym $mod+F4 exec lutris
 # MiniPlayer
 bindsym $mod+p exec ~/.bin/music miniplayer
 # Picom
-bindsym $mod+t exec --no-startup-id picom -b
-bindsym $mod+Shift+t --no-startup-id pkill picom
+bindsym $mod+t exec picom -b
+bindsym $mod+Shift+t exec pkill picom
 # Dunst
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 # Screenshots
@@ -39,7 +39,7 @@ bindsym Print --release exec --no-startup-id flameshot gui && flameshot full -p 
 bindsym $mod+Print --release exec --no-startup-id "flameshot full -p ~/Pictures/Screenshots/ | notify-send 'Screenshot'"
 # Kill a windows
 bindsym $mod+Shift+x --release exec --no-startup-id xkill
-bindsym Ctrl+Shift+Escape exec ~/.bin/kitty-htop
+bindsym Ctrl+Shift+Escape exec ~/.bin/kitty-top
 # lockscreen
 bindsym $mod+l exec ~/.bin/lockScreen
 # Mixer
@@ -209,32 +209,33 @@ for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
 for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable resize set 759 568
 for_window [class="Wine" title="League of Legends"] floating enable
 for_window [class="Wpg"] floating enable
-for_window [title="floating-htop"] floating enable resize set 759 568
+for_window [title="floating-top"] floating enable resize set 890 580
+no_focus [class="flameshot"]
 
 ##############################
 ### Autostart applications ###
 ##############################
 
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec_always --no-startup-id ~/.bin/bg -t 1 ~/Pictures/Wallpapers
+exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+exec --no-startup-id redshift-gtk
 exec --no-startup-id wal -R
-exec --no-startup-id nm-applet
-exec --no-startup-id xfce4-power-manager
-exec --no-startup-id blueman-applet
-exec --no-startup-id ~/.bin/locker
-exec firefox
 exec --no-startup-id xinput --set-prop "Synaptics TM3096-006" "libinput Natural Scrolling Enabled" 0
+exec --no-startup-id fusuma
 exec --no-startup-id picom --experimental-backend -b
 exec_always $HOME/.config/polybar/launch.sh
+exec --no-startup-id nm-applet
+#exec --no-startup-id blueman-applet
+exec --no-startup-id xfce4-power-manager
 exec --no-startup-id mpd
-exec --no-startup-id fusuma
-exec discord
-exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+exec firefox
+#exec discord
 exec --no-startup-id mconnect
 exec --no-startup-id pcmanfm -d
 exec --no-startup-id thunar --daemon
-exec --no-startup-id redshift-gtk
-exec_always --no-startup-id ~/.bin/bg -t 1 ~/Pictures/Wallpapers
-
+exec --no-startup-id ~/.bin/locker
+exec ~/.bin/a2dp
 
 #####################
 ###   I3 config   ###
@@ -324,17 +325,16 @@ default_floating_border pixel 1
 # from the generated scheme.
 # NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
 # it fails to get colors from Xresources.
+set_from_resource $bg i3wm.color3 #f0f0f0
 set_from_resource $fg i3wm.color7 #f0f0f0
-set_from_resource $bg i3wm.color2 #f0f0f0
-set_from_resource $ac i3wm.color3 #f0f0f0
+set_from_resource $ac i3wm.color4 #f0f0f0
 
 # class                 border  backgr. text indicator child_border
 client.focused          $bg     $bg     $fg  $bg       $ac
 client.focused_inactive $bg     $bg     $fg  $bg       $bg
 client.unfocused        $bg     $bg     $fg  $bg       $bg
 client.urgent           $bg     $bg     $fg  $bg       $bg
-client.placeholder      $bg     $bg     $fg  $bg       $bg
-
+client.placeholder      $bg     $bg     $fg  $bg       $bg0
 client.background       $bg
 
 # Set inner/outer gaps

@@ -3,7 +3,10 @@ game:
   prefix: /home/brayanmb07/Games/epic-games-store
 system:
   mangohud: false
+  prefix_command: mangohud
 wine:
+  dumbxinputemu: true
   esync: true
   fsync: true
-  version: lutris-lol-5.5-2-x86_64
+  version: lutris-5.7-8-x86_64
+  x360ce-xinput9: false

@@ -1,0 +1,9 @@
+game:
+  exe: /run/media/brayanmb07/DATA/Games/Muse.Dash/MuseDash.exe
+  prefix: ~/Games/epic-games-store
+system:
+  mangohud: true
+  resolution: 1920x1080
+wine:
+  fsync: true
+  version: lutris-lol-5.5-2-x86_64

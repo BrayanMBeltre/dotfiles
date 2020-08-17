@@ -7,54 +7,45 @@ xobpipe=~/.config/xob/xobpipe
 # increase or decrease
 value=5
 
-# if xobpipe don't exist then create that file
+# if xobpipe file don't exist then create that file
 if [ ! -f "$xobpipe" ]; then
     touch $xobpipe
 fi
 
-# Volume Up
-function vol-up() {
-    pamixer -i $value
-    pamixer --get-volume > $xobpipe
-    tail -f $xobpipe | xob -s volume
-}
-
-# Volume Down
-function vol-down() {
-    pamixer -d $value
-    pamixer --get-volume > $xobpipe
-    tail -f $xobpipe | xob -s volume
-}
-
-# Brightness / Backlight up
-function bl-up() {
-    xbacklight -inc +$value
-    xbacklight -get > $xobpipe
-    tail -f $xobpipe | xob -s backlight
-}
-
-# Brightness / Backlight down
-function bl-down() {
-    xbacklight -dec +$value
-    xbacklight -get > $xobpipe
-    tail -f $xobpipe | xob -s backlight
-}
-
-killall xob
 case "$1" in
 vol-up)
-    vol-up
+	# Volume Up
+    pamixer -i $value
+    pamixer --get-volume > $xobpipe
+    theme=volume
     ;;
 vol-down)
-    vol-down
+	# Volume Down
+    pamixer -d $value
+    pamixer --get-volume > $xobpipe
+    theme=volume
     ;;
 bl-up)
-    bl-up
+	# Brightness / Backlig<t up
+    xbacklight -inc +$value
+    xbacklight -get > $xobpipe
+    theme=backlight
     ;;
 bl-down)
-    bl-down
+	# Brightness / Backlig<t down
+    xbacklight -dec +$value
+    xbacklight -get > $xobpipe
+    theme=backlight
     ;;
 *)
     notify-send 'Use vol-down, vol-up, bl-up, bl-down'
     ;;
 esac
+
+#SERVICE="xob"
+#if pgrep -x "$SERVICE" >/dev/null
+#then
+#    echo "$SERVICE is running"
+#else
+#	tail -f $xobpipe | xob -s $theme
+#fi

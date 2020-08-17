@@ -48,7 +48,7 @@ alias install="yay -Sy"
 alias update="yay -Syu"
 alias remove="yay -Rns"
 #Re-Launch
-alias polybar="~/.config/polybar/launch.sh &"
+alias polybar="~/.config/polybar/launch.sh"
 alias dunst="~/.config/dunst/launch.sh &"
 alias picom='picom --experimental-backend'
 #Multimedia
@@ -89,6 +89,7 @@ alias acuarium='asciiquarium'
 alias tt='cli-typer'
 alias pk='pkill'
 alias k91='kill -9 -1'
+alias usage='vnstat -i wlan0'
 
 ### Aliases ###
 

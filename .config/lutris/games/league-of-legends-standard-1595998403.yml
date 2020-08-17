@@ -17,8 +17,8 @@ wine:
   Desktop: true
   MouseWarpOverride: enable
   dxvk: true
-  esync: true
-  fsync: true
+  esync: false
+  fsync: false
   overrides:
     ucrtbase: b
   version: lutris-lol-5.5-2-x86_64

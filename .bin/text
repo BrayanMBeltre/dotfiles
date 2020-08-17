@@ -1,0 +1,64 @@
+scritps
+bg
+	description: change the background over time
+	git: https://github.com/mohamey/i3-dynamic-backgrounds
+	dependencies: python3 pip3 feh 
+	how to use: bg -t 1 ~/Pictures/Wallpapers
+
+dgithub
+	description: This shell script takes a github website path to any file/folder on github and using svn export downloads just that file/folder from github.
+	git: https://github.com/Decad/github-downloader
+	dependencies: git
+	how to use: dgithub [website url to file/folder]
+
+dmusic
+	description: youtube-dl script to download music
+	git: https://github.com/BrayanMBeltre/dotfiles
+	dependencies: ~/.config/youtube-dl/music (custom youtube-dl config)
+	how to use: dmusic [video url]
+
+dvideo
+	description: youtube-dl script to download video
+	git: https://github.com/BrayanMBeltre/dotfiles
+	dependencies: youtube-dl ffmpeg (~/.config/youtube-dl/video (custom youtube-dl config))
+	how to use: dvideo [video url]
+
+kitty-top
+	description: script to open floating bashtop in i3wm
+	git: https://github.com/BrayanMBeltre/dotfiles
+	dependencies: kitty bashtop wmctrl i3wm (see my i3config file and look for "htop")
+	how to use: run the script or Ctrl+Shift+Escape if you have my i3 config settings
+
+locker
+	description: script to lock the screen after x time
+	git: https://github.com/BrayanMBeltre/dotfiles
+	dependencies: xidlehook (lockScreen script)
+	how to use: locker
+
+lockScreen
+	description: screen locker (see pictures)
+	git: https://github.com/BrayanMBeltre/dotfiles
+	dependencies: i3lock-color
+	how to use: lockScreen
+
+miniplayer
+	description: floating ncmpcpp (see pictures)
+	git: https://github.com/BrayanMBeltre/dotfiles
+	dependencies: ncmpcpp kitty wmctrl i3wm (see my i3config file and look for "miniplayer")
+	how to use: miniplayer or $mod+p
+
+music
+	description: i use this script to control the music in general
+	git: https://github.com/BrayanMBeltre/dotfiles
+	dependencies: mpc playerctl (see my i3config file and look for "miniplayer")
+	how to use: miniplayer or $mod+p
+
+
+
+
+
+
+
+
+
+

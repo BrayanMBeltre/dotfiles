@@ -2,5 +2,9 @@ game:
   exe: /home/brayanmb07/Games/Pixel.Shinobi.Nine.demons.of.Mamoru.v1.1.0.0/PSNDOM.exe
 system:
   mangohud: false
+  resolution: 1920x1080
 wine:
+  dumbxinputemu: true
   fsync: true
+  x360ce-dinput: true
+  x360ce-xinput9: false

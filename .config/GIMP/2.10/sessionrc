@@ -7,7 +7,7 @@
 
 (session-info "toplevel"
     (factory-entry "gimp-empty-image-window")
-    (position 275 83)
+    (position 410 370)
     (size 620 200))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
@@ -15,136 +15,95 @@
     (size 1366 738)
     (open-on-exit)
     (aux-info
-        (left-docks-width "44")
-        (right-docks-width "253")
+        (left-docks-width "52")
+        (right-docks-width "267")
         (maximized "no"))
     (gimp-toolbox
         (side left))
     (gimp-dock
         (side right)
         (book
-            (current-page 4)
-            (dockable "gimp-color-editor"
-                (locked)
-                (tab-style automatic)
-                (aux-info
-                    (current-page "GimpColorScales")))
-            (dockable "gimp-histogram-editor"
-                (locked)
-                (tab-style automatic))
+            (current-page 1)
             (dockable "gimp-tool-options"
-                (locked)
                 (tab-style automatic)
                 (aux-info
                     (show-button-bar "true")))
-            (dockable "gimp-undo-history"
-                (locked)
-                (tab-style icon)
+            (dockable "gimp-font-list"
+                (tab-style automatic)
                 (aux-info
-                    (show-button-bar "true")))
+                    (show-button-bar "true"))))
+        (book
+            (position 479)
+            (current-page 0)
             (dockable "gimp-layer-list"
-                (locked)
                 (tab-style automatic)
                 (preview-size 32)
                 (aux-info
                     (show-button-bar "true")))
             (dockable "gimp-channel-list"
-                (locked)
                 (tab-style automatic)
                 (preview-size 32)
-                (aux-info
-                    (show-button-bar "true")))
-            (dockable "gimp-vectors-list"
-                (locked)
-                (tab-style automatic)
-                (preview-size 32)
-                (aux-info
-                    (show-button-bar "true")))
-            (dockable "gimp-navigation-view"
-                (tab-style automatic)
                 (aux-info
                     (show-button-bar "true"))))))
 (session-info "toplevel"
-    (factory-entry "gimp-file-open-dialog")
-    (position 211 51)
-    (size 890 675))
-(session-info "toplevel"
-    (factory-entry "gimp-shear-tool-dialog")
-    (position 464 463))
-(session-info "toplevel"
-    (factory-entry "gimp-scale-tool-dialog")
-    (position 495 465))
-(session-info "toplevel"
-    (factory-entry "gimp-file-save-dialog")
-    (position 118 47)
-    (size 890 675))
-(session-info "toplevel"
-    (factory-entry "gimp-file-export-dialog")
-    (position 231 51)
-    (size 890 675))
-(session-info "toplevel"
-    (factory-entry "gimp-toolbox-color-dialog")
-    (position 524 163))
-(session-info "toplevel"
-    (factory-entry "gimp-preferences-dialog")
-    (position 258 0)
-    (size 760 705))
-(session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
-    (position 468 54))
-(session-info "toplevel"
-    (factory-entry "gimp-rotate-tool-dialog")
-    (position 458 149))
-(session-info "toplevel"
-    (factory-entry "gimp-input-devices-dialog")
-    (position 177 137))
-(session-info "toplevel"
-    (factory-entry "gimp-color-balance-tool-dialog")
-    (position 244 0))
-(session-info "toplevel"
-    (factory-entry "gimp-brightness-contrast-tool-dialog")
-    (position 843 239))
-(session-info "toplevel"
-    (factory-entry "gimp-operation-tool-dialog")
-    (position 838 100))
-(session-info "toplevel"
-    (factory-entry "gimp-offset-tool-dialog")
-    (position 467 238))
-(session-info "toplevel"
-    (factory-entry "gimp-action-search-dialog")
-    (position 600 369)
-    (size 166 30))
-(session-info "toplevel"
-    (factory-entry "gimp-levels-tool-dialog")
-    (position 889 78)
-    (size 442 612))
-(session-info "toplevel"
-    (factory-entry "gimp-threshold-tool-dialog")
-    (position 741 188))
-(session-info "toplevel"
-    (factory-entry "gimp-text-tool-dialog")
-    (position 963 108)
-    (size 344 267))
-(session-info "toplevel"
-    (factory-entry "gimp-curves-tool-dialog")
-    (position 867 51)
-    (size 406 608))
-(session-info "toplevel"
-    (factory-entry "gimp-controller-editor-dialog")
-    (position 341 24)
-    (size 545 685))
-(session-info "toplevel"
-    (factory-entry "gimp-foreground-select-tool-dialog")
-    (position 922 94))
+    (position 943 278))
 (session-info "toplevel"
     (factory-entry "gimp-keyboard-shortcuts-dialog")
-    (position 372 43)
-    (size 415 613))
+    (position 1431 198)
+    (size 929 676))
+(session-info "toplevel"
+    (factory-entry "gimp-input-devices-dialog")
+    (position 0 497))
+(session-info "toplevel"
+    (factory-entry "gimp-preferences-dialog")
+    (position 119 21)
+    (size 1008 695))
+(session-info "toplevel"
+    (factory-entry "gimp-file-save-dialog")
+    (position 73 146)
+    (size 1128 782)
+    (monitor 1))
+(session-info "toplevel"
+    (factory-entry "gimp-file-open-dialog")
+    (position 319 77)
+    (size 1128 782)
+    (monitor 1))
+(session-info "toplevel"
+    (factory-entry "gimp-file-export-dialog")
+    (position 522 99)
+    (size 1128 782))
+(session-info "toplevel"
+    (factory-entry "gimp-module-dialog")
+    (position 268 330)
+    (size 671 476))
+(session-info "toplevel"
+    (factory-entry "gimp-toolbox-color-dialog")
+    (position 308 0))
+(session-info "toplevel"
+    (factory-entry "gimp-operation-tool-dialog")
+    (position 1518 93))
+(session-info "toplevel"
+    (factory-entry "gimp-threshold-tool-dialog")
+    (position 467 474))
+(session-info "toplevel"
+    (factory-entry "gimp-curves-tool-dialog")
+    (position 1849 92)
+    (size 446 605))
+(session-info "toplevel"
+    (factory-entry "gimp-action-search-dialog")
+    (position 812 260)
+    (size 983 540)
+    (monitor 1))
+(session-info "toplevel"
+    (factory-entry "gimp-levels-tool-dialog")
+    (position 1635 99)
+    (size 462 593))
 
 (hide-docks no)
 (single-window-mode yes)
 (show-tabs yes)
 (tabs-position 0)
-(last-tip-shown 3)
+(last-tip-shown 0)
 
 # end of sessionrc

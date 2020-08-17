@@ -9,7 +9,7 @@ system:
     MESA_GL_VERSION_OVERRIDE: 4.4COMPAT
     __GL_SHADER_DISK_CACHE: '1'
     __GL_SHADER_DISK_CACHE_PATH: /home/brayanmb07/Games/epic-games-store
-  mangohud: true
+  mangohud: false
 wine:
   dxvk: true
   esync: true
