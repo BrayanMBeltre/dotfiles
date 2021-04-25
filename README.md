@@ -7,7 +7,7 @@
 > ### Normal
 
 <p align="center">
-<img src="https://imgur.com/8fq7O2M.jpg" alt="img" width="900px">
+<img src="/pictures/desktop.png" alt="img" width="900px">
 </p>
 
 - **OS**: Manjaro
