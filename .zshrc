@@ -5,7 +5,7 @@ ZSH_THEME=agnoster
 export BROWSER=/usr/bin/firefox
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/brayanmb07/.oh-my-zsh"
+export ZSH="/home/brayan/.oh-my-zsh"
 
 # Auto-update (in days).
 export UPDATE_ZSH_DAYS=2
@@ -65,6 +65,13 @@ man() {
     command man "$@"
 }
 
-
 source $ZSH/oh-my-zsh.sh
 source $HOME/.profile
+source /usr/share/nvm/init-nvm.sh
+
+# Hide user@host prompt
+prompt_context() {
+  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
+    prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
+  fi
+}

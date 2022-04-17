@@ -43,10 +43,9 @@ alias updatefc='sudo fc-cache -fv'
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
 #pacman
-alias updatemirrors="sudo  reflector --verbose --latest 15 --sort rate --save /etc/pacman.d/mirrorlist"
-alias install="yay -Sy"
-alias update="yay -Syu"
-alias remove="yay -Rns"
+# alias updatemirrors="sudo  reflector --verbose --latest 15 --sort rate --save /etc/pacman.d/mirrorlist"
+alias install="paru -S"
+alias remove="paru -R"
 #Re-Launch
 alias polybar="~/.config/polybar/launch.sh"
 alias dunst="~/.config/dunst/launch.sh &"
